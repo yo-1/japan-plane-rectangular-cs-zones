@@ -67,10 +67,17 @@ class DropTinyRingsTest(unittest.TestCase):
         con.close()
         return path
 
-    def rings_of(self, path, fid):
+    def fetch_geom(self, path, fid):
+        """図形の BLOB を読む。Windows では開いたままの SQLite ファイルを消せないので、必ず閉じる。"""
         con = sqlite3.connect(path)
-        blob = bytes(con.execute("select geom from layer where fid=?", (fid,)).fetchone()[0])
-        con.close()
+        try:
+            value = con.execute("select geom from layer where fid=?", (fid,)).fetchone()[0]
+        finally:
+            con.close()
+        return None if value is None else bytes(value)
+
+    def rings_of(self, path, fid):
+        blob = self.fetch_geom(path, fid)
         _, rings = dtr._read_polygon(blob, 8 + 5, "<")
         return rings
 
@@ -91,19 +98,15 @@ class DropTinyRingsTest(unittest.TestCase):
             self.assertEqual(len(areas), 2)
             rings = self.rings_of(dst, 1)
             self.assertEqual(len(rings), 2)  # 外環 + 大きな穴
-            con = sqlite3.connect(dst)
-            clean_before = sqlite3.connect(src).execute("select geom from layer where fid=3").fetchone()[0]
-            clean_after = con.execute("select geom from layer where fid=3").fetchone()[0]
-            self.assertEqual(bytes(clean_before), bytes(clean_after), "穴を削らない地物は変えない")
-            self.assertIsNone(con.execute("select geom from layer where fid=4").fetchone()[0])
-            con.close()
+            self.assertEqual(self.fetch_geom(src, 3), self.fetch_geom(dst, 3), "穴を削らない地物は変えない")
+            self.assertIsNone(self.fetch_geom(dst, 4))
 
     def test_multipolygon_keeps_polygon_count(self):
         with tempfile.TemporaryDirectory() as folder:
             src = self.make_gpkg(folder)
             dst = str(Path(folder) / "out.gpkg")
             dtr.drop_tiny_rings(src, dst, ["layer"], 1.0)
-            blob = bytes(sqlite3.connect(dst).execute("select geom from layer where fid=2").fetchone()[0])
+            blob = self.fetch_geom(dst, 2)
             self.assertEqual(struct.unpack_from("<I", blob, 8 + 5)[0], 2)
             new_blob, dropped = dtr.rewrite_geometry(blob, 1.0)
             self.assertEqual(dropped, [])
