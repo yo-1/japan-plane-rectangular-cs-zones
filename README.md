@@ -4,9 +4,12 @@
 国土数値情報（行政区域データ）の行政区域に平面直角座標系の系番号を割り当て、系ごとにまとめたポリゴンと、
 都道府県・市町村と系番号の対応データを提供しています。
 
-> **公開状況**: 19系の定義（`data/zones.csv`）、系番号を判定するルール（`data/zone_rules.csv`）、
-> 市区町村と系番号の対応表（`data/municipality_zones.csv`）を用意できました。系番号付きのポリゴン（系ごと・都道府県ごと・市区町村ごと）は
-> 大きいので、GitHubのReleasesで公開しています（下の「系番号付きのポリゴン（Releasesで配布）」）。
+> **公開状況**（2026-10-11 時点）: 19系の定義（`data/zones.csv`）、系番号を判定するルール（`data/zone_rules.csv`）、
+> 市区町村と系番号の対応表（`data/municipality_zones.csv`）は、このリポジトリで公開しています。
+> 系番号付きのポリゴン（系ごと・都道府県ごと・市区町村ごと）は大きいので、GitHubのReleasesで公開しています
+> （最新は [v2026.2](https://github.com/yo-1/japan-plane-rectangular-cs-zones/releases/tag/v2026.2)。下の「系番号付きのポリゴン（Releasesで配布）」）。
+> まだ確認できていないことは、[Issue](https://github.com/yo-1/japan-plane-rectangular-cs-zones/issues)（#15〜#18）と [`VALIDATION.txt`](VALIDATION.txt) に「未確認」として書いています
+> （ArcGIS Proで開けるか、奄美群島の範囲の公式な確認など）。
 
 ## 収録データ
 
