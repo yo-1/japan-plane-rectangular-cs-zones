@@ -17,6 +17,7 @@ Claude Code がこのリポジトリで作業するときの約束事です。�
   - `scripts/build_zone_data.py`：すべてのポリゴンに系番号を割り当て、対応表と ZONE・ZONE_ROMAN・EPSG・UNIT_CODE・UNIT_NAME 列付きのシェープファイルを書き出す
   - `data/municipality_zones.csv`：市区町村（全国地方公共団体コード）と系番号の対応表
   - `scripts/n03_vertices.py`・`scripts/n03_compare.py`・`scripts/n03_pref_gaps.py`：元データの頂点・座標の値・都道府県どうしの重なりとすき間を調べる検証用スクリプト（`n03_pref_gaps.py` だけ Shapely が必要。ないときはテストがスキップされます）
+  - `scripts/drop_tiny_rings.py`：配布用 GeoPackage から、面積1㎡未満の内部リング（微小な穴）だけを削除する（numpy が必要。外環と大きな穴の座標は変えない）
   - `tests/`：テスト
 - ライセンスは、コードが MIT（`LICENSE`）、データ（`data/` フォルダのファイル）が CC BY 4.0（`DATA_LICENSE.md`）です。
 - 作成者は Yoichi Wada です。

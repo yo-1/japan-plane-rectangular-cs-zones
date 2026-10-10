@@ -109,7 +109,9 @@ UTF-8（BOMなし）、改行はLFです。
 （1ファイル100MBまで）を超えるので、リポジトリには入れず、GitHubのReleasesに添付して配ります。
 
 - 配布場所：https://github.com/yo-1/japan-plane-rectangular-cs-zones/releases
-  （2026年版は [v2026.1](https://github.com/yo-1/japan-plane-rectangular-cs-zones/releases/tag/v2026.1)）
+  （2026年版の最新は [v2026.2](https://github.com/yo-1/japan-plane-rectangular-cs-zones/releases/tag/v2026.2)。
+  [v2026.1](https://github.com/yo-1/japan-plane-rectangular-cs-zones/releases/tag/v2026.1) との違いは、系ごと・都道府県ごとのポリゴンから、
+  面積1㎡未満の微小な穴を取り除いたことだけです。市区町村ごとは v2026.1 と同じ内容です。詳しくは [`VALIDATION.txt`](VALIDATION.txt) の 2026-10-10 の記録を見てください）
 - どのZIPにも公開時点の`DATA_LICENSE.md`が入っています。最新の出典表記は、リポジトリの[`DATA_LICENSE.md`](DATA_LICENSE.md)を参照してください。
 - GeoPackageには、系ごとの色分け（`ZONE_ROMAN`による分類）のスタイルを入れています。QGISで開くと、そのまま色分けされて表示されます。
   系ごと・都道府県ごとには、ローマ数字のラベルも付けています（市区町村ごとは、数が多いのでラベルなし）。
