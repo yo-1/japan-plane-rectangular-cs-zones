@@ -1,0 +1,3423 @@
+[
+  {
+    "code": "01000",
+    "direction": "lost",
+    "component_m2": 0.02582657161556412,
+    "longitude": 141.81500579144387,
+    "latitude": 42.60241298185,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "01581"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "01000",
+    "direction": "lost",
+    "component_m2": 0.023011619341559708,
+    "longitude": 141.62276668578323,
+    "latitude": 42.6383741895,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "01213"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "01000",
+    "direction": "lost",
+    "component_m2": 0.02214383153808086,
+    "longitude": 143.32903655627936,
+    "latitude": 42.304001125895,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "01642"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "01000",
+    "direction": "added",
+    "component_m2": 0.008989239689071837,
+    "longitude": 140.05847149549146,
+    "latitude": 42.0797135115194,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "01000"
+    ]
+  },
+  {
+    "code": "01000",
+    "direction": "added",
+    "component_m2": 0.0004966702517776866,
+    "longitude": 142.95071042957767,
+    "latitude": 44.59998487842542,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "01000"
+    ]
+  },
+  {
+    "code": "02000",
+    "direction": "lost",
+    "component_m2": 0.022476873826235533,
+    "longitude": 140.8863541441254,
+    "latitude": 40.42667955412492,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "02206"
+    ],
+    "raw_prefecture_codes": [
+      "05000"
+    ]
+  },
+  {
+    "code": "02000",
+    "direction": "lost",
+    "component_m2": 0.02017372101545334,
+    "longitude": 141.5125848182605,
+    "latitude": 40.55736647292812,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "02203"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "02000",
+    "direction": "lost",
+    "component_m2": 0.017405262449756265,
+    "longitude": 141.0105158756657,
+    "latitude": 40.93128009879075,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "02301"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "02000",
+    "direction": "added",
+    "component_m2": 0.03719320404343307,
+    "longitude": 140.87754999992057,
+    "latitude": 40.431585972779956,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "05303"
+    ],
+    "raw_prefecture_codes": [
+      "02000"
+    ]
+  },
+  {
+    "code": "02000",
+    "direction": "added",
+    "component_m2": 0.03533649444580078,
+    "longitude": 141.52405161811197,
+    "latitude": 40.55685353663176,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "02000"
+    ]
+  },
+  {
+    "code": "02000",
+    "direction": "added",
+    "component_m2": 0.028509956318885088,
+    "longitude": 140.87694087479002,
+    "latitude": 40.49440070754153,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "05303"
+    ],
+    "raw_prefecture_codes": [
+      "02000"
+    ]
+  },
+  {
+    "code": "03000",
+    "direction": "lost",
+    "component_m2": 0.019105168990790844,
+    "longitude": 141.62728833935466,
+    "latitude": 38.996073026809995,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "03210"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "03000",
+    "direction": "lost",
+    "component_m2": 0.013888180255889893,
+    "longitude": 140.8140153180552,
+    "latitude": 39.761611013315,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "03301"
+    ],
+    "raw_prefecture_codes": [
+      "05000"
+    ]
+  },
+  {
+    "code": "03000",
+    "direction": "lost",
+    "component_m2": 0.013750601559877396,
+    "longitude": 140.77711851474163,
+    "latitude": 39.5905872794,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "03366"
+    ],
+    "raw_prefecture_codes": [
+      "05000"
+    ]
+  },
+  {
+    "code": "03000",
+    "direction": "added",
+    "component_m2": 0.007141918572514783,
+    "longitude": 141.95302109255192,
+    "latitude": 39.39935965750007,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "03000"
+    ]
+  },
+  {
+    "code": "03000",
+    "direction": "added",
+    "component_m2": 0.0009142847911789431,
+    "longitude": 141.8978966056753,
+    "latitude": 39.262834108208935,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "03000"
+    ]
+  },
+  {
+    "code": "03000",
+    "direction": "added",
+    "component_m2": 0.00030145097389322473,
+    "longitude": 141.8333229340942,
+    "latitude": 40.23521063953051,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "03000"
+    ]
+  },
+  {
+    "code": "04000",
+    "direction": "lost",
+    "component_m2": 0.0004954987471137429,
+    "longitude": 140.9250149921496,
+    "latitude": 37.9115267295,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "04362"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "04000",
+    "direction": "lost",
+    "component_m2": 0.00018661425019672606,
+    "longitude": 141.64999651431043,
+    "latitude": 38.8704246395,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "04205"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "04000",
+    "direction": "lost",
+    "component_m2": 0.00017587338999902613,
+    "longitude": 141.52269194424676,
+    "latitude": 38.541670266,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "04202"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "05000",
+    "direction": "lost",
+    "component_m2": 0.05081775784492493,
+    "longitude": 139.96878518173673,
+    "latitude": 39.11194861271,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "05214"
+    ],
+    "raw_prefecture_codes": [
+      "06000"
+    ]
+  },
+  {
+    "code": "05000",
+    "direction": "lost",
+    "component_m2": 0.03708509146235883,
+    "longitude": 140.877549999922,
+    "latitude": 40.43158597278,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "05303"
+    ],
+    "raw_prefecture_codes": [
+      "02000"
+    ]
+  },
+  {
+    "code": "05000",
+    "direction": "lost",
+    "component_m2": 0.02989726530577741,
+    "longitude": 139.98750790554857,
+    "latitude": 39.107204792675,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "05214"
+    ],
+    "raw_prefecture_codes": [
+      "06000"
+    ]
+  },
+  {
+    "code": "05000",
+    "direction": "added",
+    "component_m2": 0.013158985661220868,
+    "longitude": 139.96803304135346,
+    "latitude": 39.880111371750075,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "05000"
+    ]
+  },
+  {
+    "code": "05000",
+    "direction": "added",
+    "component_m2": 0.00018351227438984097,
+    "longitude": 140.03251019323227,
+    "latitude": 39.80833056735861,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "05000"
+    ]
+  },
+  {
+    "code": "06000",
+    "direction": "lost",
+    "component_m2": 0.04654347896575928,
+    "longitude": 139.80571925410385,
+    "latitude": 38.95188522027673,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "06204"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "06000",
+    "direction": "lost",
+    "component_m2": 0.030693402513861656,
+    "longitude": 139.9130942222336,
+    "latitude": 39.117754085276545,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "06461"
+    ],
+    "raw_prefecture_codes": [
+      "05000"
+    ]
+  },
+  {
+    "code": "06000",
+    "direction": "lost",
+    "component_m2": 0.025296248489889095,
+    "longitude": 139.7951660446032,
+    "latitude": 38.944185743385816,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "06204"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "06000",
+    "direction": "added",
+    "component_m2": 0.05063070636242628,
+    "longitude": 139.96878518174321,
+    "latitude": 39.1119486127076,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "05214"
+    ],
+    "raw_prefecture_codes": [
+      "06000"
+    ]
+  },
+  {
+    "code": "06000",
+    "direction": "added",
+    "component_m2": 0.029668474569916725,
+    "longitude": 139.9875079055456,
+    "latitude": 39.10720479267424,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "05214"
+    ],
+    "raw_prefecture_codes": [
+      "06000"
+    ]
+  },
+  {
+    "code": "06000",
+    "direction": "added",
+    "component_m2": 0.02682320587337017,
+    "longitude": 139.93824430615308,
+    "latitude": 39.11393541921729,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "05214"
+    ],
+    "raw_prefecture_codes": [
+      "06000"
+    ]
+  },
+  {
+    "code": "07000",
+    "direction": "lost",
+    "component_m2": 0.03345644474029541,
+    "longitude": 140.8954609213052,
+    "latitude": 36.913098426896696,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "07204"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "07000",
+    "direction": "lost",
+    "component_m2": 0.02842777967453003,
+    "longitude": 140.8801480090484,
+    "latitude": 36.920009756702264,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "07204"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "07000",
+    "direction": "lost",
+    "component_m2": 0.026869725435972214,
+    "longitude": 140.89368622241363,
+    "latitude": 36.92819405867126,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "07204"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "07000",
+    "direction": "added",
+    "component_m2": 0.04312765598297119,
+    "longitude": 140.89583333355066,
+    "latitude": 36.91339290122115,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "07000"
+    ]
+  },
+  {
+    "code": "07000",
+    "direction": "added",
+    "component_m2": 0.016797823237400422,
+    "longitude": 140.89535169945353,
+    "latitude": 36.93253893264219,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "07000"
+    ]
+  },
+  {
+    "code": "07000",
+    "direction": "added",
+    "component_m2": 0.016410962312271238,
+    "longitude": 140.87039298968838,
+    "latitude": 36.92559687852501,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "07000"
+    ]
+  },
+  {
+    "code": "08000",
+    "direction": "lost",
+    "component_m2": 0.04957873374223709,
+    "longitude": 140.63620524583777,
+    "latitude": 36.429166666574986,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "08341"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "08000",
+    "direction": "lost",
+    "component_m2": 0.028644311820244184,
+    "longitude": 140.71190197791336,
+    "latitude": 35.94522620126193,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "08222"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "08000",
+    "direction": "lost",
+    "component_m2": 0.027581457852647873,
+    "longitude": 140.67390091772864,
+    "latitude": 35.90813067401284,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "08232"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "08000",
+    "direction": "added",
+    "component_m2": 0.10057719786982489,
+    "longitude": 140.8456949436661,
+    "latitude": 35.75757437465582,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "08000"
+    ]
+  },
+  {
+    "code": "08000",
+    "direction": "added",
+    "component_m2": 0.04071091184208342,
+    "longitude": 139.69159588839148,
+    "latitude": 36.171089,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "11210"
+    ],
+    "raw_prefecture_codes": [
+      "08000"
+    ]
+  },
+  {
+    "code": "08000",
+    "direction": "added",
+    "component_m2": 0.030265931461679607,
+    "longitude": 140.63595411142154,
+    "latitude": 36.429166666574986,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "08000"
+    ]
+  },
+  {
+    "code": "09000",
+    "direction": "lost",
+    "component_m2": 0.014568313024938107,
+    "longitude": 139.37345816456713,
+    "latitude": 36.36369639220975,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "09202"
+    ],
+    "raw_prefecture_codes": [
+      "10000"
+    ]
+  },
+  {
+    "code": "09000",
+    "direction": "lost",
+    "component_m2": 0.011683122254908085,
+    "longitude": 140.18905835936476,
+    "latitude": 36.402849473,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "09343"
+    ],
+    "raw_prefecture_codes": [
+      "08000"
+    ]
+  },
+  {
+    "code": "09000",
+    "direction": "lost",
+    "component_m2": 0.011158868670463562,
+    "longitude": 139.79467456569296,
+    "latitude": 36.23073327969527,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "09208"
+    ],
+    "raw_prefecture_codes": [
+      "08000"
+    ]
+  },
+  {
+    "code": "09000",
+    "direction": "added",
+    "component_m2": 0.017817422747612,
+    "longitude": 139.57957338565285,
+    "latitude": 36.26751444587884,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "10207"
+    ],
+    "raw_prefecture_codes": [
+      "09000"
+    ]
+  },
+  {
+    "code": "09000",
+    "direction": "added",
+    "component_m2": 0.015254779312272149,
+    "longitude": 139.84015305458956,
+    "latitude": 36.280737468212266,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "08207"
+    ],
+    "raw_prefecture_codes": [
+      "09000"
+    ]
+  },
+  {
+    "code": "09000",
+    "direction": "added",
+    "component_m2": 0.013926580315455794,
+    "longitude": 140.13019351287065,
+    "latitude": 36.41454341945875,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "08231"
+    ],
+    "raw_prefecture_codes": [
+      "09000"
+    ]
+  },
+  {
+    "code": "10000",
+    "direction": "lost",
+    "component_m2": 0.017817422747612,
+    "longitude": 139.57957338565285,
+    "latitude": 36.26751444587884,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "10207"
+    ],
+    "raw_prefecture_codes": [
+      "09000"
+    ]
+  },
+  {
+    "code": "10000",
+    "direction": "lost",
+    "component_m2": 0.015079576522111893,
+    "longitude": 139.41056383266806,
+    "latitude": 36.222185500103684,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "10524"
+    ],
+    "raw_prefecture_codes": [
+      "11000"
+    ]
+  },
+  {
+    "code": "10000",
+    "direction": "lost",
+    "component_m2": 0.012368574272841215,
+    "longitude": 139.41644830776414,
+    "latitude": 36.21822606751411,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "10524"
+    ],
+    "raw_prefecture_codes": [
+      "11000"
+    ]
+  },
+  {
+    "code": "10000",
+    "direction": "added",
+    "component_m2": 0.026519162410522767,
+    "longitude": 138.4979446536214,
+    "latitude": 36.414057958495924,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "20208"
+    ],
+    "raw_prefecture_codes": [
+      "10000"
+    ]
+  },
+  {
+    "code": "10000",
+    "direction": "added",
+    "component_m2": 0.01940879866015166,
+    "longitude": 139.32794583666265,
+    "latitude": 36.2379935405,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "11218"
+    ],
+    "raw_prefecture_codes": [
+      "10000"
+    ]
+  },
+  {
+    "code": "10000",
+    "direction": "added",
+    "component_m2": 0.015189467666459677,
+    "longitude": 138.52696638137863,
+    "latitude": 36.404069756862555,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "20321"
+    ],
+    "raw_prefecture_codes": [
+      "10000"
+    ]
+  },
+  {
+    "code": "11000",
+    "direction": "lost",
+    "component_m2": 0.04071091184208342,
+    "longitude": 139.69159588839148,
+    "latitude": 36.171089,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "11210"
+    ],
+    "raw_prefecture_codes": [
+      "08000"
+    ]
+  },
+  {
+    "code": "11000",
+    "direction": "lost",
+    "component_m2": 0.01940879866015166,
+    "longitude": 139.32794583666265,
+    "latitude": 36.2379935405,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "11218"
+    ],
+    "raw_prefecture_codes": [
+      "10000"
+    ]
+  },
+  {
+    "code": "11000",
+    "direction": "lost",
+    "component_m2": 0.014587216661311686,
+    "longitude": 139.72735519478786,
+    "latitude": 36.10248458094694,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "11240"
+    ],
+    "raw_prefecture_codes": [
+      "08000"
+    ]
+  },
+  {
+    "code": "11000",
+    "direction": "added",
+    "component_m2": 0.01661033643176779,
+    "longitude": 139.7201334437006,
+    "latitude": 36.120095112575754,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "08542"
+    ],
+    "raw_prefecture_codes": [
+      "11000"
+    ]
+  },
+  {
+    "code": "11000",
+    "direction": "added",
+    "component_m2": 0.015079576522111893,
+    "longitude": 139.41056383266806,
+    "latitude": 36.222185500103684,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "10524"
+    ],
+    "raw_prefecture_codes": [
+      "11000"
+    ]
+  },
+  {
+    "code": "11000",
+    "direction": "added",
+    "component_m2": 0.01399291679263115,
+    "longitude": 139.6799884290212,
+    "latitude": 35.79897867806193,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "13119"
+    ],
+    "raw_prefecture_codes": [
+      "11000"
+    ]
+  },
+  {
+    "code": "12000",
+    "direction": "lost",
+    "component_m2": 0.02844855608418584,
+    "longitude": 139.90289980559254,
+    "latitude": 35.37727983329967,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "12206"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "12000",
+    "direction": "lost",
+    "component_m2": 0.028341946192085743,
+    "longitude": 140.1221835539938,
+    "latitude": 35.87351616638314,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "12222"
+    ],
+    "raw_prefecture_codes": [
+      "08000"
+    ]
+  },
+  {
+    "code": "12000",
+    "direction": "lost",
+    "component_m2": 0.026360052172094584,
+    "longitude": 139.99638226347344,
+    "latitude": 35.65547423417234,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "12216"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "12000",
+    "direction": "added",
+    "component_m2": 0.024374352768063545,
+    "longitude": 140.61383312616664,
+    "latitude": 35.88773513942308,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "08232"
+    ],
+    "raw_prefecture_codes": [
+      "12000"
+    ]
+  },
+  {
+    "code": "12000",
+    "direction": "added",
+    "component_m2": 0.022474002791568637,
+    "longitude": 140.70146911162988,
+    "latitude": 35.839609139500254,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "08232"
+    ],
+    "raw_prefecture_codes": [
+      "12000"
+    ]
+  },
+  {
+    "code": "12000",
+    "direction": "added",
+    "component_m2": 0.020683283917605877,
+    "longitude": 139.92227003909863,
+    "latitude": 35.65269637367152,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "12000"
+    ]
+  },
+  {
+    "code": "13000",
+    "direction": "lost",
+    "component_m2": 0.029104901826940477,
+    "longitude": 139.76687868075905,
+    "latitude": 35.56641509966059,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "13111"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "13000",
+    "direction": "lost",
+    "component_m2": 0.0211240672506392,
+    "longitude": 139.81313280816528,
+    "latitude": 35.53646781943439,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "13111"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "13000",
+    "direction": "lost",
+    "component_m2": 0.020396064966917038,
+    "longitude": 139.81252361914147,
+    "latitude": 35.60531091018872,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "13108"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "13000",
+    "direction": "added",
+    "component_m2": 0.025168191641569138,
+    "longitude": 139.7871189038937,
+    "latitude": 35.6228714188957,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "13000"
+    ]
+  },
+  {
+    "code": "13000",
+    "direction": "added",
+    "component_m2": 0.019892725627869368,
+    "longitude": 139.8138155451058,
+    "latitude": 35.53072860783905,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "13000"
+    ]
+  },
+  {
+    "code": "13000",
+    "direction": "added",
+    "component_m2": 0.01933509111404419,
+    "longitude": 139.8950196104924,
+    "latitude": 35.7472944732024,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "12203"
+    ],
+    "raw_prefecture_codes": [
+      "13000"
+    ]
+  },
+  {
+    "code": "14000",
+    "direction": "lost",
+    "component_m2": 0.06408467108849436,
+    "longitude": 139.76250112226415,
+    "latitude": 35.486157319360586,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "14131"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "14000",
+    "direction": "lost",
+    "component_m2": 0.028791985620046034,
+    "longitude": 139.7776347598609,
+    "latitude": 35.49278969406099,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "14131"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "14000",
+    "direction": "lost",
+    "component_m2": 0.02806539201264968,
+    "longitude": 139.71513475369034,
+    "latitude": 35.46531956767947,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "14101"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "14000",
+    "direction": "added",
+    "component_m2": 0.04174519842490554,
+    "longitude": 139.76250112197567,
+    "latitude": 35.48608495928198,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "14000"
+    ]
+  },
+  {
+    "code": "14000",
+    "direction": "added",
+    "component_m2": 0.03389760630670935,
+    "longitude": 139.7914087383571,
+    "latitude": 35.508625179999996,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "14000"
+    ]
+  },
+  {
+    "code": "14000",
+    "direction": "added",
+    "component_m2": 0.029967206763103604,
+    "longitude": 139.74913526597936,
+    "latitude": 35.48657723885574,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "14000"
+    ]
+  },
+  {
+    "code": "15000",
+    "direction": "lost",
+    "component_m2": 0.021884462721118325,
+    "longitude": 137.84734301556597,
+    "latitude": 37.051665558786866,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "15216"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "15000",
+    "direction": "lost",
+    "component_m2": 0.020016320151796663,
+    "longitude": 139.0722764916867,
+    "latitude": 37.969865063,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "15103"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "15000",
+    "direction": "lost",
+    "component_m2": 0.019648910575966738,
+    "longitude": 139.2277496825859,
+    "latitude": 38.0141984998167,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "15101"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "15000",
+    "direction": "added",
+    "component_m2": 0.016330917824234348,
+    "longitude": 138.53673328785533,
+    "latitude": 37.37152643249891,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "15000"
+    ]
+  },
+  {
+    "code": "15000",
+    "direction": "added",
+    "component_m2": 0.014694294918797368,
+    "longitude": 139.23995729537643,
+    "latitude": 38.00608953620754,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "15000"
+    ]
+  },
+  {
+    "code": "15000",
+    "direction": "added",
+    "component_m2": 0.012405990477418527,
+    "longitude": 139.689608580151,
+    "latitude": 38.125608959635855,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "06401"
+    ],
+    "raw_prefecture_codes": [
+      "15000"
+    ]
+  },
+  {
+    "code": "16000",
+    "direction": "lost",
+    "component_m2": 0.016100285574793816,
+    "longitude": 137.4616625290427,
+    "latitude": 36.93920731530249,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "16342"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "16000",
+    "direction": "lost",
+    "component_m2": 0.012847233563661575,
+    "longitude": 136.79622950068932,
+    "latitude": 36.459869886999996,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "16210"
+    ],
+    "raw_prefecture_codes": [
+      "17000"
+    ]
+  },
+  {
+    "code": "16000",
+    "direction": "lost",
+    "component_m2": 0.011634018665546364,
+    "longitude": 137.24475425386305,
+    "latitude": 36.459837117207684,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "16201"
+    ],
+    "raw_prefecture_codes": [
+      "21000"
+    ]
+  },
+  {
+    "code": "16000",
+    "direction": "added",
+    "component_m2": 0.014137969148578122,
+    "longitude": 137.46406061614584,
+    "latitude": 36.414682436906475,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "21217"
+    ],
+    "raw_prefecture_codes": [
+      "16000"
+    ]
+  },
+  {
+    "code": "16000",
+    "direction": "added",
+    "component_m2": 0.01343318447470665,
+    "longitude": 136.80007995488802,
+    "latitude": 36.3715915,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "17201"
+    ],
+    "raw_prefecture_codes": [
+      "16000"
+    ]
+  },
+  {
+    "code": "16000",
+    "direction": "added",
+    "component_m2": 0.012061080517014489,
+    "longitude": 137.5647931842458,
+    "latitude": 36.38841401327754,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "21203"
+    ],
+    "raw_prefecture_codes": [
+      "16000"
+    ]
+  },
+  {
+    "code": "17000",
+    "direction": "lost",
+    "component_m2": 0.02748400066415968,
+    "longitude": 136.599206938875,
+    "latitude": 36.6380672525,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "17201"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "17000",
+    "direction": "lost",
+    "component_m2": 0.020044040706125088,
+    "longitude": 136.91008495576494,
+    "latitude": 37.409410653525,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "17204"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "17000",
+    "direction": "lost",
+    "component_m2": 0.016809027645194874,
+    "longitude": 136.96255276890508,
+    "latitude": 37.05341097288,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "17202"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "17000",
+    "direction": "added",
+    "component_m2": 0.0006448680059634171,
+    "longitude": 136.4260585271684,
+    "latitude": 36.430242986598145,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "17000"
+    ]
+  },
+  {
+    "code": "17000",
+    "direction": "added",
+    "component_m2": 0.00015489901561949182,
+    "longitude": 136.7693572958055,
+    "latitude": 36.96971748644786,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "17000"
+    ]
+  },
+  {
+    "code": "18000",
+    "direction": "lost",
+    "component_m2": 0.03213798999786377,
+    "longitude": 135.87949329086172,
+    "latitude": 35.39982760756621,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "18501"
+    ],
+    "raw_prefecture_codes": [
+      "25000"
+    ]
+  },
+  {
+    "code": "18000",
+    "direction": "lost",
+    "component_m2": 0.02425692044198513,
+    "longitude": 135.79088570506627,
+    "latitude": 35.3836422475,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "18483"
+    ],
+    "raw_prefecture_codes": [
+      "25000"
+    ]
+  },
+  {
+    "code": "18000",
+    "direction": "lost",
+    "component_m2": 0.02267015812049067,
+    "longitude": 135.7458192436137,
+    "latitude": 35.358523821770504,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "18483"
+    ],
+    "raw_prefecture_codes": [
+      "26000"
+    ]
+  },
+  {
+    "code": "18000",
+    "direction": "added",
+    "component_m2": 0.029204911490239738,
+    "longitude": 136.02261953416695,
+    "latitude": 35.517106888559965,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "25212"
+    ],
+    "raw_prefecture_codes": [
+      "18000"
+    ]
+  },
+  {
+    "code": "18000",
+    "direction": "added",
+    "component_m2": 0.020471567406325164,
+    "longitude": 135.79120951653456,
+    "latitude": 35.383082824549675,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "25212"
+    ],
+    "raw_prefecture_codes": [
+      "18000"
+    ]
+  },
+  {
+    "code": "18000",
+    "direction": "added",
+    "component_m2": 0.019323212826748204,
+    "longitude": 135.98777906554508,
+    "latitude": 35.49152431145774,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "25212"
+    ],
+    "raw_prefecture_codes": [
+      "18000"
+    ]
+  },
+  {
+    "code": "19000",
+    "direction": "lost",
+    "component_m2": 0.02369814654775837,
+    "longitude": 138.7559171659492,
+    "latitude": 35.36814329301964,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "19202"
+    ],
+    "raw_prefecture_codes": [
+      "22000"
+    ]
+  },
+  {
+    "code": "19000",
+    "direction": "lost",
+    "component_m2": 0.017175259366922546,
+    "longitude": 138.77046265773419,
+    "latitude": 35.37105721386506,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "19202"
+    ],
+    "raw_prefecture_codes": [
+      "22000"
+    ]
+  },
+  {
+    "code": "19000",
+    "direction": "lost",
+    "component_m2": 0.012786993539521063,
+    "longitude": 138.50460608975075,
+    "latitude": 35.1836257695878,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "19366"
+    ],
+    "raw_prefecture_codes": [
+      "22000"
+    ]
+  },
+  {
+    "code": "19000",
+    "direction": "added",
+    "component_m2": 0.03838183386666216,
+    "longitude": 138.5264943522273,
+    "latitude": 35.32471219913321,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "22207"
+    ],
+    "raw_prefecture_codes": [
+      "19000"
+    ]
+  },
+  {
+    "code": "19000",
+    "direction": "added",
+    "component_m2": 0.028269613801967353,
+    "longitude": 138.73871437760835,
+    "latitude": 35.364540346899346,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "22344"
+    ],
+    "raw_prefecture_codes": [
+      "19000"
+    ]
+  },
+  {
+    "code": "19000",
+    "direction": "added",
+    "component_m2": 0.01687021382234022,
+    "longitude": 138.49703429646576,
+    "latitude": 35.17488902697505,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "22103"
+    ],
+    "raw_prefecture_codes": [
+      "19000"
+    ]
+  },
+  {
+    "code": "20000",
+    "direction": "lost",
+    "component_m2": 0.02651647438449345,
+    "longitude": 138.4979446536214,
+    "latitude": 36.414057958495924,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "20208"
+    ],
+    "raw_prefecture_codes": [
+      "10000"
+    ]
+  },
+  {
+    "code": "20000",
+    "direction": "lost",
+    "component_m2": 0.015189467666459677,
+    "longitude": 138.52696638137863,
+    "latitude": 36.404069756862555,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "20321"
+    ],
+    "raw_prefecture_codes": [
+      "10000"
+    ]
+  },
+  {
+    "code": "20000",
+    "direction": "lost",
+    "component_m2": 0.011877303943037987,
+    "longitude": 137.4378555253088,
+    "latitude": 35.902312252319874,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "20429"
+    ],
+    "raw_prefecture_codes": [
+      "21000"
+    ]
+  },
+  {
+    "code": "20000",
+    "direction": "added",
+    "component_m2": 0.016607930418103933,
+    "longitude": 137.41468680266638,
+    "latitude": 35.9015016936483,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "21220"
+    ],
+    "raw_prefecture_codes": [
+      "20000"
+    ]
+  },
+  {
+    "code": "20000",
+    "direction": "added",
+    "component_m2": 0.014671817421913147,
+    "longitude": 137.59764143936258,
+    "latitude": 36.243890860698386,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "21203"
+    ],
+    "raw_prefecture_codes": [
+      "20000"
+    ]
+  },
+  {
+    "code": "20000",
+    "direction": "added",
+    "component_m2": 0.013649994958541356,
+    "longitude": 137.40604205584867,
+    "latitude": 35.89884322059511,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "21220"
+    ],
+    "raw_prefecture_codes": [
+      "20000"
+    ]
+  },
+  {
+    "code": "21000",
+    "direction": "lost",
+    "component_m2": 0.016965877264738083,
+    "longitude": 136.81477164081227,
+    "latitude": 35.35950089212529,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "21213"
+    ],
+    "raw_prefecture_codes": [
+      "23000"
+    ]
+  },
+  {
+    "code": "21000",
+    "direction": "lost",
+    "component_m2": 0.016607930418103933,
+    "longitude": 137.41468680266638,
+    "latitude": 35.9015016936483,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "21220"
+    ],
+    "raw_prefecture_codes": [
+      "20000"
+    ]
+  },
+  {
+    "code": "21000",
+    "direction": "lost",
+    "component_m2": 0.01517936959862709,
+    "longitude": 136.62749614095313,
+    "latitude": 35.79616888731755,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "21218"
+    ],
+    "raw_prefecture_codes": [
+      "18000"
+    ]
+  },
+  {
+    "code": "21000",
+    "direction": "added",
+    "component_m2": 0.020957186818122864,
+    "longitude": 136.86283933208512,
+    "latitude": 35.37017447281232,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "23217"
+    ],
+    "raw_prefecture_codes": [
+      "21000"
+    ]
+  },
+  {
+    "code": "21000",
+    "direction": "added",
+    "component_m2": 0.01901593804359436,
+    "longitude": 136.90401997312694,
+    "latitude": 35.37769025191585,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "23362"
+    ],
+    "raw_prefecture_codes": [
+      "21000"
+    ]
+  },
+  {
+    "code": "21000",
+    "direction": "added",
+    "component_m2": 0.016719285515137017,
+    "longitude": 136.67140866416423,
+    "latitude": 35.18098169350043,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "23232"
+    ],
+    "raw_prefecture_codes": [
+      "21000"
+    ]
+  },
+  {
+    "code": "22000",
+    "direction": "lost",
+    "component_m2": 0.03838183386666216,
+    "longitude": 138.5264943522273,
+    "latitude": 35.32471219913321,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "22207"
+    ],
+    "raw_prefecture_codes": [
+      "19000"
+    ]
+  },
+  {
+    "code": "22000",
+    "direction": "lost",
+    "component_m2": 0.028269613801967353,
+    "longitude": 138.73871437760835,
+    "latitude": 35.364540346899346,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "22344"
+    ],
+    "raw_prefecture_codes": [
+      "19000"
+    ]
+  },
+  {
+    "code": "22000",
+    "direction": "lost",
+    "component_m2": 0.01778450608253479,
+    "longitude": 137.7952646500409,
+    "latitude": 34.646737027140176,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "22138"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "22000",
+    "direction": "added",
+    "component_m2": 0.024070562862306133,
+    "longitude": 138.98346552543012,
+    "latitude": 35.274551432324174,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "14382"
+    ],
+    "raw_prefecture_codes": [
+      "22000"
+    ]
+  },
+  {
+    "code": "22000",
+    "direction": "added",
+    "component_m2": 0.02369814654775837,
+    "longitude": 138.7559171659492,
+    "latitude": 35.36814329301964,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "19202"
+    ],
+    "raw_prefecture_codes": [
+      "22000"
+    ]
+  },
+  {
+    "code": "22000",
+    "direction": "added",
+    "component_m2": 0.019688330590724945,
+    "longitude": 138.22972018150486,
+    "latitude": 34.622544058282166,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "22000"
+    ]
+  },
+  {
+    "code": "23000",
+    "direction": "added",
+    "component_m2": 0.006418926198421104,
+    "longitude": 137.08145100189603,
+    "latitude": 35.3000468065,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "21204"
+    ],
+    "raw_prefecture_codes": [
+      "23000"
+    ]
+  },
+  {
+    "code": "23000",
+    "direction": "added",
+    "component_m2": 0.0013373624304975351,
+    "longitude": 137.24416745694168,
+    "latitude": 35.26663890119782,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "21212"
+    ],
+    "raw_prefecture_codes": [
+      "23000"
+    ]
+  },
+  {
+    "code": "23000",
+    "direction": "added",
+    "component_m2": 0.0008935639634728432,
+    "longitude": 136.85880843140183,
+    "latitude": 35.06187834218093,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "23000"
+    ]
+  },
+  {
+    "code": "24000",
+    "direction": "lost",
+    "component_m2": 0.026823709149446984,
+    "longitude": 136.68594267153472,
+    "latitude": 34.98244293229352,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "24202"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "24000",
+    "direction": "lost",
+    "component_m2": 0.020699597895145416,
+    "longitude": 136.1782137482722,
+    "latitude": 34.517389721214144,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "24201"
+    ],
+    "raw_prefecture_codes": [
+      "29000"
+    ]
+  },
+  {
+    "code": "24000",
+    "direction": "lost",
+    "component_m2": 0.017121868648263927,
+    "longitude": 136.5441806701675,
+    "latitude": 34.68168985999255,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "24201"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "24000",
+    "direction": "added",
+    "component_m2": 0.027102334424853325,
+    "longitude": 135.85608346931457,
+    "latitude": 33.83839958099345,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "30207"
+    ],
+    "raw_prefecture_codes": [
+      "24000"
+    ]
+  },
+  {
+    "code": "24000",
+    "direction": "added",
+    "component_m2": 0.026169474935159087,
+    "longitude": 136.71370206811713,
+    "latitude": 35.0244820177891,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "24000"
+    ]
+  },
+  {
+    "code": "24000",
+    "direction": "added",
+    "component_m2": 0.020684536546468735,
+    "longitude": 135.98491069331723,
+    "latitude": 33.73577031940941,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "30207"
+    ],
+    "raw_prefecture_codes": [
+      "24000"
+    ]
+  },
+  {
+    "code": "25000",
+    "direction": "lost",
+    "component_m2": 0.029204911490239738,
+    "longitude": 136.02261953416695,
+    "latitude": 35.517106888559965,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "25212"
+    ],
+    "raw_prefecture_codes": [
+      "18000"
+    ]
+  },
+  {
+    "code": "25000",
+    "direction": "lost",
+    "component_m2": 0.020471567406325164,
+    "longitude": 135.79120951653456,
+    "latitude": 35.383082824549675,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "25212"
+    ],
+    "raw_prefecture_codes": [
+      "18000"
+    ]
+  },
+  {
+    "code": "25000",
+    "direction": "lost",
+    "component_m2": 0.019323212826748204,
+    "longitude": 135.98777906554508,
+    "latitude": 35.49152431145774,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "25212"
+    ],
+    "raw_prefecture_codes": [
+      "18000"
+    ]
+  },
+  {
+    "code": "25000",
+    "direction": "added",
+    "component_m2": 0.03213798999786377,
+    "longitude": 135.87949329086172,
+    "latitude": 35.39982760756621,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "18501"
+    ],
+    "raw_prefecture_codes": [
+      "25000"
+    ]
+  },
+  {
+    "code": "25000",
+    "direction": "added",
+    "component_m2": 0.02425692044198513,
+    "longitude": 135.79088570506627,
+    "latitude": 35.3836422475,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "18483"
+    ],
+    "raw_prefecture_codes": [
+      "25000"
+    ]
+  },
+  {
+    "code": "25000",
+    "direction": "added",
+    "component_m2": 0.017028586368240894,
+    "longitude": 135.99200841767524,
+    "latitude": 35.492027365,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "18442"
+    ],
+    "raw_prefecture_codes": [
+      "25000"
+    ]
+  },
+  {
+    "code": "26000",
+    "direction": "lost",
+    "component_m2": 0.015381615608930588,
+    "longitude": 135.32088412466447,
+    "latitude": 35.45530216656178,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "26202"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "26000",
+    "direction": "lost",
+    "component_m2": 0.011042065918445587,
+    "longitude": 135.97844832287336,
+    "latitude": 34.83862569338949,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "26365"
+    ],
+    "raw_prefecture_codes": [
+      "25000"
+    ]
+  },
+  {
+    "code": "26000",
+    "direction": "lost",
+    "component_m2": 0.010750201530754566,
+    "longitude": 135.8967423603563,
+    "latitude": 34.872030972956814,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "26344"
+    ],
+    "raw_prefecture_codes": [
+      "25000"
+    ]
+  },
+  {
+    "code": "26000",
+    "direction": "added",
+    "component_m2": 0.02267015812049067,
+    "longitude": 135.7458192436137,
+    "latitude": 35.358523821770504,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "18483"
+    ],
+    "raw_prefecture_codes": [
+      "26000"
+    ]
+  },
+  {
+    "code": "26000",
+    "direction": "added",
+    "component_m2": 0.01115510193631053,
+    "longitude": 135.96911722811342,
+    "latitude": 34.84695379852012,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "25209"
+    ],
+    "raw_prefecture_codes": [
+      "26000"
+    ]
+  },
+  {
+    "code": "26000",
+    "direction": "added",
+    "component_m2": 0.01073408933999076,
+    "longitude": 135.67683117881597,
+    "latitude": 35.349959216216746,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "18483"
+    ],
+    "raw_prefecture_codes": [
+      "26000"
+    ]
+  },
+  {
+    "code": "27000",
+    "direction": "lost",
+    "component_m2": 0.03269484919755428,
+    "longitude": 135.40556048175532,
+    "latitude": 34.61209089211739,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "27125"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "27000",
+    "direction": "lost",
+    "component_m2": 0.026331744786901368,
+    "longitude": 135.2519870792578,
+    "latitude": 34.451174890700656,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "27213"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "27000",
+    "direction": "lost",
+    "component_m2": 0.024615745234768838,
+    "longitude": 135.4054249869443,
+    "latitude": 34.63221900015877,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "27125"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "27000",
+    "direction": "added",
+    "component_m2": 0.042309150949181085,
+    "longitude": 135.25922950225305,
+    "latitude": 34.44377387147877,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "27000"
+    ]
+  },
+  {
+    "code": "27000",
+    "direction": "added",
+    "component_m2": 0.03854851514705615,
+    "longitude": 135.34808394293438,
+    "latitude": 34.62699362607498,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "27000"
+    ]
+  },
+  {
+    "code": "27000",
+    "direction": "added",
+    "component_m2": 0.02662239968776703,
+    "longitude": 135.32667929626558,
+    "latitude": 34.4357023875,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "27000"
+    ]
+  },
+  {
+    "code": "28000",
+    "direction": "lost",
+    "component_m2": 0.0004979909135727212,
+    "longitude": 134.78333781786768,
+    "latitude": 35.66737397312699,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "28209"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "28000",
+    "direction": "lost",
+    "component_m2": 0.00033851103580673225,
+    "longitude": 134.85091080851646,
+    "latitude": 34.48332925200003,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "28226"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "28000",
+    "direction": "lost",
+    "component_m2": 0.000304116456391057,
+    "longitude": 134.78333226601563,
+    "latitude": 35.66277571150002,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "28209"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "28000",
+    "direction": "added",
+    "component_m2": 0.06435456871986389,
+    "longitude": 135.32916666521137,
+    "latitude": 34.677255333705,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "28000"
+    ]
+  },
+  {
+    "code": "28000",
+    "direction": "added",
+    "component_m2": 0.039714813232421875,
+    "longitude": 135.33749999778166,
+    "latitude": 34.676924580925004,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "28000"
+    ]
+  },
+  {
+    "code": "28000",
+    "direction": "added",
+    "component_m2": 0.037500860169529915,
+    "longitude": 135.2355305250386,
+    "latitude": 34.632154193915,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "28000"
+    ]
+  },
+  {
+    "code": "29000",
+    "direction": "lost",
+    "component_m2": 0.020447608083486557,
+    "longitude": 135.61030850208073,
+    "latitude": 33.93409847293276,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "29449"
+    ],
+    "raw_prefecture_codes": [
+      "30000"
+    ]
+  },
+  {
+    "code": "29000",
+    "direction": "lost",
+    "component_m2": 0.014929864555597305,
+    "longitude": 136.22126361225605,
+    "latitude": 34.485809441606186,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "29386"
+    ],
+    "raw_prefecture_codes": [
+      "24000"
+    ]
+  },
+  {
+    "code": "29000",
+    "direction": "lost",
+    "component_m2": 0.014519745047238075,
+    "longitude": 135.6239187312919,
+    "latitude": 33.87318124759832,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "29449"
+    ],
+    "raw_prefecture_codes": [
+      "30000"
+    ]
+  },
+  {
+    "code": "29000",
+    "direction": "added",
+    "component_m2": 0.020699597895145416,
+    "longitude": 136.1782137482722,
+    "latitude": 34.517389721214144,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "24201"
+    ],
+    "raw_prefecture_codes": [
+      "29000"
+    ]
+  },
+  {
+    "code": "29000",
+    "direction": "added",
+    "component_m2": 0.01463678851723671,
+    "longitude": 135.6130149998553,
+    "latitude": 33.92913930631285,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "30206"
+    ],
+    "raw_prefecture_codes": [
+      "29000"
+    ]
+  },
+  {
+    "code": "29000",
+    "direction": "added",
+    "component_m2": 0.01372528076171875,
+    "longitude": 135.8717699999201,
+    "latitude": 33.91930708090284,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "30207"
+    ],
+    "raw_prefecture_codes": [
+      "29000"
+    ]
+  },
+  {
+    "code": "30000",
+    "direction": "lost",
+    "component_m2": 0.027273060753941536,
+    "longitude": 135.85608346931406,
+    "latitude": 33.838399580995,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "30207"
+    ],
+    "raw_prefecture_codes": [
+      "24000"
+    ]
+  },
+  {
+    "code": "30000",
+    "direction": "lost",
+    "component_m2": 0.02288054277320839,
+    "longitude": 135.13561637439142,
+    "latitude": 34.205644081,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "30201"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "30000",
+    "direction": "lost",
+    "component_m2": 0.021574397422384095,
+    "longitude": 135.12698740562877,
+    "latitude": 34.21348329741,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "30201"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "31000",
+    "direction": "lost",
+    "component_m2": 0.023347049951553345,
+    "longitude": 133.31259762021656,
+    "latitude": 35.4240801395,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "31202"
+    ],
+    "raw_prefecture_codes": [
+      "32000"
+    ]
+  },
+  {
+    "code": "31000",
+    "direction": "lost",
+    "component_m2": 0.021163418889045715,
+    "longitude": 133.30269027272345,
+    "latitude": 35.43496666658592,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "31202"
+    ],
+    "raw_prefecture_codes": [
+      "32000"
+    ]
+  },
+  {
+    "code": "31000",
+    "direction": "lost",
+    "component_m2": 0.020116858184337616,
+    "longitude": 133.20359166655976,
+    "latitude": 35.51715972497301,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "31204"
+    ],
+    "raw_prefecture_codes": [
+      "32000"
+    ]
+  },
+  {
+    "code": "31000",
+    "direction": "added",
+    "component_m2": 0.022989392280578613,
+    "longitude": 133.20463652380135,
+    "latitude": 35.53735277912378,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "32201"
+    ],
+    "raw_prefecture_codes": [
+      "31000"
+    ]
+  },
+  {
+    "code": "31000",
+    "direction": "added",
+    "component_m2": 0.017629772424697876,
+    "longitude": 133.24296653114897,
+    "latitude": 35.549040540701895,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "32201"
+    ],
+    "raw_prefecture_codes": [
+      "31000"
+    ]
+  },
+  {
+    "code": "31000",
+    "direction": "added",
+    "component_m2": 0.01757332682609558,
+    "longitude": 133.29660777586724,
+    "latitude": 35.43760027941022,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "32206"
+    ],
+    "raw_prefecture_codes": [
+      "31000"
+    ]
+  },
+  {
+    "code": "33000",
+    "direction": "lost",
+    "component_m2": 0.038850699784234166,
+    "longitude": 133.72837070691395,
+    "latitude": 34.493513693867115,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "33202"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "33000",
+    "direction": "lost",
+    "component_m2": 0.026996924192644656,
+    "longitude": 133.70500795020786,
+    "latitude": 34.511748682458055,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "33202"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "33000",
+    "direction": "lost",
+    "component_m2": 0.02506309690578723,
+    "longitude": 133.59769927998667,
+    "latitude": 34.48222965278363,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "33216"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "33000",
+    "direction": "added",
+    "component_m2": 0.02940773654099349,
+    "longitude": 133.67194680280952,
+    "latitude": 34.48754104029648,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "33000"
+    ]
+  },
+  {
+    "code": "33000",
+    "direction": "added",
+    "component_m2": 0.021212016259028132,
+    "longitude": 133.4725418677665,
+    "latitude": 34.459648464,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "33000"
+    ]
+  },
+  {
+    "code": "33000",
+    "direction": "added",
+    "component_m2": 0.019963193801231682,
+    "longitude": 133.7053269745939,
+    "latitude": 34.52280719627602,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "33000"
+    ]
+  },
+  {
+    "code": "34000",
+    "direction": "added",
+    "component_m2": 0.022064656019210815,
+    "longitude": 132.82827700600447,
+    "latitude": 34.18675976162934,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "34000"
+    ]
+  },
+  {
+    "code": "34000",
+    "direction": "added",
+    "component_m2": 0.002549068070948124,
+    "longitude": 132.82817485577255,
+    "latitude": 34.1869492049419,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "34000"
+    ]
+  },
+  {
+    "code": "34000",
+    "direction": "added",
+    "component_m2": 0.001993327071701856,
+    "longitude": 133.09996364307554,
+    "latitude": 34.33330227438683,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "34000"
+    ]
+  },
+  {
+    "code": "35000",
+    "direction": "added",
+    "component_m2": 1.187457418438953e-05,
+    "longitude": 131.74019198981307,
+    "latitude": 34.05020310340382,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "35000"
+    ]
+  },
+  {
+    "code": "35000",
+    "direction": "added",
+    "component_m2": 3.8325188143062405e-06,
+    "longitude": 131.74017534966163,
+    "latitude": 34.05014403140257,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "35000"
+    ]
+  },
+  {
+    "code": "36000",
+    "direction": "lost",
+    "component_m2": 0.01626896858215332,
+    "longitude": 134.60480999979495,
+    "latitude": 34.04570180652712,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "36201"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "36000",
+    "direction": "lost",
+    "component_m2": 0.015500097419135273,
+    "longitude": 134.59916258335642,
+    "latitude": 34.07622980480217,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "36201"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "36000",
+    "direction": "lost",
+    "component_m2": 0.014046330438151955,
+    "longitude": 134.6519369327517,
+    "latitude": 33.863961711307404,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "36204"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "36000",
+    "direction": "added",
+    "component_m2": 0.01712363213300705,
+    "longitude": 134.6035433334033,
+    "latitude": 34.04396013951023,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "36000"
+    ]
+  },
+  {
+    "code": "36000",
+    "direction": "added",
+    "component_m2": 0.012531471464868105,
+    "longitude": 134.7064373605022,
+    "latitude": 33.92853596782814,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "36000"
+    ]
+  },
+  {
+    "code": "36000",
+    "direction": "added",
+    "component_m2": 0.012126666959375143,
+    "longitude": 134.59261698433102,
+    "latitude": 34.041314167123595,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "36000"
+    ]
+  },
+  {
+    "code": "37000",
+    "direction": "lost",
+    "component_m2": 0.016543272882699966,
+    "longitude": 133.8345953371261,
+    "latitude": 34.35770419340855,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "37203"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "37000",
+    "direction": "lost",
+    "component_m2": 0.0152852429130661,
+    "longitude": 133.77620700360805,
+    "latitude": 34.29502038763084,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "37202"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "37000",
+    "direction": "lost",
+    "component_m2": 0.012777215801179409,
+    "longitude": 133.99802374840965,
+    "latitude": 34.36114974737096,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "37201"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "37000",
+    "direction": "added",
+    "component_m2": 0.018826987594366074,
+    "longitude": 133.98480902712242,
+    "latitude": 34.47062284711143,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "37000"
+    ]
+  },
+  {
+    "code": "37000",
+    "direction": "added",
+    "component_m2": 0.017403312027454376,
+    "longitude": 134.0644327035265,
+    "latitude": 34.36433551515094,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "37000"
+    ]
+  },
+  {
+    "code": "37000",
+    "direction": "added",
+    "component_m2": 0.016366615891456604,
+    "longitude": 134.01247851894453,
+    "latitude": 34.35690136295163,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "37000"
+    ]
+  },
+  {
+    "code": "38000",
+    "direction": "lost",
+    "component_m2": 0.02147452998906374,
+    "longitude": 133.22102394316502,
+    "latitude": 33.949689652850125,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "38206"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "38000",
+    "direction": "lost",
+    "component_m2": 0.01522406272124499,
+    "longitude": 132.31255961018542,
+    "latitude": 33.49288397023486,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "38442"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "38000",
+    "direction": "lost",
+    "component_m2": 0.015006990094420303,
+    "longitude": 132.49425094493725,
+    "latitude": 33.6296592683058,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "38207"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "38000",
+    "direction": "added",
+    "component_m2": 0.03150963596999645,
+    "longitude": 133.54058712768517,
+    "latitude": 34.00937840033447,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "38000"
+    ]
+  },
+  {
+    "code": "38000",
+    "direction": "added",
+    "component_m2": 0.018009200403678705,
+    "longitude": 133.14266852067817,
+    "latitude": 34.2438438285,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "38000"
+    ]
+  },
+  {
+    "code": "38000",
+    "direction": "added",
+    "component_m2": 0.016589239549837487,
+    "longitude": 133.0145713751213,
+    "latitude": 34.065980013650204,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "38000"
+    ]
+  },
+  {
+    "code": "39000",
+    "direction": "lost",
+    "component_m2": 0.0029069739977671816,
+    "longitude": 132.96395667022756,
+    "latitude": 32.756681905500045,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "39209"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "39000",
+    "direction": "lost",
+    "component_m2": 0.0023533583192545393,
+    "longitude": 132.96395355588072,
+    "latitude": 32.75663322050002,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "39209"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "39000",
+    "direction": "lost",
+    "component_m2": 0.0012953266832482768,
+    "longitude": 132.87765850557656,
+    "latitude": 32.78833476550005,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "39209"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "39000",
+    "direction": "added",
+    "component_m2": 0.012953451396169768,
+    "longitude": 133.88248099377626,
+    "latitude": 33.498110031295,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "39000"
+    ]
+  },
+  {
+    "code": "39000",
+    "direction": "added",
+    "component_m2": 0.012758230892359279,
+    "longitude": 133.04743777536112,
+    "latitude": 33.57931222067,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "38386"
+    ],
+    "raw_prefecture_codes": [
+      "39000"
+    ]
+  },
+  {
+    "code": "39000",
+    "direction": "added",
+    "component_m2": 0.012355661252513528,
+    "longitude": 133.59017568275885,
+    "latitude": 33.499259161785005,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "39000"
+    ]
+  },
+  {
+    "code": "40000",
+    "direction": "lost",
+    "component_m2": 0.02374471810463774,
+    "longitude": 130.7914995652257,
+    "latitude": 33.934321946,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "40103"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "40000",
+    "direction": "lost",
+    "component_m2": 0.011778000539379718,
+    "longitude": 130.77476954278,
+    "latitude": 33.88939648200011,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "40103"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "40000",
+    "direction": "lost",
+    "component_m2": 0.009439552703952359,
+    "longitude": 130.9657289581735,
+    "latitude": 33.95283590304234,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "40101"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "40000",
+    "direction": "added",
+    "component_m2": 0.479230285964519,
+    "longitude": 130.78777829790002,
+    "latitude": 33.93466467994547,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "40000"
+    ]
+  },
+  {
+    "code": "40000",
+    "direction": "added",
+    "component_m2": 0.008413747116719605,
+    "longitude": 130.77476133258932,
+    "latitude": 33.88924529298595,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "40000"
+    ]
+  },
+  {
+    "code": "40000",
+    "direction": "added",
+    "component_m2": 0.006771630711227772,
+    "longitude": 130.77259382309725,
+    "latitude": 33.88924687396701,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "40000"
+    ]
+  },
+  {
+    "code": "41000",
+    "direction": "lost",
+    "component_m2": 0.02208711951971054,
+    "longitude": 130.15225986400128,
+    "latitude": 33.114699829217244,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "41425"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "41000",
+    "direction": "lost",
+    "component_m2": 0.020779804326593876,
+    "longitude": 130.35238517922812,
+    "latitude": 33.140773746145825,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "41201"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "41000",
+    "direction": "lost",
+    "component_m2": 0.0189877487719059,
+    "longitude": 130.33629322263488,
+    "latitude": 33.142054689691406,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "41201"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "41000",
+    "direction": "added",
+    "component_m2": 0.021234791554888943,
+    "longitude": 129.94376841519443,
+    "latitude": 33.473897761,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "41000"
+    ]
+  },
+  {
+    "code": "41000",
+    "direction": "added",
+    "component_m2": 0.020996953826397657,
+    "longitude": 130.54124750363553,
+    "latitude": 33.41177819404066,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "40216"
+    ],
+    "raw_prefecture_codes": [
+      "41000"
+    ]
+  },
+  {
+    "code": "41000",
+    "direction": "added",
+    "component_m2": 0.019141536206007004,
+    "longitude": 130.32972693628477,
+    "latitude": 33.14292594092437,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "41000"
+    ]
+  },
+  {
+    "code": "42000",
+    "direction": "lost",
+    "component_m2": 0.00361879577030777,
+    "longitude": 129.23884880372748,
+    "latitude": 33.000031437000004,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "42212"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "42000",
+    "direction": "lost",
+    "component_m2": 0.0034021233250314253,
+    "longitude": 129.25927289572772,
+    "latitude": 34.29648997771196,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "42209"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "42000",
+    "direction": "lost",
+    "component_m2": 0.003221383723030158,
+    "longitude": 129.44245604070088,
+    "latitude": 34.617880000000014,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "42209"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "43000",
+    "direction": "lost",
+    "component_m2": 0.01878069224767387,
+    "longitude": 130.01299250870144,
+    "latitude": 32.1906180023516,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "43215"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "43000",
+    "direction": "lost",
+    "component_m2": 0.01866953819990158,
+    "longitude": 130.60345988997923,
+    "latitude": 32.71274749981839,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "43211"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "43000",
+    "direction": "lost",
+    "component_m2": 0.01743010338395834,
+    "longitude": 130.55430221749825,
+    "latitude": 32.54538112137005,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "43202"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "43000",
+    "direction": "added",
+    "component_m2": 0.027812004045372873,
+    "longitude": 130.03623493480205,
+    "latitude": 32.479175193676795,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "43000"
+    ]
+  },
+  {
+    "code": "43000",
+    "direction": "added",
+    "component_m2": 0.02223792695440352,
+    "longitude": 130.58809149735913,
+    "latitude": 32.76894029708038,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "43000"
+    ]
+  },
+  {
+    "code": "43000",
+    "direction": "added",
+    "component_m2": 0.017686582940676487,
+    "longitude": 130.59127443535755,
+    "latitude": 32.82072496848258,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "43000"
+    ]
+  },
+  {
+    "code": "44000",
+    "direction": "lost",
+    "component_m2": 0.041204113238194395,
+    "longitude": 130.934342445175,
+    "latitude": 33.473214693503365,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "44203"
+    ],
+    "raw_prefecture_codes": [
+      "40000"
+    ]
+  },
+  {
+    "code": "44000",
+    "direction": "lost",
+    "component_m2": 0.02519525494426489,
+    "longitude": 131.50433320980483,
+    "latitude": 33.30436498649213,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "44202"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "44000",
+    "direction": "lost",
+    "component_m2": 0.018990617245435715,
+    "longitude": 131.66520329386594,
+    "latitude": 33.262407301848185,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "44201"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "44000",
+    "direction": "added",
+    "component_m2": 0.028706572949886322,
+    "longitude": 131.17970708195284,
+    "latitude": 33.57199485977765,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "40646"
+    ],
+    "raw_prefecture_codes": [
+      "44000"
+    ]
+  },
+  {
+    "code": "44000",
+    "direction": "added",
+    "component_m2": 0.023390007225458476,
+    "longitude": 131.73455518128839,
+    "latitude": 33.49013305384169,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "44000"
+    ]
+  },
+  {
+    "code": "44000",
+    "direction": "added",
+    "component_m2": 0.018661409616470337,
+    "longitude": 131.70164581712243,
+    "latitude": 33.27582675216135,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "44000"
+    ]
+  },
+  {
+    "code": "45000",
+    "direction": "lost",
+    "component_m2": 0.0013124877468726481,
+    "longitude": 130.89158445885408,
+    "latitude": 32.12438950000009,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "45209"
+    ],
+    "raw_prefecture_codes": [
+      "43000"
+    ]
+  },
+  {
+    "code": "46000",
+    "direction": "lost",
+    "component_m2": 0.023378007113933563,
+    "longitude": 131.10941545485326,
+    "latitude": 31.46448845188,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "46221"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "46000",
+    "direction": "lost",
+    "component_m2": 0.018576456233859062,
+    "longitude": 130.5209330488301,
+    "latitude": 31.50797329186,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "46201"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "46000",
+    "direction": "lost",
+    "component_m2": 0.018345823511481285,
+    "longitude": 128.88953824962545,
+    "latitude": 27.857179941684997,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "46531"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "46000",
+    "direction": "added",
+    "component_m2": 0.005047079390351428,
+    "longitude": 130.63314653827035,
+    "latitude": 32.154575964161296,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "43513"
+    ],
+    "raw_prefecture_codes": [
+      "46000"
+    ]
+  },
+  {
+    "code": "46000",
+    "direction": "added",
+    "component_m2": 0.0024148411730777752,
+    "longitude": 130.61132246121815,
+    "latitude": 31.672878804359343,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "46000"
+    ]
+  },
+  {
+    "code": "46000",
+    "direction": "added",
+    "component_m2": 0.0012683572704190738,
+    "longitude": 130.57506781025972,
+    "latitude": 32.15457974794043,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [
+      "43205"
+    ],
+    "raw_prefecture_codes": [
+      "46000"
+    ]
+  },
+  {
+    "code": "47000",
+    "direction": "lost",
+    "component_m2": 0.154601906156131,
+    "longitude": 127.8800123693814,
+    "latitude": 26.63724024524,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "47308"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "47000",
+    "direction": "lost",
+    "component_m2": 0.0478515699505806,
+    "longitude": 127.63569747682855,
+    "latitude": 26.18749999994,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "47201"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "47000",
+    "direction": "lost",
+    "component_m2": 0.02487939829006791,
+    "longitude": 127.64307912287231,
+    "latitude": 26.218809322574998,
+    "source_union_covers": true,
+    "prefecture_union_covers": false,
+    "raw_source_municipality_codes": [
+      "47201"
+    ],
+    "raw_prefecture_codes": []
+  },
+  {
+    "code": "47000",
+    "direction": "added",
+    "component_m2": 0.16014828856532404,
+    "longitude": 127.87946340156367,
+    "latitude": 26.63924775658201,
+    "source_union_covers": false,
+    "prefecture_union_covers": true,
+    "raw_source_municipality_codes": [],
+    "raw_prefecture_codes": [
+      "47000"
+    ]
+  }
+]
