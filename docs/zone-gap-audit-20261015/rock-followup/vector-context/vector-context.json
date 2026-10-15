@@ -1,0 +1,88 @@
+{
+  "results": [
+    {
+      "candidate_id": "gap-9795735d3cabea7c",
+      "vector_zoom": 16,
+      "tile_x": 58527,
+      "tile_y": 25141,
+      "waterarea_ftCode": 5000,
+      "coastline_ftCode": 5102,
+      "point_in_waterarea": true,
+      "local_candidate_area_m2": 166.3884604504645,
+      "local_water_overlap_m2": 161.23804515334933,
+      "water_fraction": 0.9690458383762227,
+      "outside_water_m2": 5.150415297114955,
+      "boundary_sample_spacing_max_m": 0.25,
+      "boundary_samples": 456,
+      "coast_nearest_sample_median_m": 0.07458548733114623,
+      "coast_nearest_sample_max_m": 0.2644555867546895,
+      "coast_distance_conservative_upper_bound_m": 0.3894555867546895,
+      "interpretation": "水域面との整合あり。境界細部・法的所属・潮位条件は未確定",
+      "decision": "原典の内環を維持。補修しない"
+    },
+    {
+      "candidate_id": "gap-bfb40440ce6f5ac1",
+      "vector_zoom": 16,
+      "tile_x": 58582,
+      "tile_y": 24741,
+      "waterarea_ftCode": 5000,
+      "coastline_ftCode": 5102,
+      "point_in_waterarea": true,
+      "local_candidate_area_m2": 64.55677955629916,
+      "local_water_overlap_m2": 63.32502900756794,
+      "water_fraction": 0.9809198885508682,
+      "outside_water_m2": 1.2317505487312046,
+      "boundary_sample_spacing_max_m": 0.25,
+      "boundary_samples": 165,
+      "coast_nearest_sample_median_m": 0.043698527992484436,
+      "coast_nearest_sample_max_m": 0.26471615977729035,
+      "coast_distance_conservative_upper_bound_m": 0.38971615977729035,
+      "interpretation": "水域面との整合あり。境界細部・法的所属・潮位条件は未確定",
+      "decision": "原典の内環を維持。補修しない"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://maps.gsi.go.jp/help/pdf/vector/dataspec.pdf",
+      "file": "dataspec.pdf",
+      "sha256": "1f968aa71befac09d312bfa2abc4f1d4ad3ef596783db54009ba2dadd5f1395d",
+      "retrieved_jst": "2026-10-15T09:49:06.821952+09:00"
+    },
+    {
+      "url": "https://maps.gsi.go.jp/help/pdf/vector/attribute.pdf",
+      "file": "attribute.pdf",
+      "sha256": "f3b8b483db8e73acfca35fb63e9cd3c7ba80776280db069a3596746498c579bb",
+      "retrieved_jst": "2026-10-15T09:49:07.661154+09:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gsi-cyberjapan/gsimaps-vector-experiment/master/README.md",
+      "file": "gsi-vector-readme.md",
+      "sha256": "7cb9504461b52bad4a223a30e7235c7a8bdbeb55d3dee92cc46c1575a6cad95b",
+      "retrieved_jst": "2026-10-15T09:49:07.840181+09:00"
+    },
+    {
+      "url": "https://gsi-cyberjapan.github.io/gsivectortile-mapbox-gl-js/std.json",
+      "file": "gsi-vector-style.json",
+      "sha256": "13b06edfe19c7f70015d455ad3eefcebd94756ef028674cf4a3bcc757171159a",
+      "retrieved_jst": "2026-10-15T09:49:08.344415+09:00"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/58527/25141.pbf",
+      "file": "gap-9795735d3cabea7c-16-58527-25141.pbf",
+      "sha256": "53c392616cb832e1c3069da7c65a88d80d885ceaba1f51a015feee25dd8fb213",
+      "retrieved_jst": "2026-10-15T09:49:08.922523+09:00"
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/16/58582/24741.pbf",
+      "file": "gap-bfb40440ce6f5ac1-16-58582-24741.pbf",
+      "sha256": "c2b9ee9371a8c2f7fc96d2f915b7a3505769084f5cb4930cae5417bd527acfd6",
+      "retrieved_jst": "2026-10-15T09:49:09.847813+09:00"
+    }
+  ],
+  "versions": {
+    "mapbox_vector_tile": "2.2.0"
+  },
+  "source": "国土地理院ベクトルタイル提供実験",
+  "caution": "N03 January edition versus vector edition. Shared upstream GSI sources; not independent ground survey. Fractions are not legal ownership or water confidence probabilities.",
+  "repair": "None"
+}

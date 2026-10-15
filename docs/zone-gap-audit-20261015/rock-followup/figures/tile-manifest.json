@@ -1,0 +1,326 @@
+[
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234107/100566.png",
+    "sha256": "e79cba1aac6b214f64259a6123bf10e202fab26bc9e5e67046cc2949b75f8bc6",
+    "downloaded_jst": "2026-10-15T09:44:13.930447+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234107/100567.png",
+    "sha256": "882fa6fdb89f8125dba54d569bece9e7a44e149f9236cbf453e93187e8b47c4e",
+    "downloaded_jst": "2026-10-15T09:44:15.070838+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234107/100568.png",
+    "sha256": "09bc9dc3bd12fafd307df32043aee104cb2814031ab5286e155fb5f5afe36e2d",
+    "downloaded_jst": "2026-10-15T09:44:16.197653+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234108/100566.png",
+    "sha256": "3824b477cb4ef39e2845d4d0d15c47ed6185cf7eeb7752891baea3fe0091b931",
+    "downloaded_jst": "2026-10-15T09:44:17.087127+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234108/100567.png",
+    "sha256": "2f726cbfca6cfdec416b409381f49506448ed7b4a81479725f0725628bbb6b20",
+    "downloaded_jst": "2026-10-15T09:44:17.601720+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234108/100568.png",
+    "sha256": "3e54485d0d0a7e3cc77a58f3dcc9bee228fa05889aaa4d5380788ba306b603e5",
+    "downloaded_jst": "2026-10-15T09:44:18.511969+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234109/100566.png",
+    "sha256": "0fad4b47b4b7986df0c8636233f30debf83fc63f48fcfbcb730ec77fb2ff6f14",
+    "downloaded_jst": "2026-10-15T09:44:19.180452+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234109/100567.png",
+    "sha256": "82ea94c34e03c310b6d7fafb0cbb77d2a0281bcbcd83fc7304937ecbe58d9d7b",
+    "downloaded_jst": "2026-10-15T09:44:19.854986+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234109/100568.png",
+    "sha256": "4d9c430e01b06bb18784253051f7cf4d4b9efb84e589c098221094b0825f11ab",
+    "downloaded_jst": "2026-10-15T09:44:20.531491+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234107/100566.jpg",
+    "sha256": "ce61fd9a8df04be18b88e0aa91aa9d0b225612d81470678963b581d263fd127e",
+    "downloaded_jst": "2026-10-15T09:44:21.202885+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234107/100567.jpg",
+    "sha256": "0dcad9678f6f15f6442935ca403a5233ba57686fdeba3c1ef99d521f9d0f48a9",
+    "downloaded_jst": "2026-10-15T09:44:21.884610+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234107/100568.jpg",
+    "sha256": "06c6f5df9a843a93e1d43eeef6aafe52aa07a167140ac23998500aa94077e9a4",
+    "downloaded_jst": "2026-10-15T09:44:22.642275+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234108/100566.jpg",
+    "sha256": "f70f397712bd5ef0c9a000f28b5f92bf930b4e87d67c845e5a1b50499b85f5bb",
+    "downloaded_jst": "2026-10-15T09:44:23.324213+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234108/100567.jpg",
+    "sha256": "c34ebefa84a1e859e9a30d1deefabbb7c274974732ef858ea5ff0fc4e53db434",
+    "downloaded_jst": "2026-10-15T09:44:23.431458+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234108/100568.jpg",
+    "sha256": "a3d7e96b492e696edbc8c30f1e87f05c33f4dc37316c63c46298c1216ed5c95c",
+    "downloaded_jst": "2026-10-15T09:44:24.024272+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234109/100566.jpg",
+    "sha256": "aab75def54f934c19098885d1d4dc725f936c1ac3c1d01fd8daf18d271ef444a",
+    "downloaded_jst": "2026-10-15T09:44:24.567545+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234109/100567.jpg",
+    "sha256": "68aca753088b64d6fa05c5301a7f3153954fe8e4bd820a26d1d984bfe1d11413",
+    "downloaded_jst": "2026-10-15T09:44:24.951387+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234109/100568.jpg",
+    "sha256": "69b4699d66586c34902f3f54b2ff3db1b18ce147ab1c7fb37303d01953946959",
+    "downloaded_jst": "2026-10-15T09:44:25.583605+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234327/98965.png",
+    "sha256": "1469e9bd6ac9dbace84cf15e0dac2121dfb7eefc26757ed30fca6d929be32f8e",
+    "downloaded_jst": "2026-10-15T09:44:27.259584+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234327/98966.png",
+    "sha256": "52234f68fe3e2a81e18154f5fdd10fd6071faf861132c26621bb1cb34396979a",
+    "downloaded_jst": "2026-10-15T09:44:27.851869+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234327/98967.png",
+    "sha256": "18ca76a79c044447f1f891945d270455d987cdbfb3c6d32e61c13522fe6ed4a4",
+    "downloaded_jst": "2026-10-15T09:44:28.448793+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234328/98965.png",
+    "sha256": "4d9c430e01b06bb18784253051f7cf4d4b9efb84e589c098221094b0825f11ab",
+    "downloaded_jst": "2026-10-15T09:44:29.049336+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234328/98966.png",
+    "sha256": "cab89f5fca88c181261228b8a0c933195d83cfcd360559d96bb8c3f59d418c4f",
+    "downloaded_jst": "2026-10-15T09:44:29.219073+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234328/98967.png",
+    "sha256": "b9992ad1ac9b858e0ebd1f041977cdbd3f94fdb55b864f202cccf32421b060ba",
+    "downloaded_jst": "2026-10-15T09:44:29.867131+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234329/98965.png",
+    "sha256": "4d9c430e01b06bb18784253051f7cf4d4b9efb84e589c098221094b0825f11ab",
+    "downloaded_jst": "2026-10-15T09:44:30.511294+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234329/98966.png",
+    "sha256": "4d9c430e01b06bb18784253051f7cf4d4b9efb84e589c098221094b0825f11ab",
+    "downloaded_jst": "2026-10-15T09:44:31.039807+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "std",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/18/234329/98967.png",
+    "sha256": "7f00a6140aca2c09880c43c894d071a081d6355a5883f88884d799e4999a6202",
+    "downloaded_jst": "2026-10-15T09:44:31.644342+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234327/98965.jpg",
+    "sha256": "5d73b51bc70d0f68bb86f028a7302bfdfab8a964fe86ef1030ced602e9a482b0",
+    "downloaded_jst": "2026-10-15T09:44:32.292867+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234327/98966.jpg",
+    "sha256": "95acb0b3bd1da92adb63dbcae881d33823f6b0a6933c8f0e1f023473b1a640de",
+    "downloaded_jst": "2026-10-15T09:44:32.967371+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234327/98967.jpg",
+    "sha256": "2c3b86a49652543cf9446c578485d6feb37c1b02556c81fb49eab7d4ccb26424",
+    "downloaded_jst": "2026-10-15T09:44:33.633968+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234328/98965.jpg",
+    "sha256": "045a825704b0c8ec79a7f73643cd6401d393298fb01e6c21577414e6f88d0e1a",
+    "downloaded_jst": "2026-10-15T09:44:34.268156+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234328/98966.jpg",
+    "sha256": "fddc4565a05df2844239bdeee2333cd94e11283f2c863539e5cdbe679788116b",
+    "downloaded_jst": "2026-10-15T09:44:34.465069+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234328/98967.jpg",
+    "sha256": "7dc45757f034f2aaa3272991980c4ce6f128659c5c3f507eaf6a931f7e2befd8",
+    "downloaded_jst": "2026-10-15T09:44:35.218587+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234329/98965.jpg",
+    "sha256": "23b94f0438d1851e5771cfb1a478ae39296b68a1a4674c4d8ecc2bd766c83e42",
+    "downloaded_jst": "2026-10-15T09:44:35.833022+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234329/98966.jpg",
+    "sha256": "55a5428a2b3554ea6f5c951e91cc7729eddfb702e37b08319426086d2b4149f2",
+    "downloaded_jst": "2026-10-15T09:44:36.540882+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "layer": "seamlessphoto",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/18/234329/98967.jpg",
+    "sha256": "161e064534c3855128f64d4b7ba84d1a67a8650add2567b694de521e840543f9",
+    "downloaded_jst": "2026-10-15T09:44:37.256861+09:00",
+    "acquisition_date": "not established",
+    "attribution": "地理院タイル（標準地図／全国最新写真）"
+  }
+]

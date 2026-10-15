@@ -1,0 +1,43 @@
+{
+  "source_sha256": "fea638d8882a4c1581bb24d634854065d89b463701a1a74b40ad75c1c27d2bea",
+  "change": "SQL geometry declaration BLOB -> MULTIPOLYGON only",
+  "tables": {
+    "forest_plan_districts_provisional": {
+      "before": {
+        "count": 158,
+        "all_columns_sha256": "12dba57c10d48e5984f351131bffec44aa04d2a8f7b7b2ba63794993717434e2"
+      },
+      "after": {
+        "count": 158,
+        "all_columns_sha256": "12dba57c10d48e5984f351131bffec44aa04d2a8f7b7b2ba63794993717434e2"
+      },
+      "sql_before": "CREATE TABLE \"forest_plan_districts_provisional\" (fid INTEGER PRIMARY KEY, geom BLOB NOT NULL, district_code TEXT UNIQUE,district_name TEXT,basin_code TEXT,basin_name TEXT,source_features INTEGER,status TEXT,final_usable TEXT)",
+      "sql_after": "CREATE TABLE \"forest_plan_districts_provisional\" (fid INTEGER PRIMARY KEY, geom MULTIPOLYGON NOT NULL, district_code TEXT UNIQUE,district_name TEXT,basin_code TEXT,basin_name TEXT,source_features INTEGER,status TEXT,final_usable TEXT)"
+    },
+    "forest_unassigned_review": {
+      "before": {
+        "count": 20,
+        "all_columns_sha256": "5aba445012be746306158506aa245b68d69677c0a9ac5616bcc10f9ce9898e02"
+      },
+      "after": {
+        "count": 20,
+        "all_columns_sha256": "5aba445012be746306158506aa245b68d69677c0a9ac5616bcc10f9ce9898e02"
+      },
+      "sql_before": "CREATE TABLE \"forest_unassigned_review\" (fid INTEGER PRIMARY KEY, geom BLOB NOT NULL, source_fid INTEGER UNIQUE,municipality_code TEXT,prefecture TEXT,municipality TEXT,status TEXT)",
+      "sql_after": "CREATE TABLE \"forest_unassigned_review\" (fid INTEGER PRIMARY KEY, geom MULTIPOLYGON NOT NULL, source_fid INTEGER UNIQUE,municipality_code TEXT,prefecture TEXT,municipality TEXT,status TEXT)"
+    },
+    "forest_wide_basins_provisional": {
+      "before": {
+        "count": 44,
+        "all_columns_sha256": "349d678141a85fcb1a97e63e822eb53f2b2c8be5b976888f5a0454248cb6f176"
+      },
+      "after": {
+        "count": 44,
+        "all_columns_sha256": "349d678141a85fcb1a97e63e822eb53f2b2c8be5b976888f5a0454248cb6f176"
+      },
+      "sql_before": "CREATE TABLE \"forest_wide_basins_provisional\" (fid INTEGER PRIMARY KEY, geom BLOB NOT NULL, basin_code TEXT UNIQUE,basin_name TEXT,source_features INTEGER,status TEXT,final_usable TEXT)",
+      "sql_after": "CREATE TABLE \"forest_wide_basins_provisional\" (fid INTEGER PRIMARY KEY, geom MULTIPOLYGON NOT NULL, basin_code TEXT UNIQUE,basin_name TEXT,source_features INTEGER,status TEXT,final_usable TEXT)"
+    }
+  },
+  "output_sha256": "be65de6e35681ada890011e62485fd6e7e1ef46ebb2df23e6a45d6e50bd3eb85"
+}

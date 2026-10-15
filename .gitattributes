@@ -1,3 +1,6 @@
 # テキストファイルの改行は、どの OS でチェックアウトしても LF にする。
 # data/ の CSV は「改行は LF」をテストで確かめているため、Windows で CRLF に変わると失敗する。
 * text=auto eol=lf
+
+# 取得時のSHA-256を照合する外部資料は、原文の空白も保持する。
+docs/zone-gap-audit-20261015/rock-followup/vector-context/gsi-vector-readme.md whitespace=-blank-at-eol,-blank-at-eof
