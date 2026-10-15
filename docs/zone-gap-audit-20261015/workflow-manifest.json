@@ -1,0 +1,69 @@
+{
+  "base_commit": "61b47804ed0662d7169f1cc4d6be7a4eb003439d",
+  "saved_files": [
+    {
+      "path": "data/municipality_zones.csv",
+      "sha256": "df42c39920e0ed2d017bbf0b438a63c261389314f95568bd03f2143132954108"
+    },
+    {
+      "path": "data/zone_rules.csv",
+      "sha256": "7a5dd168ba5ae23226a9993ae2ede739503a0b27f6b301f9ae9aa20e9a33956f"
+    },
+    {
+      "path": "data/zones.csv",
+      "sha256": "687f2fb09607fd71491196c5210fdaa7ba7bf468dc5505c15f881ebeb80d38b4"
+    },
+    {
+      "path": "scripts/audit_zone_gaps.py",
+      "sha256": "bf80b23ab2b394a270726300937cc3d0f7ddd63a83c833bc33bf07451ab59efd"
+    },
+    {
+      "path": "scripts/fetch_zone_gap_inputs.py",
+      "sha256": "7fb560d87ab42d296e67436353e0a42ad3fd5c195edbcaf0b92dfa9b50ac94ea"
+    },
+    {
+      "path": "scripts/inspect_rock_holes.py",
+      "sha256": "880ce94dfca6085b26403432965eaedcb83dcafdb6c64ec60daf382d9b3c5655"
+    },
+    {
+      "path": "scripts/inspect_rock_vector_context.py",
+      "sha256": "0e6c8468ea58587e3a1c51144b202fc6550dab9ca5ded4e7272c0c8fafebe198"
+    },
+    {
+      "path": "scripts/plot_rock_hole_detail.py",
+      "sha256": "1255fefd3780481cf7054294db11e39ad392ca21718514d048e5f3ffa32f1e3b"
+    },
+    {
+      "path": "scripts/plot_zone_gap_map_context.py",
+      "sha256": "e942ff69fc8d7b1f814a0068b7edd2abb5c6e26f9bc1693f0e446044f26ab768"
+    },
+    {
+      "path": "scripts/plot_zone_gaps.py",
+      "sha256": "0168a8ded165a4aa299b570e8e7bb8baabc35badc6b2a21fd20439947cfa84ac"
+    },
+    {
+      "path": "scripts/prepare_arcgis_comparison.py",
+      "sha256": "acd2207a87f17c5ebd2a2628ea6a691cddb0a1face8fb82ae240f251e2bce06e"
+    },
+    {
+      "path": "scripts/screen_zone_exterior_gaps.py",
+      "sha256": "54b94a1593815f28ad772f96376ff923824799a020d08431e9e07120bf788f55"
+    },
+    {
+      "path": "scripts/validate_zone_gap_outputs.py",
+      "sha256": "093464b52d9acf934447427f7956c015b9f4a5f4dfe648c0f4cfd0d87695a1da"
+    },
+    {
+      "path": "tests/test_arcgis_comparison.py",
+      "sha256": "fd1ffe65d718e4006b346e28e829eb7cfb534e59cb6e0f353096834ec3dcf795"
+    },
+    {
+      "path": "tests/test_rock_hole_inspection.py",
+      "sha256": "f9a4b5211fc1bd130bc59ec83cef8aba646e995c323462eb996f896f6b717984"
+    },
+    {
+      "path": "tests/test_zone_gap_audit.py",
+      "sha256": "18b404b81e50dc95f0597cc121197ab03bdae0c18631257fce68b005437c598e"
+    }
+  ]
+}

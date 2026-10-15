@@ -1,0 +1,52 @@
+[
+  {
+    "name": "plane_rectangular_municipalities_2026.zip",
+    "bytes": 173115008,
+    "sha256": "cfdefd12ea7114796b26d4d9d10d244bd4b03c110b9dd7f2fcc9a12d92c9051b"
+  },
+  {
+    "name": "plane_rectangular_municipalities_2026.gpkg",
+    "bytes": 255340544,
+    "sha256": "1e09e083497bca003121473458321afb353aadaa660885c76b45f761ae72b492"
+  },
+  {
+    "name": "N03-20260101.shp",
+    "bytes": 258569768,
+    "sha256": "6325d7f08c9374198e27b2cffd01bd420411be8b3cf3528da0587c6cea35538d"
+  },
+  {
+    "name": "plane_rectangular_zones_2026.gpkg",
+    "bytes": 171986944,
+    "sha256": "9392e5e3fecedbab7ba774dc89c81bc353c265d16d66a1c86f6e341b5946eafc"
+  },
+  {
+    "name": "N03-20260101_GML.zip",
+    "bytes": 803201348,
+    "sha256": "1f714fca019e22e6f84012dba420384fc7b49c6ad8bd0a867ab1cfb593a78477"
+  },
+  {
+    "name": "N03-20260101.dbf",
+    "bytes": 23274406,
+    "sha256": "2d2692800f8261243b281708dc99b89e7a7bd9ba8d8674bec14e7dcf47575911"
+  },
+  {
+    "name": "N03-20260101.prj",
+    "bytes": 145,
+    "sha256": "1761bb7f37f73fd0eb043175a78403ba37ff1066299987c116fd43bbd0057eae"
+  },
+  {
+    "name": "N03-20260101.cpg",
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  {
+    "name": "N03-20260101.shx",
+    "bytes": 1001140,
+    "sha256": "62e0a234588c44eec98778808602e94af90af2d3f85d18ab8bcabd38c5d36751"
+  },
+  {
+    "name": "plane_rectangular_zones_2026.zip",
+    "bytes": 113022277,
+    "sha256": "c32ac8417ee604436e0a20280a6f2d3a1e73a3247c5a8db10230209daf9e3fbd"
+  }
+]

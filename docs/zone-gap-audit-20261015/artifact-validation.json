@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "input_hashes_unchanged": true,
+  "original_zone_reference_unchanged": true,
+  "zone_comparisons": 38,
+  "municipality_comparisons": 1905,
+  "audit_layers": {
+    "void_candidates": 13,
+    "enclosing_rings": 13,
+    "stage_differences": 293,
+    "zone_reference": 19
+  },
+  "exterior_layers": {
+    "connectors": 15897
+  },
+  "crs": "EPSG:6668",
+  "sqlite_integrity": "ok",
+  "invalid": 0,
+  "empty": 0,
+  "public_exteriors_exact_against_municipality_union": true,
+  "removed_holes": 293,
+  "new_hole_signatures": 0,
+  "removed_holes_all_below_release_threshold": true,
+  "note": "Machine-readable validation; QGIS GUI was not run."
+}

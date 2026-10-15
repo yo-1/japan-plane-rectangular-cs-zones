@@ -9,7 +9,7 @@
 > 系番号付きのポリゴン（系ごと・都道府県ごと・市区町村ごと）は大きいので、GitHubのReleasesで公開しています
 > （最新は [v2026.2](https://github.com/yo-1/japan-plane-rectangular-cs-zones/releases/tag/v2026.2)。下の「系番号付きのポリゴン（Releasesで配布）」）。
 > まだ確認できていないことは、[Issue](https://github.com/yo-1/japan-plane-rectangular-cs-zones/issues)（#15〜#18）と [`VALIDATION.txt`](VALIDATION.txt) に「未確認」として書いています
-> （ArcGIS Proで開けるか、奄美群島の範囲の公式な確認など）。
+> （奄美群島の範囲の公式な確認など）。2026-10-15に、19系レイヤのArcGIS Proでの読込み・描画・属性表示を、利用者提供画面で確認しました。対象ファイルの版と詳しい検査範囲は、`VALIDATION.txt` に記録しています。
 
 ## 収録データ
 

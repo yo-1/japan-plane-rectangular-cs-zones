@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "input_hashes_unchanged": true,
+  "source_gml_and_shp_interior_matches": 2,
+  "source_gml_hole_hausdorff_max_m": 0.0006650895876511738,
+  "gml_parent_attributes_matched": true,
+  "geo_packages": {
+    "source": {
+      "evidence": 6
+    },
+    "vector": {
+      "context": 6
+    }
+  },
+  "invalid": 0,
+  "empty": 0,
+  "sqlite_integrity": "ok",
+  "tiles_verified": 36,
+  "vector_sources_verified": 6,
+  "tests_passed": 86,
+  "repair": "None",
+  "public_files_unchanged": true
+}

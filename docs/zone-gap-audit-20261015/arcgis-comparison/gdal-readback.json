@@ -1,0 +1,78 @@
+{
+  "layers": [
+    {
+      "file": "candidates-typed.gpkg",
+      "layer": "void_candidates",
+      "count": 13,
+      "type": "Polygon",
+      "epsg": 6668,
+      "valid": true
+    },
+    {
+      "file": "candidates-typed.gpkg",
+      "layer": "enclosing_rings",
+      "count": 13,
+      "type": "Polygon",
+      "epsg": 6668,
+      "valid": true
+    },
+    {
+      "file": "candidates-typed.gpkg",
+      "layer": "stage_differences",
+      "count": 293,
+      "type": "Polygon",
+      "epsg": 6668,
+      "valid": true
+    },
+    {
+      "file": "candidates-typed.gpkg",
+      "layer": "zone_reference",
+      "count": 19,
+      "type": "MultiPolygon",
+      "epsg": 6668,
+      "valid": true
+    },
+    {
+      "file": "differences-typed.gpkg",
+      "layer": "differences",
+      "count": 1,
+      "type": "Polygon",
+      "epsg": 6668,
+      "valid": true
+    },
+    {
+      "file": "exterior-screen-typed.gpkg",
+      "layer": "connectors",
+      "count": 15897,
+      "type": "LineString",
+      "epsg": 6668,
+      "valid": true
+    },
+    {
+      "file": "source-ring-evidence-typed.gpkg",
+      "layer": "evidence",
+      "count": 6,
+      "type": "Polygon",
+      "epsg": 6668,
+      "valid": true
+    },
+    {
+      "file": "vector-context-typed.gpkg",
+      "layer": "context_multipolygon",
+      "count": 2,
+      "type": "MultiPolygon",
+      "epsg": 6668,
+      "valid": true
+    },
+    {
+      "file": "vector-context-typed.gpkg",
+      "layer": "context_polygon",
+      "count": 4,
+      "type": "Polygon",
+      "epsg": 6668,
+      "valid": true
+    }
+  ],
+  "total_features": 16248,
+  "arcgis": "not executed"
+}

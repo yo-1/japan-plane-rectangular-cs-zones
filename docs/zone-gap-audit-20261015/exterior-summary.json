@@ -1,0 +1,19 @@
+{
+  "exterior_vertices": 10501089,
+  "exterior_rings": 122983,
+  "vertex_radius_m": 1.0,
+  "minimum_same_ring_boundary_separation_m": 20.0,
+  "candidates": 15897,
+  "same_zone": 15023,
+  "different_zone": 874,
+  "midpoint_uncovered_in_source_and_municipality": 15897,
+  "chord_width_counts": {
+    "(0,1um]": 844,
+    "(1um,1mm]": 6,
+    "(1mm,0.1m]": 58,
+    "(0.1m,1m]": 14989
+  },
+  "scope": "All vertex pairs at radius, not all segment pairs. Midpoint evidence does not establish a full void polygon, its area, cause, or legal membership.",
+  "input_sha256": "9392e5e3fecedbab7ba774dc89c81bc353c265d16d66a1c86f6e341b5946eafc",
+  "repair": "None"
+}

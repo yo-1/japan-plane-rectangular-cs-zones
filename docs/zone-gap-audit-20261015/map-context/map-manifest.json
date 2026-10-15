@@ -1,0 +1,101 @@
+[
+  {
+    "candidate_id": "gap-21f4eea28bd4af31",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/16/56750/26169.png",
+    "zoom": 16,
+    "x": 56750,
+    "y": 26169,
+    "sha256": "05a5904c57ec9f95d48e60e6c9d603556f646d961c8ee963d8faab2d6b5c3418",
+    "attribution": "地理院タイル（標準地図）",
+    "retrieved_jst_date": "2026-10-15",
+    "interpretation": "Context at representative point; no claim of historical, legal, or full-candidate coverage"
+  },
+  {
+    "candidate_id": "gap-25f67c482ea1c996",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/16/58573/24722.png",
+    "zoom": 16,
+    "x": 58573,
+    "y": 24722,
+    "sha256": "571796ebdd9c81052b8ba7b67769b41b4b4ef10b68216572d362befa2fe70e9c",
+    "attribution": "地理院タイル（標準地図）",
+    "retrieved_jst_date": "2026-10-15",
+    "interpretation": "Context at representative point; no claim of historical, legal, or full-candidate coverage"
+  },
+  {
+    "candidate_id": "gap-5eef01ecfce67d1b",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/16/56750/26168.png",
+    "zoom": 16,
+    "x": 56750,
+    "y": 26168,
+    "sha256": "dce550fbef4a329a8948e4739afc0c45847ca39c01e19429ae682c5c8ab8a787",
+    "attribution": "地理院タイル（標準地図）",
+    "retrieved_jst_date": "2026-10-15",
+    "interpretation": "Context at representative point; no claim of historical, legal, or full-candidate coverage"
+  },
+  {
+    "candidate_id": "gap-688a5e874ac9ec69",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/16/58598/24982.png",
+    "zoom": 16,
+    "x": 58598,
+    "y": 24982,
+    "sha256": "1fe6bb017c1ef3d730e97ce73106580b2a9787b22edccc5620449d7966966aa9",
+    "attribution": "地理院タイル（標準地図）",
+    "retrieved_jst_date": "2026-10-15",
+    "interpretation": "Context at representative point; no claim of historical, legal, or full-candidate coverage"
+  },
+  {
+    "candidate_id": "gap-8b1735220aa5e6e5",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/16/58618/24941.png",
+    "zoom": 16,
+    "x": 58618,
+    "y": 24941,
+    "sha256": "dca822387e4df37ef3ab9432677ca48b848b187e6ed6d05944aebdbfb9583c63",
+    "attribution": "地理院タイル（標準地図）",
+    "retrieved_jst_date": "2026-10-15",
+    "interpretation": "Context at representative point; no claim of historical, legal, or full-candidate coverage"
+  },
+  {
+    "candidate_id": "gap-9795735d3cabea7c",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/16/58527/25141.png",
+    "zoom": 16,
+    "x": 58527,
+    "y": 25141,
+    "sha256": "0e6a85651615005ec3ef7ef5016a7784407f63044776bab8a48bb20059daca21",
+    "attribution": "地理院タイル（標準地図）",
+    "retrieved_jst_date": "2026-10-15",
+    "interpretation": "Context at representative point; no claim of historical, legal, or full-candidate coverage"
+  },
+  {
+    "candidate_id": "gap-ab65ca6070d02661",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/16/55369/28199.png",
+    "zoom": 16,
+    "x": 55369,
+    "y": 28199,
+    "sha256": "c12085f5a34bdcdc8201d91db89fb85bc132ecae54d2b656ffd1a0b8fefce1dd",
+    "attribution": "地理院タイル（標準地図）",
+    "retrieved_jst_date": "2026-10-15",
+    "interpretation": "Context at representative point; no claim of historical, legal, or full-candidate coverage"
+  },
+  {
+    "candidate_id": "gap-bfb40440ce6f5ac1",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/16/58582/24741.png",
+    "zoom": 16,
+    "x": 58582,
+    "y": 24741,
+    "sha256": "506a15ca1f4c73f44918db9c1648b3c8e378037716d377bda845d18ff4f192da",
+    "attribution": "地理院タイル（標準地図）",
+    "retrieved_jst_date": "2026-10-15",
+    "interpretation": "Context at representative point; no claim of historical, legal, or full-candidate coverage"
+  },
+  {
+    "candidate_id": "gap-c578d39966036c02",
+    "url": "https://cyberjapandata.gsi.go.jp/xyz/std/16/56750/26168.png",
+    "zoom": 16,
+    "x": 56750,
+    "y": 26168,
+    "sha256": "dce550fbef4a329a8948e4739afc0c45847ca39c01e19429ae682c5c8ab8a787",
+    "attribution": "地理院タイル（標準地図）",
+    "retrieved_jst_date": "2026-10-15",
+    "interpretation": "Context at representative point; no claim of historical, legal, or full-candidate coverage"
+  }
+]

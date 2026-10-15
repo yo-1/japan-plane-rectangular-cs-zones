@@ -1,0 +1,13 @@
+[
+  {
+    "stage": "N03_to_public_municipality",
+    "key": "37201",
+    "direction": "lost",
+    "area_m2": 0.03352998141781427,
+    "component_m2": 0.03352998141781427,
+    "longitude": 134.12786968004923,
+    "latitude": 34.4191337475,
+    "N03_feature_ids_covering_point": [],
+    "public_features_covering_point": []
+  }
+]

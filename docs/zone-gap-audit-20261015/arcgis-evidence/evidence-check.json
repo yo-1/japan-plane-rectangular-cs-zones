@@ -1,0 +1,90 @@
+{
+  "attachments": [
+    {
+      "name": "type-comparison-verification.json",
+      "sha256": "27aaf904b157dec835dd6c1e6225df5d726be641192c64fc8d3f8051033709e9",
+      "matched": true
+    },
+    {
+      "name": "TYPE-COMPARISON-README.txt",
+      "sha256": "1db7cf5cec34b522e36a8e593181e195f4a3c15cea88ad00207f9fd195ad83a7",
+      "matched": true
+    }
+  ],
+  "declared_output_hash_crosscheck": true,
+  "declared_rows": 222,
+  "declared_rows_and_all_column_hashes_equal": true,
+  "declared_sql_change_only": true,
+  "forest_gpkg_received": false,
+  "forest_gpkg_independently_verified": false,
+  "arcgis_result_source": "User report; provided README records pre-test status; JSON records SQL/data comparison",
+  "local_read_only_schema_inspection": [
+    {
+      "path": "output/gap-inputs/plane_rectangular_zones_2026.gpkg",
+      "sha256": "9392e5e3fecedbab7ba774dc89c81bc353c265d16d66a1c86f6e341b5946eafc",
+      "layers": [
+        {
+          "table": "plane_rectangular_zones_2026",
+          "column": "geom",
+          "sql_type": "MULTIPOLYGON",
+          "gpkg_type": "MULTIPOLYGON"
+        }
+      ]
+    },
+    {
+      "path": "output/gap-inputs/plane_rectangular_municipalities_2026.gpkg",
+      "sha256": "1e09e083497bca003121473458321afb353aadaa660885c76b45f761ae72b492",
+      "layers": [
+        {
+          "table": "plane_rectangular_municipalities_2026",
+          "column": "geom",
+          "sql_type": "MULTIPOLYGON",
+          "gpkg_type": "MULTIPOLYGON"
+        }
+      ]
+    },
+    {
+      "path": "output/zone-gap-audit-20261015/candidates.gpkg",
+      "sha256": "1655fa663f3c3da68e38352a3530857e8cb1a3ec863af47fbf2787e5e53848c7",
+      "layers": [
+        {
+          "table": "void_candidates",
+          "column": "geom",
+          "sql_type": "GEOMETRY",
+          "gpkg_type": "GEOMETRY"
+        },
+        {
+          "table": "enclosing_rings",
+          "column": "geom",
+          "sql_type": "GEOMETRY",
+          "gpkg_type": "GEOMETRY"
+        },
+        {
+          "table": "stage_differences",
+          "column": "geom",
+          "sql_type": "GEOMETRY",
+          "gpkg_type": "GEOMETRY"
+        },
+        {
+          "table": "zone_reference",
+          "column": "geom",
+          "sql_type": "GEOMETRY",
+          "gpkg_type": "GEOMETRY"
+        }
+      ]
+    },
+    {
+      "path": "output/n03-municipality-recheck-20261015/differences.gpkg",
+      "sha256": "f7a778312c6e8efae1d8b0b8de73dc867c3f2c953cd8f033b416d46d43ed28ac",
+      "layers": [
+        {
+          "table": "differences",
+          "column": "geom",
+          "sql_type": "BLOB",
+          "gpkg_type": "GEOMETRY"
+        }
+      ]
+    }
+  ],
+  "modifications": "Documentation only; no geometry/schema changes to GeoPackages"
+}

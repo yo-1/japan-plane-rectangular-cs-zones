@@ -1,0 +1,9 @@
+{
+  "total": 86,
+  "passed": 86,
+  "failed": 0,
+  "skipped": 0,
+  "command": "N03_DBF=\"$PWD/output/gap-inputs/N03-20260101.dbf\" .venv/bin/python -m unittest discover -s tests -v",
+  "exit_code": 0,
+  "log_sha256": "0e2893d3c07dcdd2895953d5ee2b0997c53de15f3665547bbb2e72dac4177b3c"
+}

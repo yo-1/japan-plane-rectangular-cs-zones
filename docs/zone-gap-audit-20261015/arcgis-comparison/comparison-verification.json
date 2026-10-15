@@ -1,0 +1,487 @@
+{
+  "files": [
+    {
+      "source": "output/zone-gap-audit-20261015/candidates.gpkg",
+      "source_sha256": "1655fa663f3c3da68e38352a3530857e8cb1a3ec863af47fbf2787e5e53848c7",
+      "output": "output/arcgis-comparison-20261015/candidates-typed.gpkg",
+      "output_sha256": "874f085882f79d55bb41d986210bc58654db9d41827ea09b62e8def9738c9cd3",
+      "tables": [
+        {
+          "source_layer": "void_candidates",
+          "source_sql": "CREATE TABLE \"void_candidates\" ( \"fid\" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, \"geom\" GEOMETRY, \"candidate_id\" TEXT(20), \"zone\" TEXT(2), \"national_ring\" INTEGER, \"longitude\" REAL, \"latitude\" REAL, \"area_m2\" REAL, \"perimeter_m\" REAL, \"obb_length_m\" REAL, \"obb_width_m\" REAL, \"length_proxy_m\" REAL, \"width_proxy_m\" REAL, \"obb_aspect\" REAL, \"cause\" TEXT(4), \"evidence\" TEXT(26), \"context\" TEXT(10), \"adjacent_zones\" TEXT(3), \"ring_covered_zones\" TEXT(1), \"adjacent_codes\" TEXT(11), \"adjacent_names\" TEXT(15), \"source_inside_m2\" INTEGER, \"municipality_inside_m2\" INTEGER, \"source_void_m2\" REAL, \"municipality_void_m2\" REAL, \"source_point_features\" TEXT(1), \"municipality_point_features\" TEXT(1), \"decision\" TEXT(15), \"ring_area_m2\" REAL, \"void_empty\" INTEGER, \"geometry_sha256\" TEXT(64))",
+          "source_geometry_metadata": {
+            "table_name": "void_candidates",
+            "column_name": "geom",
+            "geometry_type_name": "GEOMETRY",
+            "srs_id": 6668,
+            "z": 0,
+            "m": 0
+          },
+          "columns": [
+            "fid",
+            "geom",
+            "candidate_id",
+            "zone",
+            "national_ring",
+            "longitude",
+            "latitude",
+            "area_m2",
+            "perimeter_m",
+            "obb_length_m",
+            "obb_width_m",
+            "length_proxy_m",
+            "width_proxy_m",
+            "obb_aspect",
+            "cause",
+            "evidence",
+            "context",
+            "adjacent_zones",
+            "ring_covered_zones",
+            "adjacent_codes",
+            "adjacent_names",
+            "source_inside_m2",
+            "municipality_inside_m2",
+            "source_void_m2",
+            "municipality_void_m2",
+            "source_point_features",
+            "municipality_point_features",
+            "decision",
+            "ring_area_m2",
+            "void_empty",
+            "geometry_sha256"
+          ],
+          "before": {
+            "count": 13,
+            "all_columns_sha256": "85ab92f8d30f8487ac03bf6cd98d7b35d0bfa9d43741e47701d82e0ceedad7b4"
+          },
+          "after": {
+            "count": 13,
+            "all_columns_sha256": "85ab92f8d30f8487ac03bf6cd98d7b35d0bfa9d43741e47701d82e0ceedad7b4"
+          },
+          "layers": [
+            {
+              "table": "void_candidates",
+              "geometry_type": "POLYGON",
+              "before": {
+                "count": 13,
+                "all_columns_sha256": "85ab92f8d30f8487ac03bf6cd98d7b35d0bfa9d43741e47701d82e0ceedad7b4"
+              },
+              "after": {
+                "count": 13,
+                "all_columns_sha256": "85ab92f8d30f8487ac03bf6cd98d7b35d0bfa9d43741e47701d82e0ceedad7b4"
+              },
+              "sql": "CREATE TABLE \"void_candidates\" ( \"fid\" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, \"geom\" POLYGON, \"candidate_id\" TEXT(20), \"zone\" TEXT(2), \"national_ring\" INTEGER, \"longitude\" REAL, \"latitude\" REAL, \"area_m2\" REAL, \"perimeter_m\" REAL, \"obb_length_m\" REAL, \"obb_width_m\" REAL, \"length_proxy_m\" REAL, \"width_proxy_m\" REAL, \"obb_aspect\" REAL, \"cause\" TEXT(4), \"evidence\" TEXT(26), \"context\" TEXT(10), \"adjacent_zones\" TEXT(3), \"ring_covered_zones\" TEXT(1), \"adjacent_codes\" TEXT(11), \"adjacent_names\" TEXT(15), \"source_inside_m2\" INTEGER, \"municipality_inside_m2\" INTEGER, \"source_void_m2\" REAL, \"municipality_void_m2\" REAL, \"source_point_features\" TEXT(1), \"municipality_point_features\" TEXT(1), \"decision\" TEXT(15), \"ring_area_m2\" REAL, \"void_empty\" INTEGER, \"geometry_sha256\" TEXT(64))"
+            }
+          ]
+        },
+        {
+          "source_layer": "enclosing_rings",
+          "source_sql": "CREATE TABLE \"enclosing_rings\" ( \"fid\" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, \"geom\" GEOMETRY, \"candidate_id\" TEXT(20), \"zone\" TEXT(2), \"cause\" TEXT(4), \"context\" TEXT(10))",
+          "source_geometry_metadata": {
+            "table_name": "enclosing_rings",
+            "column_name": "geom",
+            "geometry_type_name": "GEOMETRY",
+            "srs_id": 6668,
+            "z": 0,
+            "m": 0
+          },
+          "columns": [
+            "fid",
+            "geom",
+            "candidate_id",
+            "zone",
+            "cause",
+            "context"
+          ],
+          "before": {
+            "count": 13,
+            "all_columns_sha256": "0404645dfc492d83fdccaba69618773c18c91d2fbc764a15519576f5faaac179"
+          },
+          "after": {
+            "count": 13,
+            "all_columns_sha256": "0404645dfc492d83fdccaba69618773c18c91d2fbc764a15519576f5faaac179"
+          },
+          "layers": [
+            {
+              "table": "enclosing_rings",
+              "geometry_type": "POLYGON",
+              "before": {
+                "count": 13,
+                "all_columns_sha256": "0404645dfc492d83fdccaba69618773c18c91d2fbc764a15519576f5faaac179"
+              },
+              "after": {
+                "count": 13,
+                "all_columns_sha256": "0404645dfc492d83fdccaba69618773c18c91d2fbc764a15519576f5faaac179"
+              },
+              "sql": "CREATE TABLE \"enclosing_rings\" ( \"fid\" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, \"geom\" POLYGON, \"candidate_id\" TEXT(20), \"zone\" TEXT(2), \"cause\" TEXT(4), \"context\" TEXT(10))"
+            }
+          ]
+        },
+        {
+          "source_layer": "stage_differences",
+          "source_sql": "CREATE TABLE \"stage_differences\" ( \"fid\" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, \"geom\" GEOMETRY, \"zone\" INTEGER, \"stage\" TEXT(20), \"direction\" TEXT(5), \"area_m2\" REAL, \"source_point_count\" INTEGER, \"municipality_point_count\" INTEGER, \"zone_point_count\" INTEGER)",
+          "source_geometry_metadata": {
+            "table_name": "stage_differences",
+            "column_name": "geom",
+            "geometry_type_name": "GEOMETRY",
+            "srs_id": 6668,
+            "z": 0,
+            "m": 0
+          },
+          "columns": [
+            "fid",
+            "geom",
+            "zone",
+            "stage",
+            "direction",
+            "area_m2",
+            "source_point_count",
+            "municipality_point_count",
+            "zone_point_count"
+          ],
+          "before": {
+            "count": 293,
+            "all_columns_sha256": "2fe9e95e01e8fafca6bad8ef79f0d15cad91f1b03f651e5418a15ee6765f4c4f"
+          },
+          "after": {
+            "count": 293,
+            "all_columns_sha256": "2fe9e95e01e8fafca6bad8ef79f0d15cad91f1b03f651e5418a15ee6765f4c4f"
+          },
+          "layers": [
+            {
+              "table": "stage_differences",
+              "geometry_type": "POLYGON",
+              "before": {
+                "count": 293,
+                "all_columns_sha256": "2fe9e95e01e8fafca6bad8ef79f0d15cad91f1b03f651e5418a15ee6765f4c4f"
+              },
+              "after": {
+                "count": 293,
+                "all_columns_sha256": "2fe9e95e01e8fafca6bad8ef79f0d15cad91f1b03f651e5418a15ee6765f4c4f"
+              },
+              "sql": "CREATE TABLE \"stage_differences\" ( \"fid\" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, \"geom\" POLYGON, \"zone\" INTEGER, \"stage\" TEXT(20), \"direction\" TEXT(5), \"area_m2\" REAL, \"source_point_count\" INTEGER, \"municipality_point_count\" INTEGER, \"zone_point_count\" INTEGER)"
+            }
+          ]
+        },
+        {
+          "source_layer": "zone_reference",
+          "source_sql": "CREATE TABLE \"zone_reference\" ( \"fid\" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, \"geom\" GEOMETRY, \"zone\" INTEGER)",
+          "source_geometry_metadata": {
+            "table_name": "zone_reference",
+            "column_name": "geom",
+            "geometry_type_name": "GEOMETRY",
+            "srs_id": 6668,
+            "z": 0,
+            "m": 0
+          },
+          "columns": [
+            "fid",
+            "geom",
+            "zone"
+          ],
+          "before": {
+            "count": 19,
+            "all_columns_sha256": "43ff794fb9139d70830b1ba18961a01ed702b875f138255cd3f9d5f15703cb3d"
+          },
+          "after": {
+            "count": 19,
+            "all_columns_sha256": "43ff794fb9139d70830b1ba18961a01ed702b875f138255cd3f9d5f15703cb3d"
+          },
+          "layers": [
+            {
+              "table": "zone_reference",
+              "geometry_type": "MULTIPOLYGON",
+              "before": {
+                "count": 19,
+                "all_columns_sha256": "43ff794fb9139d70830b1ba18961a01ed702b875f138255cd3f9d5f15703cb3d"
+              },
+              "after": {
+                "count": 19,
+                "all_columns_sha256": "43ff794fb9139d70830b1ba18961a01ed702b875f138255cd3f9d5f15703cb3d"
+              },
+              "sql": "CREATE TABLE \"zone_reference\" ( \"fid\" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, \"geom\" MULTIPOLYGON, \"zone\" INTEGER)"
+            }
+          ]
+        }
+      ],
+      "source_unchanged": true,
+      "all_feature_values_identical": true,
+      "geometry_blobs_identical": true,
+      "sqlite_integrity": "ok",
+      "srs_metadata_identical": true,
+      "gdal_readback": {
+        "void_candidates": 13,
+        "enclosing_rings": 13,
+        "stage_differences": 293,
+        "zone_reference": 19
+      },
+      "arcgis_status": "not run"
+    },
+    {
+      "source": "output/n03-municipality-recheck-20261015/differences.gpkg",
+      "source_sha256": "f7a778312c6e8efae1d8b0b8de73dc867c3f2c953cd8f033b416d46d43ed28ac",
+      "output": "output/arcgis-comparison-20261015/differences-typed.gpkg",
+      "output_sha256": "31ea687706575fa076ff8b192f81d875641dc4e9bbb418c97031d828bd6e7f4d",
+      "tables": [
+        {
+          "source_layer": "differences",
+          "source_sql": "CREATE TABLE differences(fid INTEGER PRIMARY KEY,geom BLOB,stage TEXT,key TEXT,direction TEXT,area_m2 REAL)",
+          "source_geometry_metadata": {
+            "table_name": "differences",
+            "column_name": "geom",
+            "geometry_type_name": "GEOMETRY",
+            "srs_id": 6668,
+            "z": 0,
+            "m": 0
+          },
+          "columns": [
+            "fid",
+            "geom",
+            "stage",
+            "key",
+            "direction",
+            "area_m2"
+          ],
+          "before": {
+            "count": 1,
+            "all_columns_sha256": "cb4eecba5b771603ccb5f3a325d5459817eb6b7691e7a8712b09e54d586e19c6"
+          },
+          "after": {
+            "count": 1,
+            "all_columns_sha256": "cb4eecba5b771603ccb5f3a325d5459817eb6b7691e7a8712b09e54d586e19c6"
+          },
+          "layers": [
+            {
+              "table": "differences",
+              "geometry_type": "POLYGON",
+              "before": {
+                "count": 1,
+                "all_columns_sha256": "cb4eecba5b771603ccb5f3a325d5459817eb6b7691e7a8712b09e54d586e19c6"
+              },
+              "after": {
+                "count": 1,
+                "all_columns_sha256": "cb4eecba5b771603ccb5f3a325d5459817eb6b7691e7a8712b09e54d586e19c6"
+              },
+              "sql": "CREATE TABLE \"differences\"(fid INTEGER PRIMARY KEY,geom POLYGON,stage TEXT,key TEXT,direction TEXT,area_m2 REAL)"
+            }
+          ]
+        }
+      ],
+      "source_unchanged": true,
+      "all_feature_values_identical": true,
+      "geometry_blobs_identical": true,
+      "sqlite_integrity": "ok",
+      "srs_metadata_identical": true,
+      "gdal_readback": {
+        "differences": 1
+      },
+      "arcgis_status": "not run"
+    },
+    {
+      "source": "output/zone-exterior-screen-20261015/exterior-screen.gpkg",
+      "source_sha256": "b8c16cb7918aac067bf7c7cd7df94456f28ee2b352eefce7554a5c54b428f241",
+      "output": "output/arcgis-comparison-20261015/exterior-screen-typed.gpkg",
+      "output_sha256": "207cdb830ade203adc5563ee0961dc314d2140f424f0e85bea8d57ce5e33276e",
+      "tables": [
+        {
+          "source_layer": "connectors",
+          "source_sql": "CREATE TABLE \"connectors\" ( \"fid\" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, \"geom\" GEOMETRY, \"candidate_id\" TEXT(16), \"zone_a\" INTEGER, \"zone_b\" INTEGER, \"longitude\" REAL, \"latitude\" REAL, \"connector_width_m\" REAL, \"area_m2\" TEXT(41), \"context\" TEXT(9), \"cause\" TEXT(3), \"decision\" TEXT(19), \"source_point_count\" INTEGER, \"municipality_point_count\" INTEGER, \"evidence\" TEXT(29))",
+          "source_geometry_metadata": {
+            "table_name": "connectors",
+            "column_name": "geom",
+            "geometry_type_name": "GEOMETRY",
+            "srs_id": 6668,
+            "z": 0,
+            "m": 0
+          },
+          "columns": [
+            "fid",
+            "geom",
+            "candidate_id",
+            "zone_a",
+            "zone_b",
+            "longitude",
+            "latitude",
+            "connector_width_m",
+            "area_m2",
+            "context",
+            "cause",
+            "decision",
+            "source_point_count",
+            "municipality_point_count",
+            "evidence"
+          ],
+          "before": {
+            "count": 15897,
+            "all_columns_sha256": "7f0276660caf607d35c30777d67b6313c7fc9b79dadacc71a1dca5ca84a63fb4"
+          },
+          "after": {
+            "count": 15897,
+            "all_columns_sha256": "7f0276660caf607d35c30777d67b6313c7fc9b79dadacc71a1dca5ca84a63fb4"
+          },
+          "layers": [
+            {
+              "table": "connectors",
+              "geometry_type": "LINESTRING",
+              "before": {
+                "count": 15897,
+                "all_columns_sha256": "7f0276660caf607d35c30777d67b6313c7fc9b79dadacc71a1dca5ca84a63fb4"
+              },
+              "after": {
+                "count": 15897,
+                "all_columns_sha256": "7f0276660caf607d35c30777d67b6313c7fc9b79dadacc71a1dca5ca84a63fb4"
+              },
+              "sql": "CREATE TABLE \"connectors\" ( \"fid\" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, \"geom\" LINESTRING, \"candidate_id\" TEXT(16), \"zone_a\" INTEGER, \"zone_b\" INTEGER, \"longitude\" REAL, \"latitude\" REAL, \"connector_width_m\" REAL, \"area_m2\" TEXT(41), \"context\" TEXT(9), \"cause\" TEXT(3), \"decision\" TEXT(19), \"source_point_count\" INTEGER, \"municipality_point_count\" INTEGER, \"evidence\" TEXT(29))"
+            }
+          ]
+        }
+      ],
+      "source_unchanged": true,
+      "all_feature_values_identical": true,
+      "geometry_blobs_identical": true,
+      "sqlite_integrity": "ok",
+      "srs_metadata_identical": true,
+      "gdal_readback": {
+        "connectors": 15897
+      },
+      "arcgis_status": "not run"
+    },
+    {
+      "source": "output/rock-followup-20261015/source-ring-evidence.gpkg",
+      "source_sha256": "1b57b2c98defca19c281209251901f3ba9275b62ba56e667324e654f2479537f",
+      "output": "output/arcgis-comparison-20261015/source-ring-evidence-typed.gpkg",
+      "output_sha256": "8b56dd217365074933b8270a8fc9036ebcd522533e4d42afd6ca3940f437ad1e",
+      "tables": [
+        {
+          "source_layer": "evidence",
+          "source_sql": "CREATE TABLE \"evidence\" ( \"fid\" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, \"geom\" GEOMETRY, \"candidate_id\" TEXT(20), \"role\" TEXT(17), \"source_record\" INTEGER, \"code\" TEXT(5))",
+          "source_geometry_metadata": {
+            "table_name": "evidence",
+            "column_name": "geom",
+            "geometry_type_name": "GEOMETRY",
+            "srs_id": 6668,
+            "z": 0,
+            "m": 0
+          },
+          "columns": [
+            "fid",
+            "geom",
+            "candidate_id",
+            "role",
+            "source_record",
+            "code"
+          ],
+          "before": {
+            "count": 6,
+            "all_columns_sha256": "a071599abdb3ece45d724cd094d63f1542d6cb075ca6052c978e8646573344db"
+          },
+          "after": {
+            "count": 6,
+            "all_columns_sha256": "a071599abdb3ece45d724cd094d63f1542d6cb075ca6052c978e8646573344db"
+          },
+          "layers": [
+            {
+              "table": "evidence",
+              "geometry_type": "POLYGON",
+              "before": {
+                "count": 6,
+                "all_columns_sha256": "a071599abdb3ece45d724cd094d63f1542d6cb075ca6052c978e8646573344db"
+              },
+              "after": {
+                "count": 6,
+                "all_columns_sha256": "a071599abdb3ece45d724cd094d63f1542d6cb075ca6052c978e8646573344db"
+              },
+              "sql": "CREATE TABLE \"evidence\" ( \"fid\" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, \"geom\" POLYGON, \"candidate_id\" TEXT(20), \"role\" TEXT(17), \"source_record\" INTEGER, \"code\" TEXT(5))"
+            }
+          ]
+        }
+      ],
+      "source_unchanged": true,
+      "all_feature_values_identical": true,
+      "geometry_blobs_identical": true,
+      "sqlite_integrity": "ok",
+      "srs_metadata_identical": true,
+      "gdal_readback": {
+        "evidence": 6
+      },
+      "arcgis_status": "not run"
+    },
+    {
+      "source": "docs/zone-gap-audit-20261015/rock-followup/vector-context/vector-context.gpkg",
+      "source_sha256": "404ae11bd4f78577b2c3d14658eff02c27b779974b8c36b0ff8190093272425a",
+      "output": "output/arcgis-comparison-20261015/vector-context-typed.gpkg",
+      "output_sha256": "c3c9c20579ea0ebead5bbaecf522047a9b2549ea384e9ed48fff115eb2c0620a",
+      "tables": [
+        {
+          "source_layer": "context",
+          "source_sql": "CREATE TABLE \"context\" ( \"fid\" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, \"geom\" GEOMETRY, \"candidate_id\" TEXT(20), \"role\" TEXT(22))",
+          "source_geometry_metadata": {
+            "table_name": "context",
+            "column_name": "geom",
+            "geometry_type_name": "GEOMETRY",
+            "srs_id": 6668,
+            "z": 0,
+            "m": 0
+          },
+          "columns": [
+            "fid",
+            "geom",
+            "candidate_id",
+            "role"
+          ],
+          "before": {
+            "count": 6,
+            "all_columns_sha256": "91b17bf058d9a8eebc5c8df0f21181412f4b0f2064dcb14e5be1bd07dd8800af"
+          },
+          "after": {
+            "count": 6,
+            "all_columns_sha256": "91b17bf058d9a8eebc5c8df0f21181412f4b0f2064dcb14e5be1bd07dd8800af"
+          },
+          "layers": [
+            {
+              "table": "context_multipolygon",
+              "geometry_type": "MULTIPOLYGON",
+              "before": {
+                "count": 2,
+                "all_columns_sha256": "0a48714aab739b740611abe9324ff1f80b66ddd183c6b876b7132996a5982ac9"
+              },
+              "after": {
+                "count": 2,
+                "all_columns_sha256": "0a48714aab739b740611abe9324ff1f80b66ddd183c6b876b7132996a5982ac9"
+              },
+              "sql": "CREATE TABLE \"context_multipolygon\" ( \"fid\" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, \"geom\" MULTIPOLYGON, \"candidate_id\" TEXT(20), \"role\" TEXT(22))"
+            },
+            {
+              "table": "context_polygon",
+              "geometry_type": "POLYGON",
+              "before": {
+                "count": 4,
+                "all_columns_sha256": "dd4e02ec45658e3b7435b700a9bf5d208054b3f7fac8ae80e3aaf479bbd3f074"
+              },
+              "after": {
+                "count": 4,
+                "all_columns_sha256": "dd4e02ec45658e3b7435b700a9bf5d208054b3f7fac8ae80e3aaf479bbd3f074"
+              },
+              "sql": "CREATE TABLE \"context_polygon\" ( \"fid\" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, \"geom\" POLYGON, \"candidate_id\" TEXT(20), \"role\" TEXT(22))"
+            }
+          ]
+        }
+      ],
+      "source_unchanged": true,
+      "all_feature_values_identical": true,
+      "geometry_blobs_identical": true,
+      "sqlite_integrity": "ok",
+      "srs_metadata_identical": true,
+      "gdal_readback": {
+        "context_multipolygon": 2,
+        "context_polygon": 4
+      },
+      "arcgis_status": "not run"
+    }
+  ],
+  "hash_algorithm": "SHA-256 of sorted per-row hashes with explicit value types and length prefixes; includes raw geometry BLOB and FID",
+  "scope": "Comparison copies only. SQL declarations, core geometry metadata, names and extents may change. All feature column values preserved. Mixed layers partition by actual type.",
+  "auxiliary_metadata": "Core SRS and feature columns retained; styles, auxiliary tables and spatial indexes are not copied.",
+  "arcgis_status": "Pending user execution; GDAL read-back is a separate check",
+  "repair": "None"
+}

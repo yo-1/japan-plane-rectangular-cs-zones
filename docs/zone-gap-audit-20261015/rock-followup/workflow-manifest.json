@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "path": "scripts/inspect_rock_holes.py",
+      "sha256": "880ce94dfca6085b26403432965eaedcb83dcafdb6c64ec60daf382d9b3c5655"
+    },
+    {
+      "path": "scripts/plot_rock_hole_detail.py",
+      "sha256": "1255fefd3780481cf7054294db11e39ad392ca21718514d048e5f3ffa32f1e3b"
+    },
+    {
+      "path": "scripts/inspect_rock_vector_context.py",
+      "sha256": "0e6c8468ea58587e3a1c51144b202fc6550dab9ca5ded4e7272c0c8fafebe198"
+    },
+    {
+      "path": "tests/test_rock_hole_inspection.py",
+      "sha256": "f9a4b5211fc1bd130bc59ec83cef8aba646e995c323462eb996f896f6b717984"
+    }
+  ]
+}
