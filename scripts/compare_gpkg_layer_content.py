@@ -5,6 +5,7 @@ validate geometric topology. Styles can change the file hash without changing
 feature values. FID is included and duplicate row multiplicity is preserved.
 """
 import argparse
+from contextlib import closing
 import hashlib
 import json
 from pathlib import Path
@@ -43,7 +44,7 @@ def fingerprint(rows):
 def inspect(path, layer, key_field=None, key_value=None):
     path = path.resolve()
     before = digest(path)
-    with sqlite3.connect(path.as_uri()+'?mode=ro', uri=True) as db:
+    with closing(sqlite3.connect(path.as_uri()+'?mode=ro', uri=True)) as db:
         db.execute('PRAGMA query_only=ON')
         if db.execute('PRAGMA integrity_check').fetchone()[0] != 'ok':
             raise ValueError('SQLite integrity failure')
