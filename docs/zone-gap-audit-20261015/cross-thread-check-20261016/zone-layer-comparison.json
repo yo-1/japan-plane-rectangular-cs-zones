@@ -1,0 +1,168 @@
+{
+  "layer": "plane_rectangular_zones_2026",
+  "left": {
+    "path": "output/gap-inputs/plane_rectangular_zones_2026.gpkg",
+    "file_sha256": "9392e5e3fecedbab7ba774dc89c81bc353c265d16d66a1c86f6e341b5946eafc",
+    "columns": [
+      "EPSG",
+      "ZONE",
+      "ZONE_ROMAN",
+      "fid",
+      "geom"
+    ],
+    "all_columns": {
+      "count": 19,
+      "sha256": "70fdd44ba879e4afa53d8fa089983899774532233b937d7a77571574d75aeb23"
+    },
+    "attributes": {
+      "count": 19,
+      "sha256": "ef2cac5d25132d01a733d9e57bced0c04459b26596b055e2e9a710f63e0d0aa6"
+    },
+    "geometry_blobs_ordered_by_fid_sha256": "23fa2d62f395ce192857e2a69444e639e24d4f89c30f4da17d0976b0acb3a02b",
+    "geometry_metadata": [
+      "geom",
+      "MULTIPOLYGON",
+      6668,
+      0,
+      0
+    ],
+    "geometry_sql_type": "MULTIPOLYGON",
+    "column_schema": [
+      [
+        "EPSG",
+        "MEDIUMINT",
+        0,
+        null,
+        0
+      ],
+      [
+        "ZONE",
+        "MEDIUMINT",
+        0,
+        null,
+        0
+      ],
+      [
+        "ZONE_ROMAN",
+        "TEXT(5)",
+        0,
+        null,
+        0
+      ],
+      [
+        "fid",
+        "INTEGER",
+        1,
+        null,
+        1
+      ],
+      [
+        "geom",
+        "MULTIPOLYGON",
+        0,
+        null,
+        0
+      ]
+    ],
+    "srs_definition": [
+      "JGD2011",
+      6668,
+      "EPSG",
+      6668,
+      "GEOGCS[\"JGD2011\",DATUM[\"Japanese_Geodetic_Datum_2011\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"1128\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"6668\"]]",
+      null
+    ],
+    "style_table": {
+      "count": 1,
+      "sha256": "ba4ba88cb22040cac7ec8c6d6dde08cffe3ecf9c62708eeb3241f22800cb8ca3"
+    },
+    "input_unchanged": true
+  },
+  "right": {
+    "path": "output/github-crosscheck-20261016/forest-v03-plane_rectangular_zones_2026.gpkg",
+    "file_sha256": "7f8b35c97d4796cdcbb7a203e5c07c68cd6595597ee5e1f284f9b809587c00d3",
+    "columns": [
+      "EPSG",
+      "ZONE",
+      "ZONE_ROMAN",
+      "fid",
+      "geom"
+    ],
+    "all_columns": {
+      "count": 19,
+      "sha256": "70fdd44ba879e4afa53d8fa089983899774532233b937d7a77571574d75aeb23"
+    },
+    "attributes": {
+      "count": 19,
+      "sha256": "ef2cac5d25132d01a733d9e57bced0c04459b26596b055e2e9a710f63e0d0aa6"
+    },
+    "geometry_blobs_ordered_by_fid_sha256": "23fa2d62f395ce192857e2a69444e639e24d4f89c30f4da17d0976b0acb3a02b",
+    "geometry_metadata": [
+      "geom",
+      "MULTIPOLYGON",
+      6668,
+      0,
+      0
+    ],
+    "geometry_sql_type": "MULTIPOLYGON",
+    "column_schema": [
+      [
+        "EPSG",
+        "MEDIUMINT",
+        0,
+        null,
+        0
+      ],
+      [
+        "ZONE",
+        "MEDIUMINT",
+        0,
+        null,
+        0
+      ],
+      [
+        "ZONE_ROMAN",
+        "TEXT(5)",
+        0,
+        null,
+        0
+      ],
+      [
+        "fid",
+        "INTEGER",
+        1,
+        null,
+        1
+      ],
+      [
+        "geom",
+        "MULTIPOLYGON",
+        0,
+        null,
+        0
+      ]
+    ],
+    "srs_definition": [
+      "JGD2011",
+      6668,
+      "EPSG",
+      6668,
+      "GEOGCS[\"JGD2011\",DATUM[\"Japanese_Geodetic_Datum_2011\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"1128\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"6668\"]]",
+      null
+    ],
+    "style_table": {
+      "count": 2,
+      "sha256": "b8e62d8fdaf746511db09001686539773a5cde226dd4a15d0c3a9a6dc68914ac"
+    },
+    "input_unchanged": true
+  },
+  "same_file": false,
+  "same_feature_values": true,
+  "same_geometry_blobs": true,
+  "same_attributes": true,
+  "same_feature_schema": true,
+  "same_geometry_declaration": true,
+  "same_srs_definition": true,
+  "same_style_table": false,
+  "scope": "File, full feature values (including FID), schema and SRS comparison only; no ArcGIS or new topology check"
+}

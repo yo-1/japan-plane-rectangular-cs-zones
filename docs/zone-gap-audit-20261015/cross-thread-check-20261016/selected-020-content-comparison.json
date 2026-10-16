@@ -1,0 +1,215 @@
+{
+  "layer": "district020_precision_1e9",
+  "right_layer": "districts_upstream_trial",
+  "selection": {
+    "field": "district_code",
+    "value": "020"
+  },
+  "left": {
+    "path": "output/github-crosscheck-20261016/pilot-upstream_precision_pilot.gpkg",
+    "file_sha256": "c38bbefb70154a4214b94cc5421bd8c0a6388df4f2d15ae540d8ba86260e2e51",
+    "columns": [
+      "district_code",
+      "district_name",
+      "fid",
+      "final_usable",
+      "geom"
+    ],
+    "all_columns": {
+      "count": 1,
+      "sha256": "544bed48a3cca34e5dbd4f9dbf7d1e45598a1b30a72f40f1d4d23c49a85345bb"
+    },
+    "attributes": {
+      "count": 1,
+      "sha256": "9135704dec0cc8abf841ffd67bab6b1e7b1ac0744d6191ce5dbd2f21b35a30cb"
+    },
+    "geometry_blobs_ordered_by_fid_sha256": "e528dc86bbb5ab7f41a801bf24b9ddc23ccd523cc274e1917a36da8885eb75b8",
+    "geometry_metadata": [
+      "geom",
+      "MULTIPOLYGON",
+      6668,
+      0,
+      0
+    ],
+    "geometry_sql_type": "MULTIPOLYGON",
+    "column_schema": [
+      [
+        "district_code",
+        "TEXT(3)",
+        0,
+        null,
+        0
+      ],
+      [
+        "district_name",
+        "TEXT(6)",
+        0,
+        null,
+        0
+      ],
+      [
+        "fid",
+        "INTEGER",
+        1,
+        null,
+        1
+      ],
+      [
+        "final_usable",
+        "TEXT(5)",
+        0,
+        null,
+        0
+      ],
+      [
+        "geom",
+        "MULTIPOLYGON",
+        0,
+        null,
+        0
+      ]
+    ],
+    "srs_definition": [
+      "JGD2011",
+      6668,
+      "EPSG",
+      6668,
+      "GEOGCS[\"JGD2011\",DATUM[\"Japanese_Geodetic_Datum_2011\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"1128\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"6668\"]]",
+      null
+    ],
+    "style_table": null,
+    "input_unchanged": true
+  },
+  "right": {
+    "path": "output/github-crosscheck-20261016/expanded-expanded_precision_trial.gpkg",
+    "file_sha256": "e463fc7544bf3f37387d8d9da7afa0f8dc9220ccf64dd85ad15e4aba27846358",
+    "columns": [
+      "basin_code",
+      "basin_name",
+      "district_code",
+      "district_name",
+      "fid",
+      "final_usable",
+      "geom",
+      "original_esri_problem",
+      "source_district_fid",
+      "source_features",
+      "status"
+    ],
+    "all_columns": {
+      "count": 1,
+      "sha256": "115c89c45192a4797829db7265b3e35e04140e41e820f73b5873d3f6fa71f9be"
+    },
+    "attributes": {
+      "count": 1,
+      "sha256": "e47032e77199ca1ef56431018413e75dad29004383fe463159f2cf2db06e132a"
+    },
+    "geometry_blobs_ordered_by_fid_sha256": "e528dc86bbb5ab7f41a801bf24b9ddc23ccd523cc274e1917a36da8885eb75b8",
+    "geometry_metadata": [
+      "geom",
+      "MULTIPOLYGON",
+      6668,
+      0,
+      0
+    ],
+    "geometry_sql_type": "MULTIPOLYGON",
+    "column_schema": [
+      [
+        "basin_code",
+        "TEXT(2)",
+        0,
+        null,
+        0
+      ],
+      [
+        "basin_name",
+        "TEXT(6)",
+        0,
+        null,
+        0
+      ],
+      [
+        "district_code",
+        "TEXT(3)",
+        0,
+        null,
+        0
+      ],
+      [
+        "district_name",
+        "TEXT(6)",
+        0,
+        null,
+        0
+      ],
+      [
+        "fid",
+        "INTEGER",
+        1,
+        null,
+        1
+      ],
+      [
+        "final_usable",
+        "TEXT(5)",
+        0,
+        null,
+        0
+      ],
+      [
+        "geom",
+        "MULTIPOLYGON",
+        0,
+        null,
+        0
+      ],
+      [
+        "original_esri_problem",
+        "TEXT(18)",
+        0,
+        null,
+        0
+      ],
+      [
+        "source_district_fid",
+        "INTEGER",
+        0,
+        null,
+        0
+      ],
+      [
+        "source_features",
+        "INTEGER",
+        0,
+        null,
+        0
+      ],
+      [
+        "status",
+        "TEXT(9)",
+        0,
+        null,
+        0
+      ]
+    ],
+    "srs_definition": [
+      "JGD2011",
+      6668,
+      "EPSG",
+      6668,
+      "GEOGCS[\"JGD2011\",DATUM[\"Japanese_Geodetic_Datum_2011\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"1128\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"6668\"]]",
+      null
+    ],
+    "style_table": null,
+    "input_unchanged": true
+  },
+  "same_file": false,
+  "same_feature_values": false,
+  "same_geometry_blobs": true,
+  "same_attributes": false,
+  "same_feature_schema": false,
+  "same_geometry_declaration": true,
+  "same_srs_definition": true,
+  "same_style_table": true,
+  "scope": "File, full feature values (including FID), schema and SRS comparison only; no ArcGIS or new topology check"
+}

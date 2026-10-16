@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-15",
+  "evidence": "User-provided full Check Geometry log and screenshots",
+  "arcgis_pro_version": "3.7.1 (previously confirmed)",
+  "candidate": "district020_precision_1e9",
+  "input_feature_class": "iwate01",
+  "output_table": "new_datum.gdb/check01",
+  "validation_method": "ESRI",
+  "result": "NO_PROBLEMS_FOUND",
+  "problem_rows": 0,
+  "start_local": "2026-10-15 18:26:00",
+  "end_local": "2026-10-15 18:26:02",
+  "elapsed_seconds": 2.29,
+  "scope": "One pilot district only; source-to-iwate01 lineage follows user test procedure; export parameters and iwate01 feature count not independently captured",
+  "not_verified": [
+    "Nationwide results",
+    "Other reported problematic features",
+    "QGIS GUI validation",
+    "Original reported gap-image locations"
+  ]
+}
