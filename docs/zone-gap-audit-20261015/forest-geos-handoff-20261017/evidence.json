@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-17",
+  "user_reported_gdb_json": {
+    "evidence": "User handoff; JSON/full raw logs not received here",
+    "features": 1,
+    "rings": 2384,
+    "coordinates": 119257,
+    "valid": true,
+    "invalid_rings": 0,
+    "threshold_degree": 9e-09,
+    "positive_nonadjacent_pairs": 1,
+    "ring": 2023,
+    "positions": [
+      54178,
+      54180
+    ],
+    "distance_degree": 7.810203469779092e-09,
+    "old_versions": {
+      "shapely": "2.1.2",
+      "geos": "3.13.1"
+    },
+    "claude_versions_reported": {
+      "shapely": "2.2.0",
+      "geos": "3.14.1"
+    }
+  },
+  "github_observation": {
+    "main_commit": "228ec02190b5356912116d3609f9fdfbae237b85",
+    "pr": 5,
+    "pr_merged": true,
+    "input_kind": "Public expanded trial GPKG, not the user GDB JSON",
+    "gpkg_sha256": "e463fc7544bf3f37387d8d9da7afa0f8dc9220ccf64dd85ad15e4aba27846358",
+    "old_versions": {
+      "shapely": "2.1.2",
+      "geos": "3.13.1"
+    },
+    "new_versions": {
+      "shapely": "2.2.0",
+      "geos": "3.14.1"
+    },
+    "non_version_results_equal": true,
+    "district025": {
+      "attributes": {
+        "fid": 4,
+        "district_code": "025",
+        "district_name": "米代川",
+        "basin_code": "11",
+        "basin_name": "米代・雄物川"
+      },
+      "district_code": "025",
+      "valid": true,
+      "reason": "Valid Geometry",
+      "vertices": 119257,
+      "zero_pairs": 0,
+      "numerical_pairs": 0,
+      "positive_pairs": [
+        {
+          "ring_a": 2023,
+          "vertex_a": 54178,
+          "ring_b": 2023,
+          "vertex_b": 54180,
+          "distance_degree": 7.810264423376394e-09,
+          "coordinate_a": [
+            139.967886278,
+            39.879999685
+          ],
+          "coordinate_b": [
+            139.967886272,
+            39.87999969
+          ]
+        }
+      ]
+    },
+    "sources": [
+      {
+        "path": "docs/precision-audit-20261016/geos-3131.json",
+        "sha256": "dc679cac0c6b9b013b22f166fd2dcf6080c62b456e1470d3dfe739f56d4e8178"
+      },
+      {
+        "path": "docs/precision-audit-20261016/geos-3141.json",
+        "sha256": "e9d4b8f669fec14977612d91670dd920d1898ce37a757452840105fef67c1306"
+      }
+    ]
+  },
+  "candidate_arcgis_comparison_result_received": false,
+  "xy_tolerance_cause": "hypothesis; not independently reproduced by GEOS",
+  "direct_drive_or_branch_chat_completion_confirmed": false,
+  "national_adoption": "on hold",
+  "plane_zone_same_problem_inferred": false,
+  "data_files_modified": false
+}
