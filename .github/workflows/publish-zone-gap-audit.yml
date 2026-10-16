@@ -1,0 +1,124 @@
+name: Publish zone gap investigation
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish-zone-gap-audit-20261015
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install pinned audit libraries
+        run: python -m pip install -r scripts/geometry_audit/requirements.txt scipy==1.18.1
+      - name: Fetch and hash-check original inputs
+        run: python scripts/fetch_zone_gap_inputs.py --output output/gap-inputs
+      - name: Compare all municipalities
+        run: >-
+          python scripts/audit_n03_geometry.py
+          --source-shp output/gap-inputs/N03-20260101.shp
+          --municipalities output/gap-inputs/plane_rectangular_municipalities_2026.gpkg
+          --output output/n03-municipality-recheck-20261015
+      - name: Compare all 19 zones without repair
+        run: >-
+          python scripts/audit_zone_gaps.py
+          --source-shp output/gap-inputs/N03-20260101.shp
+          --municipalities output/gap-inputs/plane_rectangular_municipalities_2026.gpkg
+          --zones output/gap-inputs/plane_rectangular_zones_2026.gpkg
+          --output output/zone-gap-audit-20261015 --workers 1
+      - name: Screen exterior vertex pairs
+        run: >-
+          python scripts/screen_zone_exterior_gaps.py
+          --source-shp output/gap-inputs/N03-20260101.shp
+          --municipalities output/gap-inputs/plane_rectangular_municipalities_2026.gpkg
+          --zones output/gap-inputs/plane_rectangular_zones_2026.gpkg
+          --output output/zone-exterior-screen-20261015
+      - name: Verify source rings
+        run: >-
+          python scripts/inspect_rock_holes.py
+          --source-shp output/gap-inputs/N03-20260101.shp
+          --source-zip output/gap-inputs/N03-20260101_GML.zip
+          --audit output/zone-gap-audit-20261015
+          --output output/rock-followup-20261015
+      - name: Restore recorded vector context and verify original feature values
+        run: |
+          python - <<'PY'
+          import json,sys
+          from pathlib import Path
+          import shapely
+          sys.path.insert(0,'scripts')
+          from audit_zone_gaps import layer
+          from prepare_arcgis_comparison import fingerprint
+          import sqlite3
+          base=Path('docs/zone-gap-audit-20261015/rock-followup/vector-context')
+          features=json.loads((base/'context-features.geojson').read_text())['features']
+          path=base/'vector-context.gpkg'
+          layer(path,'context',[(shapely.from_geojson(json.dumps(f['geometry'])),f['properties']) for f in features])
+          manifest=json.loads(Path('docs/zone-gap-audit-20261015/arcgis-comparison/comparison-verification.json').read_text())
+          expected=next(f['tables'][0]['before'] for f in manifest['files'] if f['source'].endswith('vector-context.gpkg'))
+          with sqlite3.connect(path) as db:
+              assert fingerprint(db.execute('SELECT * FROM context'))==expected
+          PY
+      - name: Validate investigation outputs
+        run: >-
+          python scripts/validate_zone_gap_outputs.py
+          --audit output/zone-gap-audit-20261015
+          --exterior-screen output/zone-exterior-screen-20261015
+          --municipality-review output/n03-municipality-recheck-20261015
+      - name: Create typed comparison copies and verify all feature values
+        run: >-
+          python scripts/prepare_arcgis_comparison.py
+          --input output/zone-gap-audit-20261015/candidates.gpkg
+          --input output/n03-municipality-recheck-20261015/differences.gpkg
+          --input output/zone-exterior-screen-20261015/exterior-screen.gpkg
+          --input output/rock-followup-20261015/source-ring-evidence.gpkg
+          --input docs/zone-gap-audit-20261015/rock-followup/vector-context/vector-context.gpkg
+          --output output/arcgis-comparison-20261015
+      - name: Compile and test with original DBF
+        env:
+          N03_DBF: ${{ github.workspace }}/output/gap-inputs/N03-20260101.dbf
+        run: |
+          python -m compileall -q scripts tests
+          python -m unittest discover -s tests -v
+      - name: Package and verify ZIP members
+        run: python scripts/package_zone_gap_release.py --output output/zone-gap-release-20261015
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verified-zone-gap-release
+          path: |
+            output/zone-gap-release-20261015/*.zip
+            output/zone-gap-release-20261015/*.txt
+            output/zone-gap-release-20261015/package-verification.json
+          if-no-files-found: error
+          retention-days: 14
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          name: verified-zone-gap-release
+          path: output/zone-gap-release-20261015
+      - name: Upload, verify remote digests, publish investigation prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/publish_zone_gap_release.py --directory output/zone-gap-release-20261015
