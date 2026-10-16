@@ -1,0 +1,54 @@
+{
+  "pilot": {
+    "file": "output/github-crosscheck-20261016/pilot-upstream_precision_pilot.gpkg",
+    "sha256": "c38bbefb70154a4214b94cc5421bd8c0a6388df4f2d15ae540d8ba86260e2e51",
+    "layer": "district020_precision_1e9",
+    "attributes": {
+      "fid": 1,
+      "district_code": "020",
+      "district_name": "大槌・気仙川",
+      "final_usable": "false"
+    },
+    "epsg": 6668,
+    "raw_geometry_blob_sha256": "e528dc86bbb5ab7f41a801bf24b9ddc23ccd523cc274e1917a36da8885eb75b8",
+    "normalized_wkb_sha256": "b207896813c147eb966c79d7aae243d5da6e8042ee2f341efe7d90cb77d842d3",
+    "geometry_metadata": [
+      "district020_precision_1e9",
+      "geom",
+      "MULTIPOLYGON",
+      6668,
+      0,
+      0
+    ]
+  },
+  "expanded_020": {
+    "file": "output/github-crosscheck-20261016/expanded-expanded_precision_trial.gpkg",
+    "sha256": "e463fc7544bf3f37387d8d9da7afa0f8dc9220ccf64dd85ad15e4aba27846358",
+    "layer": "districts_upstream_trial",
+    "attributes": {
+      "fid": 1,
+      "source_district_fid": 20,
+      "district_code": "020",
+      "district_name": "大槌・気仙川",
+      "basin_code": "09",
+      "basin_name": "閉伊川",
+      "source_features": 5,
+      "status": "確認用・区域未確定",
+      "final_usable": "false",
+      "original_esri_problem": "self intersections"
+    },
+    "epsg": 6668,
+    "raw_geometry_blob_sha256": "e528dc86bbb5ab7f41a801bf24b9ddc23ccd523cc274e1917a36da8885eb75b8",
+    "normalized_wkb_sha256": "b207896813c147eb966c79d7aae243d5da6e8042ee2f341efe7d90cb77d842d3",
+    "geometry_metadata": [
+      "districts_upstream_trial",
+      "geom",
+      "MULTIPOLYGON",
+      6668,
+      0,
+      0
+    ]
+  },
+  "normalized_coordinates_identical": true,
+  "scope": "GPKG input geometry comparison only; does not identify GDB export or its grid"
+}

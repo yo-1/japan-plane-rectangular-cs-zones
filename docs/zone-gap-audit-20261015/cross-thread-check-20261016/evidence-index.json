@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-16",
+  "forest_main_commit": "d6474648736fa76c15e06a4b32b9f9861c09664b",
+  "forest_main_url": "https://github.com/yo-1/japan-forest-planning-zones/blob/d6474648736fa76c15e06a4b32b9f9861c09664b/docs/ARCGIS_PRO_20261015.md",
+  "releases": [
+    {
+      "tag": "upstream-precision-pilot-20261015",
+      "url": "https://github.com/yo-1/japan-forest-planning-zones/releases/tag/upstream-precision-pilot-20261015",
+      "published_at": "2026-10-15T06:55:02Z",
+      "assets": [
+        {
+          "name": "archive-sha256.txt",
+          "sha256": "sha256:de227716ed858aa0573760bd098aff999007eef5c2d02ccf7ab40a040ab73072",
+          "bytes": 104
+        },
+        {
+          "name": "upstream_precision_pilot_20261015.zip",
+          "sha256": "sha256:47d9172769f0ac1666fbf10bd8d68be2964d9fa43ff990278c7adf7f0df2fb18",
+          "bytes": 16688619
+        }
+      ]
+    },
+    {
+      "tag": "upstream-precision-expanded-20261015",
+      "url": "https://github.com/yo-1/japan-forest-planning-zones/releases/tag/upstream-precision-expanded-20261015",
+      "published_at": "2026-10-15T09:46:33Z",
+      "assets": [
+        {
+          "name": "archive-sha256.txt",
+          "sha256": "sha256:6fdef835cb7683904cf3751a52ca27731b3ebf555f9f5df47f7b854083dba9e9",
+          "bytes": 107
+        },
+        {
+          "name": "upstream_precision_expanded_20261015.zip",
+          "sha256": "sha256:6dada64e51559606687c53dc4283e475319c07954007c84f44840f2f21633dd1",
+          "bytes": 45623514
+        }
+      ]
+    },
+    {
+      "tag": "review-v0.3-20261015",
+      "url": "https://github.com/yo-1/japan-forest-planning-zones/releases/tag/review-v0.3-20261015",
+      "published_at": "2026-10-15T03:54:41Z",
+      "assets": [
+        {
+          "name": "forest_planning_zones_2026_review.zip",
+          "sha256": "sha256:ebe92b11530bf89f72ff8d626de552835810d489296b2acbec1f212514b31a16",
+          "bytes": 358228097
+        },
+        {
+          "name": "municipality_forest_zones_2026_candidate.zip",
+          "sha256": "sha256:5b8f3301bc6da2616c8e55d82aef52cc3353bdcc1e57d0714de1a954fe4ed1d7",
+          "bytes": 176084934
+        },
+        {
+          "name": "review_manifest.json",
+          "sha256": "sha256:73e9caeebbe02e9fca3d9f02981afd46fd2ce5ae3f37a9fd7fb4025341bb21e4",
+          "bytes": 2704
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "sha256": "sha256:acaac605de5ee267c9cb0062e401518648516303535985da7cc5e61c6d3bb27a",
+          "bytes": 215
+        },
+        {
+          "name": "v03-content-verification.json",
+          "sha256": "sha256:19b84dec02251288f11b310d7c0770d8f1355015e4b4996192d5114bbfb55686",
+          "bytes": 1055
+        }
+      ]
+    },
+    {
+      "tag": "arcgis-geometry-type-test-20261015",
+      "url": "https://github.com/yo-1/japan-forest-planning-zones/releases/tag/arcgis-geometry-type-test-20261015",
+      "published_at": "2026-10-15T02:11:41Z",
+      "assets": [
+        {
+          "name": "forest_geometry_type_comparison_20261015.zip",
+          "sha256": "sha256:529bc8ea87297cd18f163028c5d16139ce7b11b4b6b3967d670f5d31e1f35b49",
+          "bytes": 245457823
+        }
+      ]
+    }
+  ],
+  "forest_comparison_and_v03_reported_full_column_hashes": {
+    "forest_plan_districts_provisional": {
+      "count": 158,
+      "comparison_hash": "12dba57c10d48e5984f351131bffec44aa04d2a8f7b7b2ba63794993717434e2",
+      "v03_hash": "12dba57c10d48e5984f351131bffec44aa04d2a8f7b7b2ba63794993717434e2",
+      "match": true
+    },
+    "forest_unassigned_review": {
+      "count": 20,
+      "comparison_hash": "5aba445012be746306158506aa245b68d69677c0a9ac5616bcc10f9ce9898e02",
+      "v03_hash": "5aba445012be746306158506aa245b68d69677c0a9ac5616bcc10f9ce9898e02",
+      "match": true
+    },
+    "forest_wide_basins_provisional": {
+      "count": 44,
+      "comparison_hash": "349d678141a85fcb1a97e63e822eb53f2b2c8be5b976888f5a0454248cb6f176",
+      "v03_hash": "349d678141a85fcb1a97e63e822eb53f2b2c8be5b976888f5a0454248cb6f176",
+      "match": true
+    }
+  },
+  "public_archive_evidence": [
+    {
+      "archive": "upstream_precision_expanded_20261015.zip",
+      "member": "arcgis-district020-runtime-result.json",
+      "sha256": "848db5ce6a58edf7b94ddbb4ee595400502a49d139470f8dbdfc54f62d7fdc7d"
+    },
+    {
+      "archive": "upstream_precision_expanded_20261015.zip",
+      "member": "qgis-trial-result.json",
+      "sha256": "4e0aaced8e5330043326bfb2f2c44eef93b709d4397dfa6070c8468c132fa0b5"
+    },
+    {
+      "archive": "upstream_precision_expanded_20261015.zip",
+      "member": "qgis-control-result.json",
+      "sha256": "353afcea0f8b4b06f42ebdc4c3fd1245e858b37ce8d0ee834e7e7a015db896ad"
+    }
+  ],
+  "direct_access_to_other_chat": false,
+  "scope": "GitHub and previously supplied material; no new ArcGIS or QGIS runtime check"
+}
