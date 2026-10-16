@@ -29,6 +29,8 @@ def main():
                 files[p] = p
     context = Path('docs/zone-gap-audit-20261015/rock-followup/vector-context/vector-context.gpkg')
     files[context] = context
+    if Path('output/snapshot-restoration.json').exists():
+        files[Path('output/snapshot-restoration.json')] = Path('output/snapshot-restoration.json')
     copies = {p: p for p in Path('output/arcgis-comparison-20261015').iterdir() if p.is_file()}
     for p in Path('docs/zone-gap-audit-20261015/arcgis-comparison').iterdir():
         if p.is_file():
@@ -37,7 +39,8 @@ def main():
     readme = '''19系区域の調査資料・図形型比較コピーです。補修版ではありません。
 原典・正式公開v2026.2は変更せず、岩礁付近2件は原典維持・補修保留です。
 調査報告: docs/zone-gap-audit-20261015/README.md
-調査結果・図の記録は初回実施時のものです。今回の再生成結果はoutput/以下にあります。
+初回検証済みの図形・属性・FIDを復元しています。新しい原典監査ではありません。
+今回の復元・型宣言比較の結果はoutput/以下、初回検証記録はdocs/以下にあります。
 再生成時刻やFID順序により、初回GeoPackageやZIPのハッシュと異なる場合があります。
 今回のファイルはPACKAGE-MANIFEST.jsonと添付SHA256SUMS.txtで照合してください。
 ArcGIS実機検証は未完了です。正式データやN03原典本体は同梱しません。

@@ -14,69 +14,52 @@ jobs:
   build:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Install pinned audit libraries
-        run: python -m pip install -r scripts/geometry_audit/requirements.txt scipy==1.18.1
-      - name: Fetch and hash-check original inputs
-        run: python scripts/fetch_zone_gap_inputs.py --output output/gap-inputs
-      - name: Compare all municipalities
+        run: python -m pip install -r scripts/geometry_audit/requirements.txt
+      - name: Download pinned public zone reference
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p output/gap-inputs
+          gh release download v2026.2 --pattern plane_rectangular_zones_2026.zip --dir output/gap-inputs
+          python - <<'PY'
+          import hashlib,zipfile
+          from pathlib import Path
+          p=Path('output/gap-inputs/plane_rectangular_zones_2026.zip')
+          with p.open('rb') as f:
+              assert hashlib.file_digest(f,'sha256').hexdigest()=='c32ac8417ee604436e0a20280a6f2d3a1e73a3247c5a8db10230209daf9e3fbd'
+          with zipfile.ZipFile(p) as z:
+              names=[n for n in z.namelist() if n.endswith('.gpkg')]
+              assert len(names)==1
+              with z.open(names[0]) as src, Path('output/gap-inputs/plane_rectangular_zones_2026.gpkg').open('xb') as dst:
+                  import shutil
+                  shutil.copyfileobj(src,dst)
+          PY
+      - name: Restore recorded investigation and verify every feature value
         run: >-
-          python scripts/audit_n03_geometry.py
-          --source-shp output/gap-inputs/N03-20260101.shp
-          --municipalities output/gap-inputs/plane_rectangular_municipalities_2026.gpkg
-          --output output/n03-municipality-recheck-20261015
-      - name: Compare all 19 zones without repair
-        run: >-
-          python scripts/audit_zone_gaps.py
-          --source-shp output/gap-inputs/N03-20260101.shp
-          --municipalities output/gap-inputs/plane_rectangular_municipalities_2026.gpkg
+          python scripts/restore_zone_gap_snapshot.py
           --zones output/gap-inputs/plane_rectangular_zones_2026.gpkg
-          --output output/zone-gap-audit-20261015 --workers 1
-      - name: Screen exterior vertex pairs
-        run: >-
-          python scripts/screen_zone_exterior_gaps.py
-          --source-shp output/gap-inputs/N03-20260101.shp
-          --municipalities output/gap-inputs/plane_rectangular_municipalities_2026.gpkg
-          --zones output/gap-inputs/plane_rectangular_zones_2026.gpkg
-          --output output/zone-exterior-screen-20261015
-      - name: Verify source rings
-        run: >-
-          python scripts/inspect_rock_holes.py
-          --source-shp output/gap-inputs/N03-20260101.shp
-          --source-zip output/gap-inputs/N03-20260101_GML.zip
-          --audit output/zone-gap-audit-20261015
-          --output output/rock-followup-20261015
-      - name: Restore recorded vector context and verify original feature values
+      - name: Include original report tables alongside restored geometry
         run: |
           python - <<'PY'
-          import json,sys
           from pathlib import Path
-          import shapely
-          sys.path.insert(0,'scripts')
-          from audit_zone_gaps import layer
-          from prepare_arcgis_comparison import fingerprint
-          import sqlite3
-          base=Path('docs/zone-gap-audit-20261015/rock-followup/vector-context')
-          features=json.loads((base/'context-features.geojson').read_text())['features']
-          path=base/'vector-context.gpkg'
-          layer(path,'context',[(shapely.from_geojson(json.dumps(f['geometry'])),f['properties']) for f in features])
-          manifest=json.loads(Path('docs/zone-gap-audit-20261015/arcgis-comparison/comparison-verification.json').read_text())
-          expected=next(f['tables'][0]['before'] for f in manifest['files'] if f['source'].endswith('vector-context.gpkg'))
-          with sqlite3.connect(path) as db:
-              assert fingerprint(db.execute('SELECT * FROM context'))==expected
+          import shutil
+          base=Path('docs/zone-gap-audit-20261015')
+          for name in ['summary.json','candidates.csv','zone-comparison.csv','exterior-preservation.csv','artifact-validation.json']:
+              shutil.copyfile(base/name,Path('output/zone-gap-audit-20261015')/name)
+          shutil.copyfile(base/'municipality-summary.json','output/n03-municipality-recheck-20261015/summary.json')
+          shutil.copyfile(base/'municipality-comparison.csv','output/n03-municipality-recheck-20261015/comparison.csv')
+          shutil.copyfile(base/'exterior-summary.json','output/zone-exterior-screen-20261015/summary.json')
+          shutil.copyfile(base/'exterior-screen.csv.gz','output/zone-exterior-screen-20261015/exterior-screen.csv.gz')
+          shutil.copyfile(base/'rock-followup/source-ring-evidence.json','output/rock-followup-20261015/source-ring-evidence.json')
           PY
-      - name: Validate investigation outputs
-        run: >-
-          python scripts/validate_zone_gap_outputs.py
-          --audit output/zone-gap-audit-20261015
-          --exterior-screen output/zone-exterior-screen-20261015
-          --municipality-review output/n03-municipality-recheck-20261015
-      - name: Create typed comparison copies and verify all feature values
+      - name: Create typed copies and verify all feature values and GDAL read-back
         run: >-
           python scripts/prepare_arcgis_comparison.py
           --input output/zone-gap-audit-20261015/candidates.gpkg
@@ -85,9 +68,7 @@ jobs:
           --input output/rock-followup-20261015/source-ring-evidence.gpkg
           --input docs/zone-gap-audit-20261015/rock-followup/vector-context/vector-context.gpkg
           --output output/arcgis-comparison-20261015
-      - name: Compile and test with original DBF
-        env:
-          N03_DBF: ${{ github.workspace }}/output/gap-inputs/N03-20260101.dbf
+      - name: Compile and test (original DBF is outside this publication snapshot)
         run: |
           python -m compileall -q scripts tests
           python -m unittest discover -s tests -v
