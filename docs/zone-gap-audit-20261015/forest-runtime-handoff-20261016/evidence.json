@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-16",
+  "runtime_evidence_source": "User-provided handoff summary; original GDB JSON/full logs not received here",
+  "arcgis_pro_version_reported": "3.7.1",
+  "v03_gdb_check_reported": {
+    "method": "ESRI",
+    "self_intersection_rows": 7,
+    "short_segment_rows": 14,
+    "total_problem_rows": 21,
+    "distinct_feature_count": null
+  },
+  "expanded_trial_check_reported": {
+    "input": "districts_trial21",
+    "method": "ESRI",
+    "problem_rows": 1,
+    "FEATURE_ID": 4,
+    "district_code": "025",
+    "district_name": "米代川",
+    "PROBLEM": "self intersections"
+  },
+  "gpkg_candidate_direct_observation": {
+    "member_sha256": "e463fc7544bf3f37387d8d9da7afa0f8dc9220ccf64dd85ad15e4aba27846358",
+    "layer": "districts_upstream_trial",
+    "selection_field": "district_code",
+    "selection_value": "025",
+    "attributes": {
+      "fid": 4,
+      "source_district_fid": 25,
+      "district_code": "025",
+      "district_name": "米代川",
+      "basin_code": "11",
+      "basin_name": "米代・雄物川",
+      "source_features": 15,
+      "status": "確認用・区域未確定",
+      "final_usable": "false",
+      "original_esri_problem": "self intersections"
+    },
+    "epsg": 6668,
+    "geometry_blob_sha256": "1bb64fc7907c6c493a45da067f414fe44cd01fd1f2405495677391ef8d261c61",
+    "geos_valid": true,
+    "shapely": "2.1.2",
+    "geos": "3.13.1"
+  },
+  "claude_environment_reported": {
+    "shapely": "2.2.0",
+    "geos": "3.14.1"
+  },
+  "claude_latest_analysis_contents_received": false,
+  "cause_status": "undetermined; investigation owned by forest main thread/Claude",
+  "github_forest_main_checked": "d6474648736fa76c15e06a4b32b9f9861c09664b",
+  "github_expanded_release_description_status": "still states ESRI not run; superseded by later user-reported results",
+  "nationwide_precision_adoption": "on hold",
+  "source_or_released_data_files_modified": false
+}
