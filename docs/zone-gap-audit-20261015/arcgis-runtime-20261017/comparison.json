@@ -1,0 +1,718 @@
+{
+  "json_sha256": "37acbb8f0b6602f35f01f9fd0de664b029e41eac1ac959caf17611296ae87dea",
+  "gpkg_sha256": "874f085882f79d55bb41d986210bc58654db9d41827ea09b62e8def9738c9cd3",
+  "spatialReference": {
+    "wkid": 104020,
+    "latestWkid": 6668
+  },
+  "shapely": "2.1.2",
+  "geos": "3.13.1",
+  "pyproj": "3.8.0",
+  "xy_resolution_degree": 1e-09,
+  "xy_tolerance_degree": 8.98315284119521e-09,
+  "xy_settings_origin": "User screenshot of output GDB; not read from JSON",
+  "features": [
+    {
+      "objectid": 1,
+      "candidate_id": "gap-21f4eea28bd4af31",
+      "source_valid": true,
+      "json_valid": true,
+      "json_validity": "Valid Geometry",
+      "source_coordinate_count": 5,
+      "json_coordinate_count": 5,
+      "ordered_coordinate_max_delta_degree": 1.1368683772161603e-13,
+      "changed_coordinate_count": 2,
+      "grid_1e9_to_json_max_delta_degree": 1.1368683772161603e-13,
+      "json_minimum_clearance_degree": 0.0023036646092348106,
+      "clearance_over_xy_tolerance": 256442.77125850477,
+      "nonadjacent_pairs_within_xy_tolerance": [],
+      "source_nonadjacent_pairs_within_xy_tolerance": [],
+      "source_area_m2_geodesic": 60150.360958099365,
+      "json_area_m2_geodesic": 60150.36096346378,
+      "source_local_laea_area_m2": 60150.36094011383,
+      "json_local_laea_area_m2": 60150.36094128274,
+      "source_local_laea_rectangle_width_m": 236.4603326507707,
+      "json_local_laea_rectangle_width_m": 236.46033264898244,
+      "source_local_laea_centroid": [
+        -6.262937355646323e-05,
+        0.001878901504795369
+      ],
+      "attribute_mismatches": [],
+      "source_area_degree2": 5.872960784573271e-06,
+      "json_area_degree2": 5.872960784686721e-06,
+      "pointwise_grid_diagnostics": [
+        {
+          "grid_degree": 1e-10,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 5.872960784795193e-06
+        },
+        {
+          "grid_degree": 1e-09,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 5.872960784795193e-06
+        },
+        {
+          "grid_degree": 1e-08,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 5.8729514080074025e-06
+        }
+      ]
+    },
+    {
+      "objectid": 2,
+      "candidate_id": "gap-25f67c482ea1c996",
+      "source_valid": true,
+      "json_valid": true,
+      "json_validity": "Valid Geometry",
+      "source_coordinate_count": 5,
+      "json_coordinate_count": 5,
+      "ordered_coordinate_max_delta_degree": 1.1368683772161603e-13,
+      "changed_coordinate_count": 5,
+      "grid_1e9_to_json_max_delta_degree": 1.1368683772161603e-13,
+      "json_minimum_clearance_degree": 0.0003287051201082062,
+      "clearance_over_xy_tolerance": 36591.28659158736,
+      "nonadjacent_pairs_within_xy_tolerance": [],
+      "source_nonadjacent_pairs_within_xy_tolerance": [],
+      "source_area_m2_geodesic": 3705.602811485529,
+      "json_area_m2_geodesic": 3705.602812409401,
+      "source_local_laea_area_m2": 3705.6028129476,
+      "json_local_laea_area_m2": 3705.6028131137286,
+      "source_local_laea_rectangle_width_m": 30.41366159225761,
+      "json_local_laea_rectangle_width_m": 30.413661596401333,
+      "source_local_laea_centroid": [
+        0.06808714427391252,
+        -0.14762529726259194
+      ],
+      "attribute_mismatches": [],
+      "source_area_degree2": 3.9290846881507703e-07,
+      "json_area_degree2": 3.929084688216044e-07,
+      "pointwise_grid_diagnostics": [
+        {
+          "grid_degree": 1e-10,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 3.9290846881507703e-07
+        },
+        {
+          "grid_degree": 1e-09,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 3.9290846881507703e-07
+        },
+        {
+          "grid_degree": 1e-08,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 3.9290488179036486e-07
+        }
+      ]
+    },
+    {
+      "objectid": 3,
+      "candidate_id": "gap-2cfa5a8f6e759bce",
+      "source_valid": true,
+      "json_valid": true,
+      "json_validity": "Valid Geometry",
+      "source_coordinate_count": 5,
+      "json_coordinate_count": 5,
+      "ordered_coordinate_max_delta_degree": 5.000231340090977e-10,
+      "changed_coordinate_count": 4,
+      "grid_1e9_to_json_max_delta_degree": 8.526512829121202e-14,
+      "json_minimum_clearance_degree": 7.588864691354502e-10,
+      "clearance_over_xy_tolerance": 0.08447885531406368,
+      "nonadjacent_pairs_within_xy_tolerance": [
+        {
+          "positions_zero_based": [
+            1,
+            3
+          ],
+          "distance_degree": 9.999894245993346e-10
+        }
+      ],
+      "source_nonadjacent_pairs_within_xy_tolerance": [
+        {
+          "positions_zero_based": [
+            1,
+            3
+          ],
+          "distance_degree": 1.3176970279406612e-09
+        }
+      ],
+      "source_area_m2_geodesic": 0.0008306603995151818,
+      "json_area_m2_geodesic": 0.0004923527012579143,
+      "source_local_laea_area_m2": 0.0008285579927900244,
+      "json_local_laea_area_m2": 0.0004810243681916404,
+      "source_local_laea_rectangle_width_m": 0.0002562280579872697,
+      "json_local_laea_rectangle_width_m": 0.0002001316066652697,
+      "source_local_laea_centroid": [
+        1.236777476317754,
+        -1.7960749432684662
+      ],
+      "attribute_mismatches": [],
+      "source_area_degree2": 8.325204503538762e-14,
+      "json_area_degree2": 4.833298887240751e-14,
+      "pointwise_grid_diagnostics": [
+        {
+          "grid_degree": 1e-10,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 8.611151470251902e-14
+        },
+        {
+          "grid_degree": 1e-09,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 4.8332988855036717e-14
+        },
+        {
+          "grid_degree": 1e-08,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 4.833003834141369e-13
+        }
+      ]
+    },
+    {
+      "objectid": 4,
+      "candidate_id": "gap-5eef01ecfce67d1b",
+      "source_valid": true,
+      "json_valid": true,
+      "json_validity": "Valid Geometry",
+      "source_coordinate_count": 1521,
+      "json_coordinate_count": 1521,
+      "ordered_coordinate_max_delta_degree": 4.999947122996673e-10,
+      "changed_coordinate_count": 1324,
+      "grid_1e9_to_json_max_delta_degree": 9.999325811804738e-10,
+      "json_minimum_clearance_degree": 2.555384802386571e-08,
+      "clearance_over_xy_tolerance": 2.8446413498254324,
+      "nonadjacent_pairs_within_xy_tolerance": [],
+      "source_nonadjacent_pairs_within_xy_tolerance": [],
+      "source_area_m2_geodesic": 199963.069193827,
+      "json_area_m2_geodesic": 199963.06931728125,
+      "source_local_laea_area_m2": 199963.06331029884,
+      "json_local_laea_area_m2": 199963.0634422725,
+      "source_local_laea_rectangle_width_m": 339.32351043261156,
+      "json_local_laea_rectangle_width_m": 339.32351043615563,
+      "source_local_laea_centroid": [
+        -13.2256472823991,
+        6.9364777205618955
+      ],
+      "attribute_mismatches": [],
+      "source_area_degree2": 1.9524564733660563e-05,
+      "json_area_degree2": 1.9524564746530568e-05,
+      "pointwise_grid_diagnostics": [
+        {
+          "grid_degree": 1e-10,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.952456473010257e-05
+        },
+        {
+          "grid_degree": 1e-09,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.9524564746506214e-05
+        },
+        {
+          "grid_degree": 1e-08,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.9524588975675212e-05
+        }
+      ]
+    },
+    {
+      "objectid": 5,
+      "candidate_id": "gap-688a5e874ac9ec69",
+      "source_valid": true,
+      "json_valid": true,
+      "json_validity": "Valid Geometry",
+      "source_coordinate_count": 4,
+      "json_coordinate_count": 4,
+      "ordered_coordinate_max_delta_degree": 1.1368683772161603e-13,
+      "changed_coordinate_count": 4,
+      "grid_1e9_to_json_max_delta_degree": 1.1368683772161603e-13,
+      "json_minimum_clearance_degree": 3.656619900287876e-05,
+      "clearance_over_xy_tolerance": 4070.5306532459736,
+      "nonadjacent_pairs_within_xy_tolerance": [],
+      "source_nonadjacent_pairs_within_xy_tolerance": [],
+      "source_area_m2_geodesic": 11.067358817905188,
+      "json_area_m2_geodesic": 11.067367512732744,
+      "source_local_laea_area_m2": 11.06736690881727,
+      "json_local_laea_area_m2": 11.067366865620123,
+      "source_local_laea_rectangle_width_m": 4.158095738062603,
+      "json_local_laea_rectangle_width_m": 4.164060378350039,
+      "source_local_laea_centroid": [
+        0.3679125792267531,
+        -1.3322481013796514
+      ],
+      "attribute_mismatches": [],
+      "source_area_degree2": 1.1552282185802033e-09,
+      "json_area_degree2": 1.1552282141158917e-09,
+      "pointwise_grid_diagnostics": [
+        {
+          "grid_degree": 1e-10,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.1552282163489144e-09
+        },
+        {
+          "grid_degree": 1e-09,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.1552282163489144e-09
+        },
+        {
+          "grid_degree": 1e-08,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.1551475000623679e-09
+        }
+      ]
+    },
+    {
+      "objectid": 6,
+      "candidate_id": "gap-8113f3b0bf65eea8",
+      "source_valid": true,
+      "json_valid": true,
+      "json_validity": "Valid Geometry",
+      "source_coordinate_count": 5,
+      "json_coordinate_count": 5,
+      "ordered_coordinate_max_delta_degree": 5.000231340090977e-10,
+      "changed_coordinate_count": 5,
+      "grid_1e9_to_json_max_delta_degree": 1.1368683772161603e-13,
+      "json_minimum_clearance_degree": 7.118932215427457e-10,
+      "clearance_over_xy_tolerance": 0.07924759092132158,
+      "nonadjacent_pairs_within_xy_tolerance": [
+        {
+          "positions_zero_based": [
+            1,
+            3
+          ],
+          "distance_degree": 9.999894245993346e-10
+        }
+      ],
+      "source_nonadjacent_pairs_within_xy_tolerance": [
+        {
+          "positions_zero_based": [
+            1,
+            3
+          ],
+          "distance_degree": 1.3176970279406612e-09
+        }
+      ],
+      "source_area_m2_geodesic": 0.0013672072091139853,
+      "json_area_m2_geodesic": 0.0007524385873693973,
+      "source_local_laea_area_m2": 0.001376081088650949,
+      "json_local_laea_area_m2": 0.0007547097055038421,
+      "source_local_laea_rectangle_width_m": 0.0004447976422881801,
+      "json_local_laea_rectangle_width_m": 0.00044503157982048777,
+      "source_local_laea_centroid": [
+        2.242543609063919,
+        -2.8126442748300025
+      ],
+      "attribute_mismatches": [],
+      "source_area_degree2": 1.3826631005307158e-13,
+      "json_area_degree2": 7.583269803537136e-14,
+      "pointwise_grid_diagnostics": [
+        {
+          "grid_degree": 1e-10,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.4326166598311952e-13
+        },
+        {
+          "grid_degree": 1e-09,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 7.583269803206264e-14
+        },
+        {
+          "grid_degree": 1e-08,
+          "valid": false,
+          "validity": "Ring Self-intersection[138.62104387 36.41666667]",
+          "area_degree2": 0.0
+        }
+      ]
+    },
+    {
+      "objectid": 7,
+      "candidate_id": "gap-88bbd3fb93920ed1",
+      "source_valid": true,
+      "json_valid": true,
+      "json_validity": "Valid Geometry",
+      "source_coordinate_count": 5,
+      "json_coordinate_count": 5,
+      "ordered_coordinate_max_delta_degree": 5.000231340090977e-10,
+      "changed_coordinate_count": 2,
+      "grid_1e9_to_json_max_delta_degree": 1.1368683772161603e-13,
+      "json_minimum_clearance_degree": 4.685032282187424e-10,
+      "clearance_over_xy_tolerance": 0.05215354080031527,
+      "nonadjacent_pairs_within_xy_tolerance": [
+        {
+          "positions_zero_based": [
+            1,
+            3
+          ],
+          "distance_degree": 9.999894245993346e-10
+        }
+      ],
+      "source_nonadjacent_pairs_within_xy_tolerance": [
+        {
+          "positions_zero_based": [
+            1,
+            3
+          ],
+          "distance_degree": 1.3176300694186517e-09
+        }
+      ],
+      "source_area_m2_geodesic": 0.0045811961172148585,
+      "json_area_m2_geodesic": 0.0018539748853072524,
+      "source_local_laea_area_m2": 0.004581387619114086,
+      "json_local_laea_area_m2": 0.0018342650842892994,
+      "source_local_laea_rectangle_width_m": 0.00021906592372054613,
+      "json_local_laea_rectangle_width_m": 0.00020816694000737638,
+      "source_local_laea_centroid": [
+        -10.402586228188925,
+        -6.8254358975768685
+      ],
+      "attribute_mismatches": [],
+      "source_area_degree2": 4.603342929609708e-13,
+      "json_area_degree2": 1.843045509022583e-13,
+      "pointwise_grid_diagnostics": [
+        {
+          "grid_degree": 1e-10,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 4.623381738891683e-13
+        },
+        {
+          "grid_degree": 1e-09,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.843045508844739e-13
+        },
+        {
+          "grid_degree": 1e-08,
+          "valid": false,
+          "validity": "Ring Self-intersection[138.62947489 36.41666667]",
+          "area_degree2": 0.0
+        }
+      ]
+    },
+    {
+      "objectid": 8,
+      "candidate_id": "gap-8b1735220aa5e6e5",
+      "source_valid": true,
+      "json_valid": true,
+      "json_validity": "Valid Geometry",
+      "source_coordinate_count": 28,
+      "json_coordinate_count": 28,
+      "ordered_coordinate_max_delta_degree": 1.1368683772161603e-13,
+      "changed_coordinate_count": 28,
+      "grid_1e9_to_json_max_delta_degree": 1.1368683772161603e-13,
+      "json_minimum_clearance_degree": 3.7148153867595024e-06,
+      "clearance_over_xy_tolerance": 413.53135724508564,
+      "nonadjacent_pairs_within_xy_tolerance": [],
+      "source_nonadjacent_pairs_within_xy_tolerance": [],
+      "source_area_m2_geodesic": 1808.445158675866,
+      "json_area_m2_geodesic": 1808.4450832065777,
+      "source_local_laea_area_m2": 1808.4451196802402,
+      "json_local_laea_area_m2": 1808.4451195862814,
+      "source_local_laea_rectangle_width_m": 39.33645691240159,
+      "json_local_laea_rectangle_width_m": 39.33645691499081,
+      "source_local_laea_centroid": [
+        0.032336475378208135,
+        1.21128560123972
+      ],
+      "attribute_mismatches": [],
+      "source_area_degree2": 1.8923197078634725e-07,
+      "json_area_degree2": 1.8923197077642977e-07,
+      "pointwise_grid_diagnostics": [
+        {
+          "grid_degree": 1e-10,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.8923197078634725e-07
+        },
+        {
+          "grid_degree": 1e-09,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.8923197078634725e-07
+        },
+        {
+          "grid_degree": 1e-08,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.892334342026081e-07
+        }
+      ]
+    },
+    {
+      "objectid": 9,
+      "candidate_id": "gap-9795735d3cabea7c",
+      "source_valid": true,
+      "json_valid": true,
+      "json_validity": "Valid Geometry",
+      "source_coordinate_count": 121,
+      "json_coordinate_count": 121,
+      "ordered_coordinate_max_delta_degree": 1.1368683772161603e-13,
+      "changed_coordinate_count": 97,
+      "grid_1e9_to_json_max_delta_degree": 1.1368683772161603e-13,
+      "json_minimum_clearance_degree": 1.7999997226070263e-07,
+      "clearance_over_xy_tolerance": 20.037505254864794,
+      "nonadjacent_pairs_within_xy_tolerance": [],
+      "source_nonadjacent_pairs_within_xy_tolerance": [],
+      "source_area_m2_geodesic": 166.38834859901908,
+      "json_area_m2_geodesic": 166.38840470860487,
+      "source_local_laea_area_m2": 166.3884604418683,
+      "json_local_laea_area_m2": 166.38846035614552,
+      "source_local_laea_rectangle_width_m": 15.578811993947317,
+      "json_local_laea_rectangle_width_m": 15.578811988303569,
+      "source_local_laea_centroid": [
+        -3.582782156855276,
+        0.8069640294787511
+      ],
+      "attribute_mismatches": [],
+      "source_area_degree2": 1.7204503961978003e-08,
+      "json_area_degree2": 1.7204503952264064e-08,
+      "pointwise_grid_diagnostics": [
+        {
+          "grid_degree": 1e-10,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.720450395450164e-08
+        },
+        {
+          "grid_degree": 1e-09,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.720450395450164e-08
+        },
+        {
+          "grid_degree": 1e-08,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.720466414979374e-08
+        }
+      ]
+    },
+    {
+      "objectid": 10,
+      "candidate_id": "gap-ab65ca6070d02661",
+      "source_valid": true,
+      "json_valid": true,
+      "json_validity": "Valid Geometry",
+      "source_coordinate_count": 214,
+      "json_coordinate_count": 214,
+      "ordered_coordinate_max_delta_degree": 1.1368683772161603e-13,
+      "changed_coordinate_count": 214,
+      "grid_1e9_to_json_max_delta_degree": 1.1368683772161603e-13,
+      "json_minimum_clearance_degree": 4.632696090200781e-06,
+      "clearance_over_xy_tolerance": 515.7093697611406,
+      "nonadjacent_pairs_within_xy_tolerance": [],
+      "source_nonadjacent_pairs_within_xy_tolerance": [],
+      "source_area_m2_geodesic": 195225.5017907041,
+      "json_area_m2_geodesic": 195225.50179442056,
+      "source_local_laea_area_m2": 195225.50422636303,
+      "json_local_laea_area_m2": 195225.5042262751,
+      "source_local_laea_rectangle_width_m": 288.6798496230031,
+      "json_local_laea_rectangle_width_m": 288.67984962450106,
+      "source_local_laea_centroid": [
+        -40.396124613870626,
+        -20.334487604021582
+      ],
+      "attribute_mismatches": [],
+      "source_area_degree2": 1.736664120602639e-05,
+      "json_area_degree2": 1.736664120604586e-05,
+      "pointwise_grid_diagnostics": [
+        {
+          "grid_degree": 1e-10,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.736664120602639e-05
+        },
+        {
+          "grid_degree": 1e-09,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.736664120602639e-05
+        },
+        {
+          "grid_degree": 1e-08,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.7366642924902826e-05
+        }
+      ]
+    },
+    {
+      "objectid": 11,
+      "candidate_id": "gap-b7f28ed2a89fa1dd",
+      "source_valid": true,
+      "json_valid": true,
+      "json_validity": "Valid Geometry",
+      "source_coordinate_count": 5,
+      "json_coordinate_count": 5,
+      "ordered_coordinate_max_delta_degree": 5.000231340090977e-10,
+      "changed_coordinate_count": 5,
+      "grid_1e9_to_json_max_delta_degree": 1.1368683772161603e-13,
+      "json_minimum_clearance_degree": 5.216591846993611e-10,
+      "clearance_over_xy_tolerance": 0.05807083480836716,
+      "nonadjacent_pairs_within_xy_tolerance": [
+        {
+          "positions_zero_based": [
+            1,
+            3
+          ],
+          "distance_degree": 9.999894245993346e-10
+        }
+      ],
+      "source_nonadjacent_pairs_within_xy_tolerance": [
+        {
+          "positions_zero_based": [
+            1,
+            3
+          ],
+          "distance_degree": 1.3176502930497479e-09
+        }
+      ],
+      "source_area_m2_geodesic": 0.003106977615971118,
+      "json_area_m2_geodesic": 0.0013513310113921762,
+      "source_local_laea_area_m2": 0.0031419732978102966,
+      "json_local_laea_area_m2": 0.0013601365090892825,
+      "source_local_laea_rectangle_width_m": 0.0002232642861955887,
+      "json_local_laea_rectangle_width_m": 0.00021467696297768142,
+      "source_local_laea_centroid": [
+        -6.692175194425899,
+        -5.062835837083488
+      ],
+      "attribute_mismatches": [],
+      "source_area_degree2": 3.1570301057923904e-13,
+      "json_area_degree2": 1.3666555471262397e-13,
+      "pointwise_grid_diagnostics": [
+        {
+          "grid_degree": 1e-10,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 3.1547625379523677e-13
+        },
+        {
+          "grid_degree": 1e-09,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 1.3666555469131114e-13
+        },
+        {
+          "grid_degree": 1e-08,
+          "valid": false,
+          "validity": "Ring Self-intersection[138.55319882 36.41666667]",
+          "area_degree2": 0.0
+        }
+      ]
+    },
+    {
+      "objectid": 12,
+      "candidate_id": "gap-bfb40440ce6f5ac1",
+      "source_valid": true,
+      "json_valid": true,
+      "json_validity": "Valid Geometry",
+      "source_coordinate_count": 30,
+      "json_coordinate_count": 30,
+      "ordered_coordinate_max_delta_degree": 1.1368683772161603e-13,
+      "changed_coordinate_count": 30,
+      "grid_1e9_to_json_max_delta_degree": 1.1368683772161603e-13,
+      "json_minimum_clearance_degree": 8.111041919870745e-07,
+      "clearance_over_xy_tolerance": 90.29170563229079,
+      "nonadjacent_pairs_within_xy_tolerance": [],
+      "source_nonadjacent_pairs_within_xy_tolerance": [],
+      "source_area_m2_geodesic": 64.55677117730556,
+      "json_area_m2_geodesic": 64.55680992517955,
+      "source_local_laea_area_m2": 64.55677955789493,
+      "json_local_laea_area_m2": 64.55677953501221,
+      "source_local_laea_rectangle_width_m": 7.53098195082871,
+      "json_local_laea_rectangle_width_m": 7.53098194941415,
+      "source_local_laea_centroid": [
+        0.39747925070381074,
+        -0.8468486892129365
+      ],
+      "attribute_mismatches": [],
+      "source_area_degree2": 6.837176377078289e-09,
+      "json_area_degree2": 6.837176375116988e-09,
+      "pointwise_grid_diagnostics": [
+        {
+          "grid_degree": 1e-10,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 6.837176377078289e-09
+        },
+        {
+          "grid_degree": 1e-09,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 6.837176377078289e-09
+        },
+        {
+          "grid_degree": 1e-08,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 6.837033399757296e-09
+        }
+      ]
+    },
+    {
+      "objectid": 13,
+      "candidate_id": "gap-c578d39966036c02",
+      "source_valid": true,
+      "json_valid": true,
+      "json_validity": "Valid Geometry",
+      "source_coordinate_count": 185,
+      "json_coordinate_count": 185,
+      "ordered_coordinate_max_delta_degree": 2.2737367544323206e-13,
+      "changed_coordinate_count": 155,
+      "grid_1e9_to_json_max_delta_degree": 1.1368683772161603e-13,
+      "json_minimum_clearance_degree": 6.745023806915427e-06,
+      "clearance_over_xy_tolerance": 750.8526155743333,
+      "nonadjacent_pairs_within_xy_tolerance": [],
+      "source_nonadjacent_pairs_within_xy_tolerance": [],
+      "source_area_m2_geodesic": 38710.23422437399,
+      "json_area_m2_geodesic": 38710.234172843804,
+      "source_local_laea_area_m2": 38710.234509709975,
+      "json_local_laea_area_m2": 38710.234509528964,
+      "source_local_laea_rectangle_width_m": 193.2076517251328,
+      "json_local_laea_rectangle_width_m": 193.20765172529747,
+      "source_local_laea_centroid": [
+        0.8525053903137997,
+        10.313331059151352
+      ],
+      "attribute_mismatches": [],
+      "source_area_degree2": 3.779660874470833e-06,
+      "json_area_degree2": 3.7796608744626512e-06,
+      "pointwise_grid_diagnostics": [
+        {
+          "grid_degree": 1e-10,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 3.77966087444862e-06
+        },
+        {
+          "grid_degree": 1e-09,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 3.77966087444862e-06
+        },
+        {
+          "grid_degree": 1e-08,
+          "valid": true,
+          "validity": "Valid Geometry",
+          "area_degree2": 3.7796743938470035e-06
+        }
+      ]
+    }
+  ],
+  "input_hashes_unchanged": true
+}

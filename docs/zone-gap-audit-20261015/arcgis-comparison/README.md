@@ -1,6 +1,6 @@
 # 調査用GeoPackageの図形型比較コピー（2026-10-15）
 
-森林側で得られたSQL図形型宣言の知見を踏まえ、19系調査成果物の**比較用コピー5ファイル・9レイヤ**を作成しました。公開v2026.2や元の調査用GeoPackageは変更していません。補修は0件です。ArcGIS上での動作は未確認です。
+森林側で得られたSQL図形型宣言の知見を踏まえ、19系調査成果物の**比較用コピー5ファイル・9レイヤ**を作成しました。公開v2026.2や元の調査用GeoPackageは変更していません。補修は0件です。2026-10-17に `void_candidates` 13件の実機確認を追加しました。GPKG直接は13件合格、GDB変換後のEsri検査は系間候補4件で自己交差でした。[座標比較と確認範囲](../arcgis-runtime-20261017/README.md)を参照してください。他レイヤへこの結果を一般化しません。
 
 | 比較用ファイル | レイヤと件数 | SQL・GeoPackage図形型 |
 |---|---|---|
@@ -41,7 +41,7 @@ SQLiteの整合性・外部キー検査、SRSメタデータの一致を確認�
 
 入力は読み取り専用で開きます。空レイヤ、NULL・空・不正な図形、GeometryCollection、Z/M付き図形などは、曖昧な宣言にせずエラーとして停止します。更新時刻が含まれるので再実行時のファイルハッシュは変わり得ます。各回の `comparison-verification.json` で全列値の同一性を確認してください。
 
-大きなGeoPackage本体はGit管理外の `output/arcgis-comparison-20261015/` にあります。本報告書のリンクはダウンロード用添付ではありません。公開Releaseへの追加は行っていません。
+大きなGeoPackage本体はGit管理外の `output/arcgis-comparison-20261015/` にあります。本報告書のリンクはダウンロード用添付ではありません。比較コピーZIPは[調査用Pre-release](https://github.com/yo-1/japan-plane-rectangular-cs-zones/releases/tag/zone-gap-audit-20261015)で公開済みです。
 
 ## ArcGIS確認は既存結果の照合を先に行う
 
