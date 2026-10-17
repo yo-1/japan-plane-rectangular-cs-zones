@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-17",
+  "arcgis_pro_version": "3.7.1",
+  "evidence_origin": "User screenshots and pasted completion messages in this thread; not AI ArcGIS execution",
+  "gpkg_direct_check": {
+    "passed": 13,
+    "unable_to_check": 0,
+    "errors": 0,
+    "method_evidence": "Esri requested in instructions; completion screenshot has no method field"
+  },
+  "gdb_check": {
+    "method": "Esri",
+    "feature_count": 13,
+    "problem": "self intersections",
+    "feature_ids": [
+      3,
+      6,
+      7,
+      11
+    ]
+  },
+  "gdb_spatial_reference": {
+    "epsg": 6668,
+    "xy_resolution_degree": 1e-09,
+    "xy_tolerance_degree": 8.98315284119521e-09
+  },
+  "forest_pr6": {
+    "url": "https://github.com/yo-1/japan-forest-planning-zones/pull/6",
+    "commit": "e74589a0294dac28d2de41b6fe006379edce9b6b",
+    "state_at_inspection": "open",
+    "same_json_sha256": true,
+    "candidate_ids_and_coordinate_counts_match": true,
+    "gdb_to_json_exact_match": "Reported in forest PR evidence; not rerun here"
+  },
+  "limits": [
+    "Esri error positions not provided",
+    "Internal Simplify/clustering not reproduced",
+    "Not a check of the formal 19-zone layer",
+    "No geometry repair or nationwide adoption"
+  ]
+}
