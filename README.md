@@ -7,7 +7,7 @@
 > **公開状況**（2026-10-11 時点）: 19系の定義（`data/zones.csv`）、系番号を判定するルール（`data/zone_rules.csv`）、
 > 市区町村と系番号の対応表（`data/municipality_zones.csv`）は、このリポジトリで公開しています。
 > 系番号付きのポリゴン（系ごと・都道府県ごと・市区町村ごと）は大きいので、GitHubのReleasesで公開しています
-> （最新は [v2026.2](https://github.com/yo-1/japan-plane-rectangular-cs-zones/releases/tag/v2026.2)。下の「系番号付きのポリゴン（Releasesで配布）」）。
+> （最新は [v2026.3](https://github.com/yo-1/japan-plane-rectangular-cs-zones/releases/tag/v2026.3)。下の「系番号付きのポリゴン（Releasesで配布）」）。
 > まだ確認できていないことは、[Issue](https://github.com/yo-1/japan-plane-rectangular-cs-zones/issues)（#15〜#18）と [`VALIDATION.txt`](VALIDATION.txt) に「未確認」として書いています
 > （奄美群島の範囲の公式な確認など）。2026-10-15に、19系レイヤのArcGIS Proでの読込み・描画・属性表示を、利用者提供画面で確認しました。対象ファイルの版と詳しい検査範囲は、`VALIDATION.txt` に記録しています。
 
@@ -112,9 +112,10 @@ UTF-8（BOMなし）、改行はLFです。
 （1ファイル100MBまで）を超えるので、リポジトリには入れず、GitHubのReleasesに添付して配ります。
 
 - 配布場所：https://github.com/yo-1/japan-plane-rectangular-cs-zones/releases
-  （2026年版の最新は [v2026.2](https://github.com/yo-1/japan-plane-rectangular-cs-zones/releases/tag/v2026.2)。
-  [v2026.1](https://github.com/yo-1/japan-plane-rectangular-cs-zones/releases/tag/v2026.1) との違いは、系ごと・都道府県ごとのポリゴンから、
-  面積1㎡未満の微小な穴を取り除いたことだけです。市区町村ごとは v2026.1 と同じ内容です。詳しくは [`VALIDATION.txt`](VALIDATION.txt) の 2026-10-10 の記録を見てください）
+  （2026年版の最新は [v2026.3](https://github.com/yo-1/japan-plane-rectangular-cs-zones/releases/tag/v2026.3)。
+  [v2026.2](https://github.com/yo-1/japan-plane-rectangular-cs-zones/releases/tag/v2026.2) との違いは、元データの座標桁の混在（小数9桁とフル精度）を
+  源泉で解消してから全レイヤーを作り直したことです。属性・系番号・地物の内容は v2026.2 と同じで、全頂点が小数9桁に一致します。
+  詳しくは [`docs/grid-rebuild-20261117/`](docs/grid-rebuild-20261117/README.md) と [`VALIDATION.txt`](VALIDATION.txt) の 2026-11-17 の記録を見てください）
 - どのZIPにも公開時点の`DATA_LICENSE.md`が入っています。最新の出典表記は、リポジトリの[`DATA_LICENSE.md`](DATA_LICENSE.md)を参照してください。
 - GeoPackageには、系ごとの色分け（`ZONE_ROMAN`による分類）のスタイルを入れています。QGISで開くと、そのまま色分けされて表示されます。
   系ごと・都道府県ごとには、ローマ数字のラベルも付けています（市区町村ごとは、数が多いのでラベルなし）。
