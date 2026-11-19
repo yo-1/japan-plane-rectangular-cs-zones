@@ -1,0 +1,177 @@
+{
+  "probe_before": {
+    "window": {
+      "class": "QgisApp",
+      "object_name": "QgisApp",
+      "title": "*Untitled Project — QGIS",
+      "visible": true,
+      "modal": false,
+      "geometry": [
+        0,
+        0,
+        1400,
+        950
+      ]
+    },
+    "actions": [],
+    "returned": 0,
+    "total_matching": 0,
+    "truncated": false
+  },
+  "qt_zoom_actions": [
+    {
+      "object_name": "mActionZoomIn",
+      "text": "Zoom In",
+      "enabled": true
+    },
+    {
+      "object_name": "mActionZoomOut",
+      "text": "Zoom Out",
+      "enabled": true
+    },
+    {
+      "object_name": "mActionZoomFullExtent",
+      "text": "Zoom &Full",
+      "enabled": true
+    },
+    {
+      "object_name": "mActionZoomToLayer",
+      "text": "Zoom to &Layer",
+      "enabled": true
+    },
+    {
+      "object_name": "mActionZoomToLayers",
+      "text": "Zoom to &Layer(s)",
+      "enabled": true
+    },
+    {
+      "object_name": "mActionZoomToSelected",
+      "text": "Zoom to &Selection",
+      "enabled": true
+    },
+    {
+      "object_name": "mActionZoomLast",
+      "text": "Zoom Last",
+      "enabled": true
+    },
+    {
+      "object_name": "mActionZoomNext",
+      "text": "Zoom Next",
+      "enabled": false
+    },
+    {
+      "object_name": "mActionZoomActualSize",
+      "text": "Zoom to Native Resolution (100%)",
+      "enabled": false
+    },
+    {
+      "object_name": "actionZoomTo",
+      "text": "Zoom to",
+      "enabled": true
+    }
+  ],
+  "qt_total_count": 676,
+  "probe_with_qt_refs_held": {
+    "window": {
+      "class": "QgisApp",
+      "object_name": "QgisApp",
+      "title": "*Untitled Project — QGIS",
+      "visible": true,
+      "modal": false,
+      "geometry": [
+        0,
+        0,
+        1400,
+        950
+      ]
+    },
+    "actions": [
+      {
+        "object_name": "mActionZoomIn",
+        "text": "Zoom In",
+        "enabled": true,
+        "visible": true,
+        "checkable": true,
+        "submenu": false,
+        "checked": false,
+        "tooltip": "<b>Zoom In</b> (Ctrl+Alt++)"
+      },
+      {
+        "object_name": "mActionZoomOut",
+        "text": "Zoom Out",
+        "enabled": true,
+        "visible": true,
+        "checkable": true,
+        "submenu": false,
+        "checked": false,
+        "tooltip": "<b>Zoom Out</b> (Ctrl+Alt+-)"
+      },
+      {
+        "object_name": "mActionZoomFullExtent",
+        "text": "Zoom Full",
+        "enabled": true,
+        "visible": true,
+        "checkable": false,
+        "submenu": false,
+        "tooltip": "<b>Zoom Full</b> (Ctrl+Shift+F)"
+      },
+      {
+        "object_name": "mActionZoomToSelected",
+        "text": "Zoom to Selection",
+        "enabled": true,
+        "visible": true,
+        "checkable": false,
+        "submenu": false,
+        "tooltip": "<b>Zoom to Selection</b> (Ctrl+J)"
+      },
+      {
+        "object_name": "mActionZoomToLayers",
+        "text": "Zoom to Layer(s)",
+        "enabled": true,
+        "visible": true,
+        "checkable": false,
+        "submenu": false,
+        "tooltip": "<b>Zoom to Layer</b>"
+      },
+      {
+        "object_name": "mActionZoomActualSize",
+        "text": "Zoom to Native Resolution (100%)",
+        "enabled": false,
+        "visible": true,
+        "checkable": false,
+        "submenu": false,
+        "tooltip": "<b>Zoom to Native Resolution (100%)</b>"
+      },
+      {
+        "object_name": "mActionZoomLast",
+        "text": "Zoom Last",
+        "enabled": true,
+        "visible": true,
+        "checkable": false,
+        "submenu": false,
+        "tooltip": "<b>Zoom Last</b>"
+      },
+      {
+        "object_name": "mActionZoomNext",
+        "text": "Zoom Next",
+        "enabled": false,
+        "visible": true,
+        "checkable": false,
+        "submenu": false,
+        "tooltip": "<b>Zoom Next</b>"
+      },
+      {
+        "object_name": "actionZoomTo",
+        "text": "Zoom to",
+        "enabled": true,
+        "visible": true,
+        "checkable": false,
+        "submenu": false,
+        "tooltip": "Zoom to bookmark"
+      }
+    ],
+    "returned": 9,
+    "total_matching": 9,
+    "truncated": false
+  }
+}

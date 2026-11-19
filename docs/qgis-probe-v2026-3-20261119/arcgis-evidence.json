@@ -1,0 +1,53 @@
+{
+  "checked_on": "2026-11-19",
+  "v2026_3": {
+    "release_url": "https://github.com/yo-1/japan-plane-rectangular-cs-zones/releases/tag/v2026.3",
+    "inputs": {
+      "zones": {
+        "zip_sha256": "cbc87ceffa22c3453d6dae04c17c31a4276aeee6aa183c91eb87c85598074f3f",
+        "gpkg_sha256": "f7e52d67b77bd4b5a24c77001039f1bd571aa1fa0535dcc453fb2234abba5f78"
+      },
+      "prefectures": {
+        "zip_sha256": "c09c41214e81965dfb9ade1a4ff883edc8429a05e1a0b9a555793cd72994e241",
+        "gpkg_sha256": "38fa7c5a26b032ed7f08592a0f67531c486712b03bd9931d6137cd562db8c558"
+      },
+      "municipalities": {
+        "zip_sha256": "bec2b2fc41bec44bd43e969dcc75e4338748ad26c4772f94eb451d7f579cef72",
+        "gpkg_sha256": "7ad5a42776de8c7573a6a56a298dc8dfdff9ba1a39d870828db43e1d19b91fa6"
+      }
+    },
+    "arcgis_result": "Not found in the public records reviewed; not a claim that no test exists elsewhere",
+    "reviewed": [
+      "https://github.com/yo-1/japan-plane-rectangular-cs-zones/issues/15",
+      "https://github.com/yo-1/japan-plane-rectangular-cs-zones/pull/33",
+      "https://github.com/yo-1/japan-plane-rectangular-cs-zones/blob/b73454678d157a8f570c6b549de7731bc65bb8dc/VALIDATION.txt"
+    ],
+    "issue15_comment_count": 0
+  },
+  "prior_evidence": [
+    {
+      "input": "v2026.2 formal 19-zone layer",
+      "result": "Basic ArcGIS recognition/display reused from the shared forest package; not proof of v2026.3 GDB validity",
+      "reference": "docs/zone-gap-audit-20261015/cross-thread-check-20261016/README.md"
+    },
+    {
+      "input": "20261015 diagnostic void_candidates, 13 polygons",
+      "gpkg_sha256": "874f085882f79d55bb41d986210bc58654db9d41827ea09b62e8def9738c9cd3",
+      "result": "Direct GPKG check 0 problems; GDB Esri self intersections 4 (3/6/7/11)",
+      "reference": "docs/zone-gap-audit-20261015/arcgis-runtime-20261017/README.md"
+    },
+    {
+      "input": "forest district025 unchanged/candidate and forest national GDB",
+      "result": "Separate inputs/aggregation; use forest PR6 records without repeating tests",
+      "reference": "https://github.com/yo-1/japan-forest-planning-zones/pull/6"
+    }
+  ],
+  "forest_latest_readme": {
+    "commit": "4393a92b3f587f3bac0229b96485d63df71f731d",
+    "latest_review_version": "v0.8",
+    "shared_19_zone_version_in_readme": "v2026.2",
+    "limits": "No v2026.3 ArcGIS pass can be inferred from forest data or common normalized N03 source"
+  },
+  "arcpy_available_in_cloud": false,
+  "request_to_repeat_existing_manual_checks": false
+}

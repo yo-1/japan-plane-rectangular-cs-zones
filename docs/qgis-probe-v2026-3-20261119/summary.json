@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-19",
+  "probe_version": "0.1.4",
+  "probe_commit": "a4f54e96877bf2782b52ec302bca5ba18c1cbb9b",
+  "qgis_image": "qgis/qgis:3.44.13-noble",
+  "qgis_image_digest": "sha256:4389d5ed64d7fc89647ac5cea45f97274a7e85b35d8bb7869810be297667ed79",
+  "info": {
+    "qgis_version": "3.44.13-Solothurn",
+    "qgis_version_int": 34413,
+    "python": "3.12.3",
+    "qt": "5.15.13",
+    "pyqt": "5.15.10",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+    "profile_dir": "/work/results/profile/profiles/probe-current/",
+    "project_file": "",
+    "project_title": "",
+    "project_crs": "EPSG:4326",
+    "layer_count": 0,
+    "plugin_version": "0.1.4",
+    "home": "/work/results/probe-home",
+    "out_dir": "/work/results/probe-home/out",
+    "recipe_dir": "/work/recipes",
+    "mode": "interactive"
+  },
+  "live_mcp_call_count": 87,
+  "data_input_hashes_unchanged": true,
+  "probe_unit_tests": {
+    "passed": 170,
+    "skipped": 0,
+    "failed": 0
+  },
+  "buffer_area_m2": 312.1445152258052,
+  "qgis_geos_validity": {
+    "ERROR_COUNT": 0,
+    "ERROR_OUTPUT": "/work/results/zones-errors.gpkg",
+    "INVALID_COUNT": 0,
+    "INVALID_OUTPUT": "/work/results/zones-invalid.gpkg",
+    "VALID_COUNT": 19,
+    "VALID_OUTPUT": "/work/results/zones-valid.gpkg"
+  },
+  "style_render_checks_passed": true,
+  "action_enumeration_limitation": {
+    "probe_zoom_before": 0,
+    "qt_zoom_count": 10,
+    "probe_zoom_with_qt_refs_held": 9
+  },
+  "arcpy_available": false,
+  "upstream_probe_modified": false,
+  "geometry_repair_performed": false,
+  "repository_tests": {
+    "passed": 100,
+    "skipped": 0,
+    "failed": 0
+  },
+  "existing_results_guard_verified": true
+}

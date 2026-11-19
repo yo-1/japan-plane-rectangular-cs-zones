@@ -1,0 +1,26 @@
+{
+  "zones": {
+    "old_v2026_2_gpkg_sha256": "9392e5e3fecedbab7ba774dc89c81bc353c265d16d66a1c86f6e341b5946eafc",
+    "old_style_qml_sld_sha256": [
+      "b12de1e4fe4a6416f0c019e28a517f585f4879f430168e83cf9339714097c271",
+      "47ae80dab12c8aa54fb9d05d882cac737035c934f7a157f1a1d2da8ef98e71f0"
+    ],
+    "new_style_qml_sld_sha256": [
+      "b12de1e4fe4a6416f0c019e28a517f585f4879f430168e83cf9339714097c271",
+      "47ae80dab12c8aa54fb9d05d882cac737035c934f7a157f1a1d2da8ef98e71f0"
+    ],
+    "style_qml_sld_exactly_equal": true
+  },
+  "municipalities": {
+    "old_v2026_2_gpkg_sha256": "1e09e083497bca003121473458321afb353aadaa660885c76b45f761ae72b492",
+    "old_style_qml_sld_sha256": [
+      "86ff9b1d1ed9a151e3e9ca76211027913c39a354367c54430a72d833eafdbd8e",
+      "bec9eb60d6346e8d7424b47aae24f4e4c7d12fb6be615cafe60721baa1105463"
+    ],
+    "new_style_qml_sld_sha256": [
+      "86ff9b1d1ed9a151e3e9ca76211027913c39a354367c54430a72d833eafdbd8e",
+      "bec9eb60d6346e8d7424b47aae24f4e4c7d12fb6be615cafe60721baa1105463"
+    ],
+    "style_qml_sld_exactly_equal": true
+  }
+}
