@@ -1,0 +1,93 @@
+{
+  "zones": {
+    "zip_sha256": "cbc87ceffa22c3453d6dae04c17c31a4276aeee6aa183c91eb87c85598074f3f",
+    "gpkg_name": "plane_rectangular_zones_2026.gpkg",
+    "gpkg_sha256": "f7e52d67b77bd4b5a24c77001039f1bd571aa1fa0535dcc453fb2234abba5f78",
+    "layers": [
+      [
+        "plane_rectangular_zones_2026",
+        "geom",
+        6668
+      ]
+    ],
+    "styles": [
+      [
+        "plane_rectangular_zones_2026",
+        "default",
+        1,
+        66251
+      ]
+    ],
+    "fields": [
+      "fid",
+      "ZONE",
+      "ZONE_ROMAN",
+      "EPSG"
+    ],
+    "style_labels_enabled": true
+  },
+  "prefectures": {
+    "zip_sha256": "c09c41214e81965dfb9ade1a4ff883edc8429a05e1a0b9a555793cd72994e241",
+    "gpkg_name": "plane_rectangular_prefectures_2026.gpkg",
+    "gpkg_sha256": "38fa7c5a26b032ed7f08592a0f67531c486712b03bd9931d6137cd562db8c558",
+    "layers": [
+      [
+        "plane_rectangular_prefectures_2026",
+        "geom",
+        6668
+      ]
+    ],
+    "styles": [
+      [
+        "plane_rectangular_prefectures_2026",
+        "default",
+        1,
+        68695
+      ]
+    ],
+    "fields": [
+      "fid",
+      "N03_001",
+      "N03_002",
+      "ZONE",
+      "ZONE_ROMAN",
+      "EPSG",
+      "UNIT_CODE",
+      "UNIT_NAME"
+    ],
+    "style_labels_enabled": true
+  },
+  "municipalities": {
+    "zip_sha256": "bec2b2fc41bec44bd43e969dcc75e4338748ad26c4772f94eb451d7f579cef72",
+    "gpkg_name": "plane_rectangular_municipalities_2026.gpkg",
+    "gpkg_sha256": "7ad5a42776de8c7573a6a56a298dc8dfdff9ba1a39d870828db43e1d19b91fa6",
+    "layers": [
+      [
+        "plane_rectangular_municipalities_2026",
+        "geom",
+        6668
+      ]
+    ],
+    "styles": [
+      [
+        "plane_rectangular_municipalities_2026",
+        "default",
+        1,
+        69863
+      ]
+    ],
+    "fields": [
+      "fid",
+      "N03_001",
+      "N03_002",
+      "N03_003",
+      "N03_004",
+      "N03_005",
+      "N03_007",
+      "ZONE",
+      "ZONE_ROMAN",
+      "EPSG"
+    ],
+    "style_labels_enabled": false
+  }
+}

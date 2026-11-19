@@ -1,0 +1,179 @@
+{
+  "calls": [
+    {
+      "tool": "ping",
+      "arguments": {},
+      "is_error": false,
+      "text": [
+        "{\n  \"pong\": true,\n  \"plugin_version\": \"0.1.4\",\n  \"mode\": \"interactive\",\n  \"pid\": 11,\n  \"thread\": \"MainThread\",\n  \"time\": 1795095477.6664605\n}"
+      ]
+    },
+    {
+      "tool": "get_info",
+      "arguments": {},
+      "is_error": false,
+      "text": [
+        "{\n  \"qgis_version\": \"3.44.13-Solothurn\",\n  \"qgis_version_int\": 34413,\n  \"python\": \"3.12.3\",\n  \"qt\": \"5.15.13\",\n  \"pyqt\": \"5.15.10\",\n  \"platform\": \"Linux-6.18.57-x86_64-with-glibc2.39\",\n  \"profile_dir\": \"/work/results/profile/profiles/probe-current/\",\n  \"project_file\": \"\",\n  \"project_title\": \"\",\n  \"project_crs\": \"EPSG:4326\",\n  \"layer_count\": 0,\n  \"plugin_version\": \"0.1.4\",\n  \"home\": \"/work/results/probe-home\",\n  \"out_dir\": \"/work/results/probe-home/out\",\n  \"recipe_dir\": \"/work/recipes\",\n  \"mode\": \"interactive\"\n}"
+      ]
+    },
+    {
+      "tool": "execute_code",
+      "arguments": {
+        "code": "result = 1"
+      },
+      "is_error": true,
+      "text": [
+        "Error executing tool execute_code: [policy_denied] tool 'execute_code' (arbitrary code execution) is disabled; enable it explicitly in the QGIS Dev Probe dialog (not persisted across restarts)"
+      ]
+    },
+    {
+      "tool": "list_algorithms",
+      "arguments": {
+        "search": "buffer"
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"algorithms\": [\n    {\n      \"id\": \"gdal:buffervectors\",\n      \"name\": \"Buffer vectors\",\n      \"provider\": \"gdal\"\n    },\n    {\n      \"id\": \"gdal:onesidebuffer\",\n      \"name\": \"One side buffer\",\n      \"provider\": \"gdal\"\n    },\n    {\n      \"id\": \"native:buffer\",\n      \"name\": \"Buffer\",\n      \"provider\": \"native\"\n    },\n    {\n      \"id\": \"native:bufferbym\",\n      \"name\": \"Variable width buffer (by M value)\",\n      \"provider\": \"native\"\n    },\n    {\n      \"id\": \"native:multiringconstantbuffer\",\n      \"name\": \"Multi-ring buffer (constant distance)\",\n      \"provider\": \"native\"\n    },\n    {\n      \"id\": \"native:singlesidedbuffer\",\n      \"name\": \"Single sided buffer\",\n      \"provider\": \"native\"\n    },\n    {\n      \"id\": \"native:taperedbuffer\",\n      \"name\": \"Tapered buffers\",\n      \"provider\": \"native\"\n    },\n    {\n      \"id\": \"native:wedgebuffers\",\n      \"name\": \"Create wedge buffers\",\n      \"provider\": \"native\"\n    },\n    {\n      \"id\": \"qgis:variabledistancebuffer\",\n      \"name\": \"Variable distance buffer\",\n      \"provider\": \"qgis\"\n    }\n  ],\n  \"total_matching\": 9,\n  \"providers\": [\n    \"3d\",\n    \"gdal\",\n    \"model\",\n    \"native\",\n    \"project\",\n    \"qgis\",\n    \"script\"\n  ]\n}"
+      ]
+    },
+    {
+      "tool": "get_algorithm_params",
+      "arguments": {
+        "algorithm_id": "native:buffer"
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"id\": \"native:buffer\",\n  \"name\": \"Buffer\",\n  \"provider\": \"native\",\n  \"group\": \"Vector geometry\",\n  \"summary\": \"Computes a buffer area for all the features in an input layer, using a fixed or dynamic distance.\",\n  \"parameters\": [\n    {\n      \"name\": \"INPUT\",\n      \"description\": \"Input layer\",\n      \"type\": \"source\",\n      \"optional\": false,\n      \"default\": null\n    },\n    {\n      \"name\": \"DISTANCE\",\n      \"description\": \"Distance\",\n      \"type\": \"distance\",\n      \"optional\": false,\n      \"default\": 10,\n      \"minimum\": -1.7976931348623157e+308,\n      \"maximum\": 1.7976931348623157e+308\n    },\n    {\n      \"name\": \"SEGMENTS\",\n      \"description\": \"Segments\",\n      \"type\": \"number\",\n      \"optional\": false,\n      \"default\": 5,\n      \"minimum\": 1.0,\n      \"maximum\": 1.7976931348623157e+308\n    },\n    {\n      \"name\": \"END_CAP_STYLE\",\n      \"description\": \"End cap style\",\n      \"type\": \"enum\",\n      \"optional\": false,\n      \"default\": 0,\n      \"options\": [\n        \"Round\",\n        \"Flat\",\n        \"Square\"\n      ]\n    },\n    {\n      \"name\": \"JOIN_STYLE\",\n      \"description\": \"Join style\",\n      \"type\": \"enum\",\n      \"optional\": false,\n      \"default\": 0,\n      \"options\": [\n        \"Round\",\n        \"Miter\",\n        \"Bevel\"\n      ]\n    },\n    {\n      \"name\": \"MITER_LIMIT\",\n      \"description\": \"Miter limit\",\n      \"type\": \"number\",\n      \"optional\": false,\n      \"default\": 2,\n      \"minimum\": 1.0,\n      \"maximum\": 1.7976931348623157e+308\n    },\n    {\n      \"name\": \"DISSOLVE\",\n      \"description\": \"Dissolve result\",\n      \"type\": \"boolean\",\n      \"optional\": false,\n      \"default\": false\n    },\n    {\n      \"name\": \"SEPARATE_DISJOINT\",\n      \"description\": \"Keep disjoint results separate\",\n      \"type\": \"boolean\",\n      \"optional\": false,\n      \"default\": false\n    },\n    {\n      \"name\": \"OUTPUT\",\n      \"description\": \"Buffered\",\n      \"type\": \"sink\",\n      \"optional\": false,\n      \"default\": null\n    }\n  ],\n  \"outputs\": [\n    {\n      \"name\": \"OUTPUT\",\n      \"description\": \"Buffered\",\n      \"type\": \"outputVector\"\n    }\n  ]\n}"
+      ]
+    },
+    {
+      "tool": "add_layer",
+      "arguments": {
+        "path": "/work/data/plane_rectangular_zones_2026.gpkg|layername=plane_rectangular_zones_2026",
+        "name": "zones",
+        "kind": "vector"
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"id\": \"zones_9158ed94_c9b8_4b8e_b349_ebda6f6914cc\",\n  \"name\": \"zones\",\n  \"type\": \"Vector\",\n  \"valid\": true,\n  \"crs\": \"EPSG:6668\",\n  \"source\": \"/work/data/plane_rectangular_zones_2026.gpkg|layername=plane_rectangular_zones_2026\"\n}"
+      ]
+    },
+    {
+      "tool": "inspect_layer",
+      "arguments": {
+        "layer": "zones_9158ed94_c9b8_4b8e_b349_ebda6f6914cc",
+        "sample": 2
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"id\": \"zones_9158ed94_c9b8_4b8e_b349_ebda6f6914cc\",\n  \"name\": \"zones\",\n  \"type\": \"Vector\",\n  \"valid\": true,\n  \"crs\": \"EPSG:6668\",\n  \"source\": \"/work/data/plane_rectangular_zones_2026.gpkg|layername=plane_rectangular_zones_2026\",\n  \"extent\": [\n    122.932606368,\n    20.422746414,\n    153.986675123,\n    45.557243414\n  ],\n  \"kind\": \"vector\",\n  \"provider\": \"ogr\",\n  \"feature_count\": 19,\n  \"geometry_type\": \"Polygon\",\n  \"wkb_type\": \"MultiPolygon\",\n  \"subset_filter\": \"\",\n  \"fields\": [\n    {\n      \"name\": \"fid\",\n      \"type\": \"Integer64\"\n    },\n    {\n      \"name\": \"ZONE\",\n      \"type\": \"Integer64\"\n    },\n    {\n      \"name\": \"ZONE_ROMAN\",\n      \"type\": \"String\"\n    },\n    {\n      \"name\": \"EPSG\",\n      \"type\": \"Integer\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"fid\": 1,\n      \"attributes\": {\n        \"fid\": 1,\n        \"ZONE\": 18,\n        \"ZONE_ROMAN\": \"XVIII\",\n        \"EPSG\": 6686\n      }\n    },\n    {\n      \"fid\": 2,\n      \"attributes\": {\n        \"fid\": 2,\n        \"ZONE\": 3,\n        \"ZONE_ROMAN\": \"III\",\n        \"EPSG\": 6671\n      }\n    }\n  ]\n}"
+      ]
+    },
+    {
+      "tool": "list_actions",
+      "arguments": {
+        "text": "Full Screen"
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"window\": {\n    \"class\": \"QgisApp\",\n    \"object_name\": \"QgisApp\",\n    \"title\": \"*Untitled Project — QGIS\",\n    \"visible\": true,\n    \"modal\": false,\n    \"geometry\": [\n      0,\n      0,\n      1400,\n      950\n    ]\n  },\n  \"actions\": [\n    {\n      \"object_name\": \"mActionToggleFullScreen\",\n      \"text\": \"Toggle Full Screen Mode\",\n      \"enabled\": true,\n      \"visible\": true,\n      \"checkable\": false,\n      \"submenu\": false,\n      \"tooltip\": \"<b>Toggle Full Screen Mode</b> (F11)\"\n    }\n  ],\n  \"returned\": 1,\n  \"total_matching\": 1,\n  \"truncated\": false\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "window_state"
+        }
+      },
+      "is_error": true,
+      "text": [
+        "Error executing tool run_recipe: [policy_denied] tool 'run_recipe' (arbitrary code execution) is disabled; enable it explicitly in the QGIS Dev Probe dialog (not persisted across restarts)"
+      ]
+    }
+  ],
+  "layers": {
+    "zones": {
+      "id": "zones_9158ed94_c9b8_4b8e_b349_ebda6f6914cc",
+      "inspection": {
+        "id": "zones_9158ed94_c9b8_4b8e_b349_ebda6f6914cc",
+        "name": "zones",
+        "type": "Vector",
+        "valid": true,
+        "crs": "EPSG:6668",
+        "source": "/work/data/plane_rectangular_zones_2026.gpkg|layername=plane_rectangular_zones_2026",
+        "extent": [
+          122.932606368,
+          20.422746414,
+          153.986675123,
+          45.557243414
+        ],
+        "kind": "vector",
+        "provider": "ogr",
+        "feature_count": 19,
+        "geometry_type": "Polygon",
+        "wkb_type": "MultiPolygon",
+        "subset_filter": "",
+        "fields": [
+          {
+            "name": "fid",
+            "type": "Integer64"
+          },
+          {
+            "name": "ZONE",
+            "type": "Integer64"
+          },
+          {
+            "name": "ZONE_ROMAN",
+            "type": "String"
+          },
+          {
+            "name": "EPSG",
+            "type": "Integer"
+          }
+        ],
+        "samples": [
+          {
+            "fid": 1,
+            "attributes": {
+              "fid": 1,
+              "ZONE": 18,
+              "ZONE_ROMAN": "XVIII",
+              "EPSG": 6686
+            }
+          },
+          {
+            "fid": 2,
+            "attributes": {
+              "fid": 2,
+              "ZONE": 3,
+              "ZONE_ROMAN": "III",
+              "EPSG": 6671
+            }
+          }
+        ]
+      },
+      "views": {}
+    }
+  },
+  "info": {
+    "qgis_version": "3.44.13-Solothurn",
+    "qgis_version_int": 34413,
+    "python": "3.12.3",
+    "qt": "5.15.13",
+    "pyqt": "5.15.10",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+    "profile_dir": "/work/results/profile/profiles/probe-current/",
+    "project_file": "",
+    "project_title": "",
+    "project_crs": "EPSG:4326",
+    "layer_count": 0,
+    "plugin_version": "0.1.4",
+    "home": "/work/results/probe-home",
+    "out_dir": "/work/results/probe-home/out",
+    "recipe_dir": "/work/recipes",
+    "mode": "interactive"
+  },
+  "scope": "Earlier same-version session: allow_exec=false; actual denial before permission-enabled GUI/recipe trial"
+}

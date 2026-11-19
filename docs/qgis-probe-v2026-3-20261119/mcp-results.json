@@ -1,0 +1,1836 @@
+{
+  "calls": [
+    {
+      "tool": "ping",
+      "arguments": {},
+      "is_error": false,
+      "text": [
+        "{\n  \"pong\": true,\n  \"plugin_version\": \"0.1.4\",\n  \"mode\": \"interactive\",\n  \"pid\": 11,\n  \"thread\": \"MainThread\",\n  \"time\": 1795096018.8158083\n}"
+      ]
+    },
+    {
+      "tool": "get_info",
+      "arguments": {},
+      "is_error": false,
+      "text": [
+        "{\n  \"qgis_version\": \"3.44.13-Solothurn\",\n  \"qgis_version_int\": 34413,\n  \"python\": \"3.12.3\",\n  \"qt\": \"5.15.13\",\n  \"pyqt\": \"5.15.10\",\n  \"platform\": \"Linux-6.18.57-x86_64-with-glibc2.39\",\n  \"profile_dir\": \"/work/results/profile/profiles/probe-current/\",\n  \"project_file\": \"\",\n  \"project_title\": \"\",\n  \"project_crs\": \"EPSG:4326\",\n  \"layer_count\": 0,\n  \"plugin_version\": \"0.1.4\",\n  \"home\": \"/work/results/probe-home\",\n  \"out_dir\": \"/work/results/probe-home/out\",\n  \"recipe_dir\": \"/work/recipes\",\n  \"mode\": \"interactive\"\n}"
+      ]
+    },
+    {
+      "tool": "list_algorithms",
+      "arguments": {
+        "search": "buffer"
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"algorithms\": [\n    {\n      \"id\": \"gdal:buffervectors\",\n      \"name\": \"Buffer vectors\",\n      \"provider\": \"gdal\"\n    },\n    {\n      \"id\": \"gdal:onesidebuffer\",\n      \"name\": \"One side buffer\",\n      \"provider\": \"gdal\"\n    },\n    {\n      \"id\": \"native:buffer\",\n      \"name\": \"Buffer\",\n      \"provider\": \"native\"\n    },\n    {\n      \"id\": \"native:bufferbym\",\n      \"name\": \"Variable width buffer (by M value)\",\n      \"provider\": \"native\"\n    },\n    {\n      \"id\": \"native:multiringconstantbuffer\",\n      \"name\": \"Multi-ring buffer (constant distance)\",\n      \"provider\": \"native\"\n    },\n    {\n      \"id\": \"native:singlesidedbuffer\",\n      \"name\": \"Single sided buffer\",\n      \"provider\": \"native\"\n    },\n    {\n      \"id\": \"native:taperedbuffer\",\n      \"name\": \"Tapered buffers\",\n      \"provider\": \"native\"\n    },\n    {\n      \"id\": \"native:wedgebuffers\",\n      \"name\": \"Create wedge buffers\",\n      \"provider\": \"native\"\n    },\n    {\n      \"id\": \"qgis:variabledistancebuffer\",\n      \"name\": \"Variable distance buffer\",\n      \"provider\": \"qgis\"\n    }\n  ],\n  \"total_matching\": 9,\n  \"providers\": [\n    \"3d\",\n    \"gdal\",\n    \"model\",\n    \"native\",\n    \"project\",\n    \"qgis\",\n    \"script\"\n  ]\n}"
+      ]
+    },
+    {
+      "tool": "get_algorithm_params",
+      "arguments": {
+        "algorithm_id": "native:buffer"
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"id\": \"native:buffer\",\n  \"name\": \"Buffer\",\n  \"provider\": \"native\",\n  \"group\": \"Vector geometry\",\n  \"summary\": \"Computes a buffer area for all the features in an input layer, using a fixed or dynamic distance.\",\n  \"parameters\": [\n    {\n      \"name\": \"INPUT\",\n      \"description\": \"Input layer\",\n      \"type\": \"source\",\n      \"optional\": false,\n      \"default\": null\n    },\n    {\n      \"name\": \"DISTANCE\",\n      \"description\": \"Distance\",\n      \"type\": \"distance\",\n      \"optional\": false,\n      \"default\": 10,\n      \"minimum\": -1.7976931348623157e+308,\n      \"maximum\": 1.7976931348623157e+308\n    },\n    {\n      \"name\": \"SEGMENTS\",\n      \"description\": \"Segments\",\n      \"type\": \"number\",\n      \"optional\": false,\n      \"default\": 5,\n      \"minimum\": 1.0,\n      \"maximum\": 1.7976931348623157e+308\n    },\n    {\n      \"name\": \"END_CAP_STYLE\",\n      \"description\": \"End cap style\",\n      \"type\": \"enum\",\n      \"optional\": false,\n      \"default\": 0,\n      \"options\": [\n        \"Round\",\n        \"Flat\",\n        \"Square\"\n      ]\n    },\n    {\n      \"name\": \"JOIN_STYLE\",\n      \"description\": \"Join style\",\n      \"type\": \"enum\",\n      \"optional\": false,\n      \"default\": 0,\n      \"options\": [\n        \"Round\",\n        \"Miter\",\n        \"Bevel\"\n      ]\n    },\n    {\n      \"name\": \"MITER_LIMIT\",\n      \"description\": \"Miter limit\",\n      \"type\": \"number\",\n      \"optional\": false,\n      \"default\": 2,\n      \"minimum\": 1.0,\n      \"maximum\": 1.7976931348623157e+308\n    },\n    {\n      \"name\": \"DISSOLVE\",\n      \"description\": \"Dissolve result\",\n      \"type\": \"boolean\",\n      \"optional\": false,\n      \"default\": false\n    },\n    {\n      \"name\": \"SEPARATE_DISJOINT\",\n      \"description\": \"Keep disjoint results separate\",\n      \"type\": \"boolean\",\n      \"optional\": false,\n      \"default\": false\n    },\n    {\n      \"name\": \"OUTPUT\",\n      \"description\": \"Buffered\",\n      \"type\": \"sink\",\n      \"optional\": false,\n      \"default\": null\n    }\n  ],\n  \"outputs\": [\n    {\n      \"name\": \"OUTPUT\",\n      \"description\": \"Buffered\",\n      \"type\": \"outputVector\"\n    }\n  ]\n}"
+      ]
+    },
+    {
+      "tool": "add_layer",
+      "arguments": {
+        "path": "/work/data/plane_rectangular_zones_2026.gpkg|layername=plane_rectangular_zones_2026",
+        "name": "zones",
+        "kind": "vector"
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"id\": \"zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6\",\n  \"name\": \"zones\",\n  \"type\": \"Vector\",\n  \"valid\": true,\n  \"crs\": \"EPSG:6668\",\n  \"source\": \"/work/data/plane_rectangular_zones_2026.gpkg|layername=plane_rectangular_zones_2026\"\n}"
+      ]
+    },
+    {
+      "tool": "inspect_layer",
+      "arguments": {
+        "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6",
+        "sample": 2
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"id\": \"zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6\",\n  \"name\": \"zones\",\n  \"type\": \"Vector\",\n  \"valid\": true,\n  \"crs\": \"EPSG:6668\",\n  \"source\": \"/work/data/plane_rectangular_zones_2026.gpkg|layername=plane_rectangular_zones_2026\",\n  \"extent\": [\n    122.932606368,\n    20.422746414,\n    153.986675123,\n    45.557243414\n  ],\n  \"kind\": \"vector\",\n  \"provider\": \"ogr\",\n  \"feature_count\": 19,\n  \"geometry_type\": \"Polygon\",\n  \"wkb_type\": \"MultiPolygon\",\n  \"subset_filter\": \"\",\n  \"fields\": [\n    {\n      \"name\": \"fid\",\n      \"type\": \"Integer64\"\n    },\n    {\n      \"name\": \"ZONE\",\n      \"type\": \"Integer64\"\n    },\n    {\n      \"name\": \"ZONE_ROMAN\",\n      \"type\": \"String\"\n    },\n    {\n      \"name\": \"EPSG\",\n      \"type\": \"Integer\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"fid\": 1,\n      \"attributes\": {\n        \"fid\": 1,\n        \"ZONE\": 18,\n        \"ZONE_ROMAN\": \"XVIII\",\n        \"EPSG\": 6686\n      }\n    },\n    {\n      \"fid\": 2,\n      \"attributes\": {\n        \"fid\": 2,\n        \"ZONE\": 3,\n        \"ZONE_ROMAN\": \"III\",\n        \"EPSG\": 6671\n      }\n    }\n  ]\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "action_inventory"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"probe_before\": {\n    \"window\": {\n      \"class\": \"QgisApp\",\n      \"object_name\": \"QgisApp\",\n      \"title\": \"*Untitled Project — QGIS\",\n      \"visible\": true,\n      \"modal\": false,\n      \"geometry\": [\n        0,\n        0,\n        1400,\n        950\n      ]\n    },\n    \"actions\": [],\n    \"returned\": 0,\n    \"total_matching\": 0,\n    \"truncated\": false\n  },\n  \"qt_zoom_actions\": [\n    {\n      \"object_name\": \"mActionZoomIn\",\n      \"text\": \"Zoom In\",\n      \"enabled\": true\n    },\n    {\n      \"object_name\": \"mActionZoomOut\",\n      \"text\": \"Zoom Out\",\n      \"enabled\": true\n    },\n    {\n      \"object_name\": \"mActionZoomFullExtent\",\n      \"text\": \"Zoom &Full\",\n      \"enabled\": true\n    },\n    {\n      \"object_name\": \"mActionZoomToLayer\",\n      \"text\": \"Zoom to &Layer\",\n      \"enabled\": true\n    },\n    {\n      \"object_name\": \"mActionZoomToLayers\",\n      \"text\": \"Zoom to &Layer(s)\",\n      \"enabled\": true\n    },\n    {\n      \"object_name\": \"mActionZoomToSelected\",\n      \"text\": \"Zoom to &Selection\",\n      \"enabled\": true\n    },\n    {\n      \"object_name\": \"mActionZoomLast\",\n      \"text\": \"Zoom Last\",\n      \"enabled\": true\n    },\n    {\n      \"object_name\": \"mActionZoomNext\",\n      \"text\": \"Zoom Next\",\n      \"enabled\": false\n    },\n    {\n      \"object_name\": \"mActionZoomActualSize\",\n      \"text\": \"Zoom to Native Resolution (100%)\",\n      \"enabled\": false\n    },\n    {\n      \"object_name\": \"actionZoomTo\",\n      \"text\": \"Zoom to\",\n      \"enabled\": true\n    }\n  ],\n  \"qt_total_count\": 676,\n  \"probe_with_qt_refs_held\": {\n    \"window\": {\n      \"class\": \"QgisApp\",\n      \"object_name\": \"QgisApp\",\n      \"title\": \"*Untitled Project — QGIS\",\n      \"visible\": true,\n      \"modal\": false,\n      \"geometry\": [\n        0,\n        0,\n        1400,\n        950\n      ]\n    },\n    \"actions\": [\n      {\n        \"object_name\": \"mActionZoomIn\",\n        \"text\": \"Zoom In\",\n        \"enabled\": true,\n        \"visible\": true,\n        \"checkable\": true,\n        \"submenu\": false,\n        \"checked\": false,\n        \"tooltip\": \"<b>Zoom In</b> (Ctrl+Alt++)\"\n      },\n      {\n        \"object_name\": \"mActionZoomOut\",\n        \"text\": \"Zoom Out\",\n        \"enabled\": true,\n        \"visible\": true,\n        \"checkable\": true,\n        \"submenu\": false,\n        \"checked\": false,\n        \"tooltip\": \"<b>Zoom Out</b> (Ctrl+Alt+-)\"\n      },\n      {\n        \"object_name\": \"mActionZoomFullExtent\",\n        \"text\": \"Zoom Full\",\n        \"enabled\": true,\n        \"visible\": true,\n        \"checkable\": false,\n        \"submenu\": false,\n        \"tooltip\": \"<b>Zoom Full</b> (Ctrl+Shift+F)\"\n      },\n      {\n        \"object_name\": \"mActionZoomToSelected\",\n        \"text\": \"Zoom to Selection\",\n        \"enabled\": true,\n        \"visible\": true,\n        \"checkable\": false,\n        \"submenu\": false,\n        \"tooltip\": \"<b>Zoom to Selection</b> (Ctrl+J)\"\n      },\n      {\n        \"object_name\": \"mActionZoomToLayers\",\n        \"text\": \"Zoom to Layer(s)\",\n        \"enabled\": true,\n        \"visible\": true,\n        \"checkable\": false,\n        \"submenu\": false,\n        \"tooltip\": \"<b>Zoom to Layer</b>\"\n      },\n      {\n        \"object_name\": \"mActionZoomActualSize\",\n        \"text\": \"Zoom to Native Resolution (100%)\",\n        \"enabled\": false,\n        \"visible\": true,\n        \"checkable\": false,\n        \"submenu\": false,\n        \"tooltip\": \"<b>Zoom to Native Resolution (100%)</b>\"\n      },\n      {\n        \"object_name\": \"mActionZoomLast\",\n        \"text\": \"Zoom Last\",\n        \"enabled\": true,\n        \"visible\": true,\n        \"checkable\": false,\n        \"submenu\": false,\n        \"tooltip\": \"<b>Zoom Last</b>\"\n      },\n      {\n        \"object_name\": \"mActionZoomNext\",\n        \"text\": \"Zoom Next\",\n        \"enabled\": false,\n        \"visible\": true,\n        \"checkable\": false,\n        \"submenu\": false,\n        \"tooltip\": \"<b>Zoom Next</b>\"\n      },\n      {\n        \"object_name\": \"actionZoomTo\",\n        \"text\": \"Zoom to\",\n        \"enabled\": true,\n        \"visible\": true,\n        \"checkable\": false,\n        \"submenu\": false,\n        \"tooltip\": \"Zoom to bookmark\"\n      }\n    ],\n    \"returned\": 9,\n    \"total_matching\": 9,\n    \"truncated\": false\n  }\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "show",
+          "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6",
+          "view": "national"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6\",\n  \"count\": 19,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6\",\n  \"count\": 19,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6\",\n  \"count\": 19,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6\",\n  \"count\": 19,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6\",\n  \"count\": 19,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6\",\n  \"count\": 19,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6\",\n  \"count\": 19,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6\",\n  \"count\": 19,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6\",\n  \"count\": 19,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 19,\n  \"rendered_texts\": [\n    \"I\",\n    \"II\",\n    \"III\",\n    \"IV\",\n    \"IX\",\n    \"V\",\n    \"VI\",\n    \"VII\",\n    \"VIII\",\n    \"X\",\n    \"XI\",\n    \"XII\",\n    \"XIII\",\n    \"XIV\",\n    \"XIX\",\n    \"XV\",\n    \"XVI\",\n    \"XVII\",\n    \"XVIII\"\n  ],\n  \"is_drawing\": false,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "screenshot",
+      "arguments": {},
+      "is_error": false,
+      "text": [
+        "saved: /work/results/probe-home/out/20261119-134701_mainwindow.png (1460x991)"
+      ],
+      "image": "zones-national.png"
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "show",
+          "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6",
+          "view": "regional"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6\",\n  \"count\": 19,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 19,\n  \"rendered_texts\": [\n    \"I\",\n    \"II\",\n    \"III\",\n    \"IV\",\n    \"IX\",\n    \"V\",\n    \"VI\",\n    \"VII\",\n    \"VIII\",\n    \"X\",\n    \"XI\",\n    \"XII\",\n    \"XIII\",\n    \"XIV\",\n    \"XIX\",\n    \"XV\",\n    \"XVI\",\n    \"XVII\",\n    \"XVIII\"\n  ],\n  \"is_drawing\": false,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6\",\n  \"count\": 19,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 19,\n  \"rendered_texts\": [\n    \"I\",\n    \"II\",\n    \"III\",\n    \"IV\",\n    \"IX\",\n    \"V\",\n    \"VI\",\n    \"VII\",\n    \"VIII\",\n    \"X\",\n    \"XI\",\n    \"XII\",\n    \"XIII\",\n    \"XIV\",\n    \"XIX\",\n    \"XV\",\n    \"XVI\",\n    \"XVII\",\n    \"XVIII\"\n  ],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6\",\n  \"count\": 19,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 19,\n  \"rendered_texts\": [\n    \"I\",\n    \"II\",\n    \"III\",\n    \"IV\",\n    \"IX\",\n    \"V\",\n    \"VI\",\n    \"VII\",\n    \"VIII\",\n    \"X\",\n    \"XI\",\n    \"XII\",\n    \"XIII\",\n    \"XIV\",\n    \"XIX\",\n    \"XV\",\n    \"XVI\",\n    \"XVII\",\n    \"XVIII\"\n  ],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6\",\n  \"count\": 19,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 7,\n  \"rendered_texts\": [\n    \"IV\",\n    \"IX\",\n    \"V\",\n    \"VI\",\n    \"VII\",\n    \"VIII\",\n    \"X\"\n  ],\n  \"is_drawing\": false,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "screenshot",
+      "arguments": {},
+      "is_error": false,
+      "text": [
+        "saved: /work/results/probe-home/out/20261119-134702_mainwindow.png (1460x991)"
+      ],
+      "image": "zones-regional.png"
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "table",
+          "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"window\": \"QgsAttributeTableDialog/zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6\",\n  \"title\": \"Attribute Table\"\n}"
+      ]
+    },
+    {
+      "tool": "list_windows",
+      "arguments": {},
+      "is_error": false,
+      "text": [
+        "{\n  \"windows\": [\n    {\n      \"class\": \"QDialog\",\n      \"object_name\": \"\",\n      \"title\": \" zones — Features Total: 19, Filtered: 19, Selected: 0\",\n      \"visible\": true,\n      \"modal\": false,\n      \"geometry\": [\n        449,\n        320,\n        617,\n        334\n      ]\n    },\n    {\n      \"class\": \"QgisApp\",\n      \"object_name\": \"QgisApp\",\n      \"title\": \"*Untitled Project — QGIS\",\n      \"visible\": true,\n      \"modal\": false,\n      \"geometry\": [\n        0,\n        0,\n        1400,\n        950\n      ]\n    }\n  ],\n  \"active_modal\": null\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "resize_table",
+          "title": " zones — Features Total: 19, Filtered: 19, Selected: 0",
+          "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"title\": \" zones — Features Total: 19, Filtered: 19, Selected: 0\"\n}"
+      ]
+    },
+    {
+      "tool": "screenshot",
+      "arguments": {
+        "window": " zones — Features Total: 19, Filtered: 19, Selected: 0"
+      },
+      "is_error": false,
+      "text": [
+        "saved: /work/results/probe-home/out/20261119-134703_zones_Features_Total_19_Filtered_19_Selected_0.png (1408x678)"
+      ],
+      "image": "zones-attributes.png"
+    },
+    {
+      "tool": "close_window",
+      "arguments": {
+        "window": " zones — Features Total: 19, Filtered: 19, Selected: 0"
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"window\": {\n    \"class\": \"QDialog\",\n    \"object_name\": \"\",\n    \"title\": \" zones — Features Total: 19, Filtered: 19, Selected: 0\",\n    \"visible\": true,\n    \"modal\": false,\n    \"geometry\": [\n      449,\n      320,\n      1350,\n      650\n    ]\n  },\n  \"close_requested\": true,\n  \"deferred\": true\n}"
+      ]
+    },
+    {
+      "tool": "add_layer",
+      "arguments": {
+        "path": "/work/data/plane_rectangular_prefectures_2026.gpkg|layername=plane_rectangular_prefectures_2026",
+        "name": "prefectures",
+        "kind": "vector"
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"id\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"name\": \"prefectures\",\n  \"type\": \"Vector\",\n  \"valid\": true,\n  \"crs\": \"EPSG:6668\",\n  \"source\": \"/work/data/plane_rectangular_prefectures_2026.gpkg|layername=plane_rectangular_prefectures_2026\"\n}"
+      ]
+    },
+    {
+      "tool": "inspect_layer",
+      "arguments": {
+        "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098",
+        "sample": 2
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"id\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"name\": \"prefectures\",\n  \"type\": \"Vector\",\n  \"valid\": true,\n  \"crs\": \"EPSG:6668\",\n  \"source\": \"/work/data/plane_rectangular_prefectures_2026.gpkg|layername=plane_rectangular_prefectures_2026\",\n  \"extent\": [\n    122.932606368,\n    20.422746414,\n    153.986675123,\n    45.557243414\n  ],\n  \"kind\": \"vector\",\n  \"provider\": \"ogr\",\n  \"feature_count\": 392,\n  \"geometry_type\": \"Polygon\",\n  \"wkb_type\": \"MultiPolygon\",\n  \"subset_filter\": \"\",\n  \"fields\": [\n    {\n      \"name\": \"fid\",\n      \"type\": \"Integer64\"\n    },\n    {\n      \"name\": \"N03_001\",\n      \"type\": \"String\"\n    },\n    {\n      \"name\": \"N03_002\",\n      \"type\": \"String\"\n    },\n    {\n      \"name\": \"ZONE\",\n      \"type\": \"Integer64\"\n    },\n    {\n      \"name\": \"ZONE_ROMAN\",\n      \"type\": \"String\"\n    },\n    {\n      \"name\": \"EPSG\",\n      \"type\": \"Integer\"\n    },\n    {\n      \"name\": \"UNIT_CODE\",\n      \"type\": \"String\"\n    },\n    {\n      \"name\": \"UNIT_NAME\",\n      \"type\": \"String\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"fid\": 1,\n      \"attributes\": {\n        \"fid\": 1,\n        \"N03_001\": \"東京都\",\n        \"N03_002\": null,\n        \"ZONE\": 9,\n        \"ZONE_ROMAN\": \"IX\",\n        \"EPSG\": 6677,\n        \"UNIT_CODE\": \"13117\",\n        \"UNIT_NAME\": \"北区\"\n      }\n    },\n    {\n      \"fid\": 2,\n      \"attributes\": {\n        \"fid\": 2,\n        \"N03_001\": \"東京都\",\n        \"N03_002\": null,\n        \"ZONE\": 9,\n        \"ZONE_ROMAN\": \"IX\",\n        \"EPSG\": 6677,\n        \"UNIT_CODE\": \"13118\",\n        \"UNIT_NAME\": \"荒川区\"\n      }\n    }\n  ]\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "show",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098",
+          "view": "national"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"count\": 392,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"count\": 392,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"count\": 392,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"count\": 392,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"count\": 392,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"count\": 392,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"count\": 392,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"count\": 392,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"count\": 392,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"count\": 392,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"count\": 392,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"count\": 392,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"count\": 392,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 113,\n  \"rendered_texts\": [\n    \"I\",\n    \"II\",\n    \"III\",\n    \"IV\",\n    \"IX\",\n    \"V\",\n    \"VI\",\n    \"VII\",\n    \"VIII\",\n    \"X\",\n    \"XI\",\n    \"XII\",\n    \"XIII\",\n    \"XIV\",\n    \"XIX\",\n    \"XV\",\n    \"XVI\",\n    \"XVII\",\n    \"XVIII\"\n  ],\n  \"is_drawing\": false,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "screenshot",
+      "arguments": {},
+      "is_error": false,
+      "text": [
+        "saved: /work/results/probe-home/out/20261119-134708_mainwindow.png (1460x991)"
+      ],
+      "image": "prefectures-national.png"
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "show",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098",
+          "view": "regional"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"count\": 392,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 113,\n  \"rendered_texts\": [\n    \"I\",\n    \"II\",\n    \"III\",\n    \"IV\",\n    \"IX\",\n    \"V\",\n    \"VI\",\n    \"VII\",\n    \"VIII\",\n    \"X\",\n    \"XI\",\n    \"XII\",\n    \"XIII\",\n    \"XIV\",\n    \"XIX\",\n    \"XV\",\n    \"XVI\",\n    \"XVII\",\n    \"XVIII\"\n  ],\n  \"is_drawing\": false,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"count\": 392,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 113,\n  \"rendered_texts\": [\n    \"I\",\n    \"II\",\n    \"III\",\n    \"IV\",\n    \"IX\",\n    \"V\",\n    \"VI\",\n    \"VII\",\n    \"VIII\",\n    \"X\",\n    \"XI\",\n    \"XII\",\n    \"XIII\",\n    \"XIV\",\n    \"XIX\",\n    \"XV\",\n    \"XVI\",\n    \"XVII\",\n    \"XVIII\"\n  ],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"count\": 392,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 113,\n  \"rendered_texts\": [\n    \"I\",\n    \"II\",\n    \"III\",\n    \"IV\",\n    \"IX\",\n    \"V\",\n    \"VI\",\n    \"VII\",\n    \"VIII\",\n    \"X\",\n    \"XI\",\n    \"XII\",\n    \"XIII\",\n    \"XIV\",\n    \"XIX\",\n    \"XV\",\n    \"XVI\",\n    \"XVII\",\n    \"XVIII\"\n  ],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"count\": 392,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 53,\n  \"rendered_texts\": [\n    \"IV\",\n    \"IX\",\n    \"V\",\n    \"VI\",\n    \"VII\",\n    \"VIII\",\n    \"X\"\n  ],\n  \"is_drawing\": false,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "screenshot",
+      "arguments": {},
+      "is_error": false,
+      "text": [
+        "saved: /work/results/probe-home/out/20261119-134709_mainwindow.png (1460x991)"
+      ],
+      "image": "prefectures-regional.png"
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "table",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"window\": \"QgsAttributeTableDialog/prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n  \"title\": \"Attribute Table\"\n}"
+      ]
+    },
+    {
+      "tool": "list_windows",
+      "arguments": {},
+      "is_error": false,
+      "text": [
+        "{\n  \"windows\": [\n    {\n      \"class\": \"QDialog\",\n      \"object_name\": \"\",\n      \"title\": \" prefectures — Features Total: 392, Filtered: 392, Selected: 0\",\n      \"visible\": true,\n      \"modal\": false,\n      \"geometry\": [\n        449,\n        320,\n        1350,\n        650\n      ]\n    },\n    {\n      \"class\": \"QgisApp\",\n      \"object_name\": \"QgisApp\",\n      \"title\": \"*Untitled Project — QGIS\",\n      \"visible\": true,\n      \"modal\": false,\n      \"geometry\": [\n        0,\n        0,\n        1400,\n        950\n      ]\n    }\n  ],\n  \"active_modal\": null\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "resize_table",
+          "title": " prefectures — Features Total: 392, Filtered: 392, Selected: 0",
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"title\": \" prefectures — Features Total: 392, Filtered: 392, Selected: 0\"\n}"
+      ]
+    },
+    {
+      "tool": "screenshot",
+      "arguments": {
+        "window": " prefectures — Features Total: 392, Filtered: 392, Selected: 0"
+      },
+      "is_error": false,
+      "text": [
+        "saved: /work/results/probe-home/out/20261119-134710_prefectures_Features_Total_392_Filtered_392_Selected_0.png (1408x678)"
+      ],
+      "image": "prefectures-attributes.png"
+    },
+    {
+      "tool": "close_window",
+      "arguments": {
+        "window": " prefectures — Features Total: 392, Filtered: 392, Selected: 0"
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"window\": {\n    \"class\": \"QDialog\",\n    \"object_name\": \"\",\n    \"title\": \" prefectures — Features Total: 392, Filtered: 392, Selected: 0\",\n    \"visible\": true,\n    \"modal\": false,\n    \"geometry\": [\n      449,\n      320,\n      1350,\n      650\n    ]\n  },\n  \"close_requested\": true,\n  \"deferred\": true\n}"
+      ]
+    },
+    {
+      "tool": "add_layer",
+      "arguments": {
+        "path": "/work/data/plane_rectangular_municipalities_2026.gpkg|layername=plane_rectangular_municipalities_2026",
+        "name": "municipalities",
+        "kind": "vector"
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"id\": \"municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n  \"name\": \"municipalities\",\n  \"type\": \"Vector\",\n  \"valid\": true,\n  \"crs\": \"EPSG:6668\",\n  \"source\": \"/work/data/plane_rectangular_municipalities_2026.gpkg|layername=plane_rectangular_municipalities_2026\"\n}"
+      ]
+    },
+    {
+      "tool": "inspect_layer",
+      "arguments": {
+        "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474",
+        "sample": 2
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"id\": \"municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n  \"name\": \"municipalities\",\n  \"type\": \"Vector\",\n  \"valid\": true,\n  \"crs\": \"EPSG:6668\",\n  \"source\": \"/work/data/plane_rectangular_municipalities_2026.gpkg|layername=plane_rectangular_municipalities_2026\",\n  \"extent\": [\n    122.932606368,\n    20.422746414,\n    153.986675123,\n    45.557243414\n  ],\n  \"kind\": \"vector\",\n  \"provider\": \"ogr\",\n  \"feature_count\": 1911,\n  \"geometry_type\": \"Polygon\",\n  \"wkb_type\": \"MultiPolygon\",\n  \"subset_filter\": \"\",\n  \"fields\": [\n    {\n      \"name\": \"fid\",\n      \"type\": \"Integer64\"\n    },\n    {\n      \"name\": \"N03_001\",\n      \"type\": \"String\"\n    },\n    {\n      \"name\": \"N03_002\",\n      \"type\": \"String\"\n    },\n    {\n      \"name\": \"N03_003\",\n      \"type\": \"String\"\n    },\n    {\n      \"name\": \"N03_004\",\n      \"type\": \"String\"\n    },\n    {\n      \"name\": \"N03_005\",\n      \"type\": \"String\"\n    },\n    {\n      \"name\": \"N03_007\",\n      \"type\": \"String\"\n    },\n    {\n      \"name\": \"ZONE\",\n      \"type\": \"Integer64\"\n    },\n    {\n      \"name\": \"ZONE_ROMAN\",\n      \"type\": \"String\"\n    },\n    {\n      \"name\": \"EPSG\",\n      \"type\": \"Integer\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"fid\": 1,\n      \"attributes\": {\n        \"fid\": 1,\n        \"N03_001\": \"東京都\",\n        \"N03_002\": null,\n        \"N03_003\": null,\n        \"N03_004\": \"福生市\",\n        \"N03_005\": null,\n        \"N03_007\": \"13218\",\n        \"ZONE\": 9,\n        \"ZONE_ROMAN\": \"IX\",\n        \"EPSG\": 6677\n      }\n    },\n    {\n      \"fid\": 2,\n      \"attributes\": {\n        \"fid\": 2,\n        \"N03_001\": \"東京都\",\n        \"N03_002\": null,\n        \"N03_003\": null,\n        \"N03_004\": \"狛江市\",\n        \"N03_005\": null,\n        \"N03_007\": \"13219\",\n        \"ZONE\": 9,\n        \"ZONE_ROMAN\": \"IX\",\n        \"EPSG\": 6677\n      }\n    }\n  ]\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "show",
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474",
+          "view": "national"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n  \"count\": 1911,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": false,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n  \"count\": 1911,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": false,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n  \"count\": 1911,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": false,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n  \"count\": 1911,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": false,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n  \"count\": 1911,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": false,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": false,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "screenshot",
+      "arguments": {},
+      "is_error": false,
+      "text": [
+        "saved: /work/results/probe-home/out/20261119-134711_mainwindow.png (1460x991)"
+      ],
+      "image": "municipalities-national.png"
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "show",
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474",
+          "view": "regional"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n  \"count\": 1911,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": false,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": false,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n  \"count\": 1911,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": false,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n  \"count\": 1911,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": false,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": false,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "screenshot",
+      "arguments": {},
+      "is_error": false,
+      "text": [
+        "saved: /work/results/probe-home/out/20261119-134712_mainwindow.png (1460x991)"
+      ],
+      "image": "municipalities-regional.png"
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "labels",
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474",
+          "enabled": true
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n  \"count\": 1911,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": false,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n  \"count\": 1911,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n  \"count\": 1911,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n  \"count\": 1911,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 0,\n  \"rendered_texts\": [],\n  \"is_drawing\": true,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "inspect",
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n  \"count\": 1911,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": true,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 448,\n  \"rendered_texts\": [\n    \"IV\",\n    \"IX\",\n    \"V\",\n    \"VI\",\n    \"VII\",\n    \"VIII\",\n    \"X\"\n  ],\n  \"is_drawing\": false,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "screenshot",
+      "arguments": {},
+      "is_error": false,
+      "text": [
+        "saved: /work/results/probe-home/out/20261119-134713_mainwindow.png (1460x991)"
+      ],
+      "image": "municipalities-labels-temporary.png"
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "labels",
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474",
+          "enabled": false
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"layer\": \"municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n  \"count\": 1911,\n  \"crs\": \"EPSG:6668\",\n  \"renderer\": \"categorizedSymbol\",\n  \"category_field\": \"ZONE_ROMAN\",\n  \"category_count\": 20,\n  \"labels_enabled\": false,\n  \"label_field\": \"ZONE_ROMAN\",\n  \"rendered_label_count\": 448,\n  \"rendered_texts\": [\n    \"IV\",\n    \"IX\",\n    \"V\",\n    \"VI\",\n    \"VII\",\n    \"VIII\",\n    \"X\"\n  ],\n  \"is_drawing\": false,\n  \"valid\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "table",
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"window\": \"QgsAttributeTableDialog/municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n  \"title\": \"Attribute Table\"\n}"
+      ]
+    },
+    {
+      "tool": "list_windows",
+      "arguments": {},
+      "is_error": false,
+      "text": [
+        "{\n  \"windows\": [\n    {\n      \"class\": \"QDialog\",\n      \"object_name\": \"\",\n      \"title\": \" municipalities — Features Total: 1911, Filtered: 1911, Selected: 0\",\n      \"visible\": true,\n      \"modal\": false,\n      \"geometry\": [\n        449,\n        320,\n        1350,\n        650\n      ]\n    },\n    {\n      \"class\": \"QgisApp\",\n      \"object_name\": \"QgisApp\",\n      \"title\": \"*Untitled Project — QGIS\",\n      \"visible\": true,\n      \"modal\": false,\n      \"geometry\": [\n        0,\n        0,\n        1400,\n        950\n      ]\n    }\n  ],\n  \"active_modal\": null\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "resize_table",
+          "title": " municipalities — Features Total: 1911, Filtered: 1911, Selected: 0",
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"title\": \" municipalities — Features Total: 1911, Filtered: 1911, Selected: 0\"\n}"
+      ]
+    },
+    {
+      "tool": "screenshot",
+      "arguments": {
+        "window": " municipalities — Features Total: 1911, Filtered: 1911, Selected: 0"
+      },
+      "is_error": false,
+      "text": [
+        "saved: /work/results/probe-home/out/20261119-134714_municipalities_Features_Total_1911_Filtered_1911_Selected_0.png (1408x678)"
+      ],
+      "image": "municipalities-attributes.png"
+    },
+    {
+      "tool": "close_window",
+      "arguments": {
+        "window": " municipalities — Features Total: 1911, Filtered: 1911, Selected: 0"
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"window\": {\n    \"class\": \"QDialog\",\n    \"object_name\": \"\",\n    \"title\": \" municipalities — Features Total: 1911, Filtered: 1911, Selected: 0\",\n    \"visible\": true,\n    \"modal\": false,\n    \"geometry\": [\n      449,\n      320,\n      1350,\n      650\n    ]\n  },\n  \"close_requested\": true,\n  \"deferred\": true\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "seed"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"id\": \"buffer_seed_3421c32c_6e35_4044_884f_7d2256833d20\"\n}"
+      ]
+    },
+    {
+      "tool": "run_algorithm",
+      "arguments": {
+        "algorithm_id": "native:buffer",
+        "parameters": {
+          "INPUT": "buffer_seed_3421c32c_6e35_4044_884f_7d2256833d20",
+          "DISTANCE": 10,
+          "SEGMENTS": 8,
+          "END_CAP_STYLE": 0,
+          "JOIN_STYLE": 0,
+          "MITER_LIMIT": 2,
+          "DISSOLVE": false,
+          "OUTPUT": "/work/results/buffer.gpkg"
+        },
+        "timeout_s": 60
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"algorithm_id\": \"native:buffer\",\n  \"results\": {\n    \"OUTPUT\": \"/work/results/buffer.gpkg\"\n  },\n  \"log\": [\n    \"[info] Results: {'OUTPUT': '/work/results/buffer.gpkg'}\"\n  ],\n  \"elapsed_s\": 0.011\n}"
+      ]
+    },
+    {
+      "tool": "add_layer",
+      "arguments": {
+        "path": "/work/results/buffer.gpkg",
+        "name": "buffer_result",
+        "kind": "vector"
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"id\": \"buffer_result_5d8e4e2f_3585_4958_a623_0b2174544e14\",\n  \"name\": \"buffer_result\",\n  \"type\": \"Vector\",\n  \"valid\": true,\n  \"crs\": \"EPSG:3857\",\n  \"source\": \"/work/results/buffer.gpkg\"\n}"
+      ]
+    },
+    {
+      "tool": "inspect_layer",
+      "arguments": {
+        "layer": "buffer_result_5d8e4e2f_3585_4958_a623_0b2174544e14"
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"id\": \"buffer_result_5d8e4e2f_3585_4958_a623_0b2174544e14\",\n  \"name\": \"buffer_result\",\n  \"type\": \"Vector\",\n  \"valid\": true,\n  \"crs\": \"EPSG:3857\",\n  \"source\": \"/work/results/buffer.gpkg\",\n  \"extent\": [\n    -10.0,\n    -10.0,\n    10.0,\n    10.0\n  ],\n  \"kind\": \"vector\",\n  \"provider\": \"ogr\",\n  \"feature_count\": 1,\n  \"geometry_type\": \"Polygon\",\n  \"wkb_type\": \"MultiPolygon\",\n  \"subset_filter\": \"\",\n  \"fields\": [\n    {\n      \"name\": \"fid\",\n      \"type\": \"Integer64\"\n    },\n    {\n      \"name\": \"name\",\n      \"type\": \"String\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"fid\": 1,\n      \"attributes\": {\n        \"fid\": 1,\n        \"name\": \"synthetic\"\n      }\n    }\n  ]\n}"
+      ]
+    },
+    {
+      "tool": "run_recipe",
+      "arguments": {
+        "name": "view_audit",
+        "args": {
+          "action": "area",
+          "layer": "buffer_result_5d8e4e2f_3585_4958_a623_0b2174544e14"
+        }
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"areas\": [\n    312.1445152258052\n  ]\n}"
+      ]
+    },
+    {
+      "tool": "remove_layer",
+      "arguments": {
+        "layer": "buffer_result_5d8e4e2f_3585_4958_a623_0b2174544e14"
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"removed\": {\n    \"id\": \"buffer_result_5d8e4e2f_3585_4958_a623_0b2174544e14\",\n    \"name\": \"buffer_result\",\n    \"type\": \"Vector\",\n    \"valid\": true,\n    \"crs\": \"EPSG:3857\",\n    \"source\": \"/work/results/buffer.gpkg\"\n  }\n}"
+      ]
+    },
+    {
+      "tool": "remove_layer",
+      "arguments": {
+        "layer": "buffer_seed_3421c32c_6e35_4044_884f_7d2256833d20"
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"removed\": {\n    \"id\": \"buffer_seed_3421c32c_6e35_4044_884f_7d2256833d20\",\n    \"name\": \"buffer_seed\",\n    \"type\": \"Vector\",\n    \"valid\": true,\n    \"crs\": \"EPSG:3857\",\n    \"source\": \"Point?crs=EPSG:3857&field=name:string&uid={2c87785b-8ea0-4344-99b1-e7b170f9965f}\"\n  }\n}"
+      ]
+    },
+    {
+      "tool": "get_algorithm_params",
+      "arguments": {
+        "algorithm_id": "qgis:checkvalidity"
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"id\": \"native:checkvalidity\",\n  \"name\": \"Check validity\",\n  \"provider\": \"native\",\n  \"group\": \"Vector geometry\",\n  \"summary\": \"Performs a validity check on the geometries of a vector layer and classifies them in three groups (valid, invalid and error).\",\n  \"parameters\": [\n    {\n      \"name\": \"INPUT_LAYER\",\n      \"description\": \"Input layer\",\n      \"type\": \"source\",\n      \"optional\": false,\n      \"default\": null\n    },\n    {\n      \"name\": \"METHOD\",\n      \"description\": \"Method\",\n      \"type\": \"enum\",\n      \"optional\": false,\n      \"default\": 2,\n      \"options\": [\n        \"The one selected in digitizing settings\",\n        \"QGIS\",\n        \"GEOS\"\n      ]\n    },\n    {\n      \"name\": \"IGNORE_RING_SELF_INTERSECTION\",\n      \"description\": \"Ignore ring self intersections\",\n      \"type\": \"boolean\",\n      \"optional\": false,\n      \"default\": false\n    },\n    {\n      \"name\": \"VALID_OUTPUT\",\n      \"description\": \"Valid output\",\n      \"type\": \"sink\",\n      \"optional\": true,\n      \"default\": null\n    },\n    {\n      \"name\": \"INVALID_OUTPUT\",\n      \"description\": \"Invalid output\",\n      \"type\": \"sink\",\n      \"optional\": true,\n      \"default\": null\n    },\n    {\n      \"name\": \"ERROR_OUTPUT\",\n      \"description\": \"Error output\",\n      \"type\": \"sink\",\n      \"optional\": true,\n      \"default\": null\n    }\n  ],\n  \"outputs\": [\n    {\n      \"name\": \"VALID_OUTPUT\",\n      \"description\": \"Valid output\",\n      \"type\": \"outputVector\"\n    },\n    {\n      \"name\": \"INVALID_OUTPUT\",\n      \"description\": \"Invalid output\",\n      \"type\": \"outputVector\"\n    },\n    {\n      \"name\": \"ERROR_OUTPUT\",\n      \"description\": \"Error output\",\n      \"type\": \"outputVector\"\n    },\n    {\n      \"name\": \"VALID_COUNT\",\n      \"description\": \"Count of valid features\",\n      \"type\": \"outputNumber\"\n    },\n    {\n      \"name\": \"INVALID_COUNT\",\n      \"description\": \"Count of invalid features\",\n      \"type\": \"outputNumber\"\n    },\n    {\n      \"name\": \"ERROR_COUNT\",\n      \"description\": \"Count of errors\",\n      \"type\": \"outputNumber\"\n    }\n  ]\n}"
+      ]
+    },
+    {
+      "tool": "run_algorithm",
+      "arguments": {
+        "algorithm_id": "qgis:checkvalidity",
+        "parameters": {
+          "INPUT_LAYER": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6",
+          "METHOD": 2,
+          "IGNORE_RING_SELF_INTERSECTION": false,
+          "VALID_OUTPUT": "/work/results/zones-valid.gpkg",
+          "INVALID_OUTPUT": "/work/results/zones-invalid.gpkg",
+          "ERROR_OUTPUT": "/work/results/zones-errors.gpkg"
+        },
+        "timeout_s": 600
+      },
+      "is_error": false,
+      "text": [
+        "{\n  \"algorithm_id\": \"qgis:checkvalidity\",\n  \"results\": {\n    \"ERROR_COUNT\": 0,\n    \"ERROR_OUTPUT\": \"/work/results/zones-errors.gpkg\",\n    \"INVALID_COUNT\": 0,\n    \"INVALID_OUTPUT\": \"/work/results/zones-invalid.gpkg\",\n    \"VALID_COUNT\": 19,\n    \"VALID_OUTPUT\": \"/work/results/zones-valid.gpkg\"\n  },\n  \"log\": [\n    \"[info] Results: {'ERROR_COUNT': 0, 'ERROR_OUTPUT': '/work/results/zones-errors.gpkg', 'INVALID_COUNT': 0, 'INVALID_OUTPUT': '/work/results/zones-invalid.gpkg', 'VALID_COUNT': 19, 'VALID_OUTPUT': '/work/results/zones-valid.gpkg'}\"\n  ],\n  \"elapsed_s\": 3.003\n}"
+      ]
+    },
+    {
+      "tool": "list_layers",
+      "arguments": {},
+      "is_error": false,
+      "text": [
+        "{\n  \"layers\": [\n    {\n      \"id\": \"municipalities_e2149d6b_985d_426e_9d17_fe9c29947474\",\n      \"name\": \"municipalities\",\n      \"type\": \"Vector\",\n      \"valid\": true,\n      \"crs\": \"EPSG:6668\",\n      \"source\": \"/work/data/plane_rectangular_municipalities_2026.gpkg|layername=plane_rectangular_municipalities_2026\"\n    },\n    {\n      \"id\": \"prefectures_2f88542a_6089_4f78_a698_877824d79098\",\n      \"name\": \"prefectures\",\n      \"type\": \"Vector\",\n      \"valid\": true,\n      \"crs\": \"EPSG:6668\",\n      \"source\": \"/work/data/plane_rectangular_prefectures_2026.gpkg|layername=plane_rectangular_prefectures_2026\"\n    },\n    {\n      \"id\": \"zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6\",\n      \"name\": \"zones\",\n      \"type\": \"Vector\",\n      \"valid\": true,\n      \"crs\": \"EPSG:6668\",\n      \"source\": \"/work/data/plane_rectangular_zones_2026.gpkg|layername=plane_rectangular_zones_2026\"\n    }\n  ],\n  \"count\": 3\n}"
+      ]
+    }
+  ],
+  "layers": {
+    "zones": {
+      "id": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6",
+      "inspection": {
+        "id": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6",
+        "name": "zones",
+        "type": "Vector",
+        "valid": true,
+        "crs": "EPSG:6668",
+        "source": "/work/data/plane_rectangular_zones_2026.gpkg|layername=plane_rectangular_zones_2026",
+        "extent": [
+          122.932606368,
+          20.422746414,
+          153.986675123,
+          45.557243414
+        ],
+        "kind": "vector",
+        "provider": "ogr",
+        "feature_count": 19,
+        "geometry_type": "Polygon",
+        "wkb_type": "MultiPolygon",
+        "subset_filter": "",
+        "fields": [
+          {
+            "name": "fid",
+            "type": "Integer64"
+          },
+          {
+            "name": "ZONE",
+            "type": "Integer64"
+          },
+          {
+            "name": "ZONE_ROMAN",
+            "type": "String"
+          },
+          {
+            "name": "EPSG",
+            "type": "Integer"
+          }
+        ],
+        "samples": [
+          {
+            "fid": 1,
+            "attributes": {
+              "fid": 1,
+              "ZONE": 18,
+              "ZONE_ROMAN": "XVIII",
+              "EPSG": 6686
+            }
+          },
+          {
+            "fid": 2,
+            "attributes": {
+              "fid": 2,
+              "ZONE": 3,
+              "ZONE_ROMAN": "III",
+              "EPSG": 6671
+            }
+          }
+        ]
+      },
+      "views": {
+        "national": {
+          "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6",
+          "count": 19,
+          "crs": "EPSG:6668",
+          "renderer": "categorizedSymbol",
+          "category_field": "ZONE_ROMAN",
+          "category_count": 20,
+          "labels_enabled": true,
+          "label_field": "ZONE_ROMAN",
+          "rendered_label_count": 19,
+          "rendered_texts": [
+            "I",
+            "II",
+            "III",
+            "IV",
+            "IX",
+            "V",
+            "VI",
+            "VII",
+            "VIII",
+            "X",
+            "XI",
+            "XII",
+            "XIII",
+            "XIV",
+            "XIX",
+            "XV",
+            "XVI",
+            "XVII",
+            "XVIII"
+          ],
+          "is_drawing": false,
+          "valid": true
+        },
+        "regional": {
+          "layer": "zones_3064344d_7657_4bbc_8159_c3e90dc2d4b6",
+          "count": 19,
+          "crs": "EPSG:6668",
+          "renderer": "categorizedSymbol",
+          "category_field": "ZONE_ROMAN",
+          "category_count": 20,
+          "labels_enabled": true,
+          "label_field": "ZONE_ROMAN",
+          "rendered_label_count": 7,
+          "rendered_texts": [
+            "IV",
+            "IX",
+            "V",
+            "VI",
+            "VII",
+            "VIII",
+            "X"
+          ],
+          "is_drawing": false,
+          "valid": true
+        }
+      }
+    },
+    "prefectures": {
+      "id": "prefectures_2f88542a_6089_4f78_a698_877824d79098",
+      "inspection": {
+        "id": "prefectures_2f88542a_6089_4f78_a698_877824d79098",
+        "name": "prefectures",
+        "type": "Vector",
+        "valid": true,
+        "crs": "EPSG:6668",
+        "source": "/work/data/plane_rectangular_prefectures_2026.gpkg|layername=plane_rectangular_prefectures_2026",
+        "extent": [
+          122.932606368,
+          20.422746414,
+          153.986675123,
+          45.557243414
+        ],
+        "kind": "vector",
+        "provider": "ogr",
+        "feature_count": 392,
+        "geometry_type": "Polygon",
+        "wkb_type": "MultiPolygon",
+        "subset_filter": "",
+        "fields": [
+          {
+            "name": "fid",
+            "type": "Integer64"
+          },
+          {
+            "name": "N03_001",
+            "type": "String"
+          },
+          {
+            "name": "N03_002",
+            "type": "String"
+          },
+          {
+            "name": "ZONE",
+            "type": "Integer64"
+          },
+          {
+            "name": "ZONE_ROMAN",
+            "type": "String"
+          },
+          {
+            "name": "EPSG",
+            "type": "Integer"
+          },
+          {
+            "name": "UNIT_CODE",
+            "type": "String"
+          },
+          {
+            "name": "UNIT_NAME",
+            "type": "String"
+          }
+        ],
+        "samples": [
+          {
+            "fid": 1,
+            "attributes": {
+              "fid": 1,
+              "N03_001": "東京都",
+              "N03_002": null,
+              "ZONE": 9,
+              "ZONE_ROMAN": "IX",
+              "EPSG": 6677,
+              "UNIT_CODE": "13117",
+              "UNIT_NAME": "北区"
+            }
+          },
+          {
+            "fid": 2,
+            "attributes": {
+              "fid": 2,
+              "N03_001": "東京都",
+              "N03_002": null,
+              "ZONE": 9,
+              "ZONE_ROMAN": "IX",
+              "EPSG": 6677,
+              "UNIT_CODE": "13118",
+              "UNIT_NAME": "荒川区"
+            }
+          }
+        ]
+      },
+      "views": {
+        "national": {
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098",
+          "count": 392,
+          "crs": "EPSG:6668",
+          "renderer": "categorizedSymbol",
+          "category_field": "ZONE_ROMAN",
+          "category_count": 20,
+          "labels_enabled": true,
+          "label_field": "ZONE_ROMAN",
+          "rendered_label_count": 113,
+          "rendered_texts": [
+            "I",
+            "II",
+            "III",
+            "IV",
+            "IX",
+            "V",
+            "VI",
+            "VII",
+            "VIII",
+            "X",
+            "XI",
+            "XII",
+            "XIII",
+            "XIV",
+            "XIX",
+            "XV",
+            "XVI",
+            "XVII",
+            "XVIII"
+          ],
+          "is_drawing": false,
+          "valid": true
+        },
+        "regional": {
+          "layer": "prefectures_2f88542a_6089_4f78_a698_877824d79098",
+          "count": 392,
+          "crs": "EPSG:6668",
+          "renderer": "categorizedSymbol",
+          "category_field": "ZONE_ROMAN",
+          "category_count": 20,
+          "labels_enabled": true,
+          "label_field": "ZONE_ROMAN",
+          "rendered_label_count": 53,
+          "rendered_texts": [
+            "IV",
+            "IX",
+            "V",
+            "VI",
+            "VII",
+            "VIII",
+            "X"
+          ],
+          "is_drawing": false,
+          "valid": true
+        }
+      }
+    },
+    "municipalities": {
+      "id": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474",
+      "inspection": {
+        "id": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474",
+        "name": "municipalities",
+        "type": "Vector",
+        "valid": true,
+        "crs": "EPSG:6668",
+        "source": "/work/data/plane_rectangular_municipalities_2026.gpkg|layername=plane_rectangular_municipalities_2026",
+        "extent": [
+          122.932606368,
+          20.422746414,
+          153.986675123,
+          45.557243414
+        ],
+        "kind": "vector",
+        "provider": "ogr",
+        "feature_count": 1911,
+        "geometry_type": "Polygon",
+        "wkb_type": "MultiPolygon",
+        "subset_filter": "",
+        "fields": [
+          {
+            "name": "fid",
+            "type": "Integer64"
+          },
+          {
+            "name": "N03_001",
+            "type": "String"
+          },
+          {
+            "name": "N03_002",
+            "type": "String"
+          },
+          {
+            "name": "N03_003",
+            "type": "String"
+          },
+          {
+            "name": "N03_004",
+            "type": "String"
+          },
+          {
+            "name": "N03_005",
+            "type": "String"
+          },
+          {
+            "name": "N03_007",
+            "type": "String"
+          },
+          {
+            "name": "ZONE",
+            "type": "Integer64"
+          },
+          {
+            "name": "ZONE_ROMAN",
+            "type": "String"
+          },
+          {
+            "name": "EPSG",
+            "type": "Integer"
+          }
+        ],
+        "samples": [
+          {
+            "fid": 1,
+            "attributes": {
+              "fid": 1,
+              "N03_001": "東京都",
+              "N03_002": null,
+              "N03_003": null,
+              "N03_004": "福生市",
+              "N03_005": null,
+              "N03_007": "13218",
+              "ZONE": 9,
+              "ZONE_ROMAN": "IX",
+              "EPSG": 6677
+            }
+          },
+          {
+            "fid": 2,
+            "attributes": {
+              "fid": 2,
+              "N03_001": "東京都",
+              "N03_002": null,
+              "N03_003": null,
+              "N03_004": "狛江市",
+              "N03_005": null,
+              "N03_007": "13219",
+              "ZONE": 9,
+              "ZONE_ROMAN": "IX",
+              "EPSG": 6677
+            }
+          }
+        ]
+      },
+      "views": {
+        "national": {
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474",
+          "count": 1911,
+          "crs": "EPSG:6668",
+          "renderer": "categorizedSymbol",
+          "category_field": "ZONE_ROMAN",
+          "category_count": 20,
+          "labels_enabled": false,
+          "label_field": "ZONE_ROMAN",
+          "rendered_label_count": 0,
+          "rendered_texts": [],
+          "is_drawing": false,
+          "valid": true
+        },
+        "regional": {
+          "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474",
+          "count": 1911,
+          "crs": "EPSG:6668",
+          "renderer": "categorizedSymbol",
+          "category_field": "ZONE_ROMAN",
+          "category_count": 20,
+          "labels_enabled": false,
+          "label_field": "ZONE_ROMAN",
+          "rendered_label_count": 0,
+          "rendered_texts": [],
+          "is_drawing": false,
+          "valid": true
+        }
+      },
+      "temporary_label_preview": {
+        "layer": "municipalities_e2149d6b_985d_426e_9d17_fe9c29947474",
+        "count": 1911,
+        "crs": "EPSG:6668",
+        "renderer": "categorizedSymbol",
+        "category_field": "ZONE_ROMAN",
+        "category_count": 20,
+        "labels_enabled": true,
+        "label_field": "ZONE_ROMAN",
+        "rendered_label_count": 448,
+        "rendered_texts": [
+          "IV",
+          "IX",
+          "V",
+          "VI",
+          "VII",
+          "VIII",
+          "X"
+        ],
+        "is_drawing": false,
+        "valid": true
+      }
+    }
+  },
+  "info": {
+    "qgis_version": "3.44.13-Solothurn",
+    "qgis_version_int": 34413,
+    "python": "3.12.3",
+    "qt": "5.15.13",
+    "pyqt": "5.15.10",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+    "profile_dir": "/work/results/profile/profiles/probe-current/",
+    "project_file": "",
+    "project_title": "",
+    "project_crs": "EPSG:4326",
+    "layer_count": 0,
+    "plugin_version": "0.1.4",
+    "home": "/work/results/probe-home",
+    "out_dir": "/work/results/probe-home/out",
+    "recipe_dir": "/work/recipes",
+    "mode": "interactive"
+  },
+  "exec_permission": "Enabled only for this isolated session to run the trusted local view_audit recipe; denial verified separately",
+  "action_inventory": {
+    "probe_before": {
+      "window": {
+        "class": "QgisApp",
+        "object_name": "QgisApp",
+        "title": "*Untitled Project — QGIS",
+        "visible": true,
+        "modal": false,
+        "geometry": [
+          0,
+          0,
+          1400,
+          950
+        ]
+      },
+      "actions": [],
+      "returned": 0,
+      "total_matching": 0,
+      "truncated": false
+    },
+    "qt_zoom_actions": [
+      {
+        "object_name": "mActionZoomIn",
+        "text": "Zoom In",
+        "enabled": true
+      },
+      {
+        "object_name": "mActionZoomOut",
+        "text": "Zoom Out",
+        "enabled": true
+      },
+      {
+        "object_name": "mActionZoomFullExtent",
+        "text": "Zoom &Full",
+        "enabled": true
+      },
+      {
+        "object_name": "mActionZoomToLayer",
+        "text": "Zoom to &Layer",
+        "enabled": true
+      },
+      {
+        "object_name": "mActionZoomToLayers",
+        "text": "Zoom to &Layer(s)",
+        "enabled": true
+      },
+      {
+        "object_name": "mActionZoomToSelected",
+        "text": "Zoom to &Selection",
+        "enabled": true
+      },
+      {
+        "object_name": "mActionZoomLast",
+        "text": "Zoom Last",
+        "enabled": true
+      },
+      {
+        "object_name": "mActionZoomNext",
+        "text": "Zoom Next",
+        "enabled": false
+      },
+      {
+        "object_name": "mActionZoomActualSize",
+        "text": "Zoom to Native Resolution (100%)",
+        "enabled": false
+      },
+      {
+        "object_name": "actionZoomTo",
+        "text": "Zoom to",
+        "enabled": true
+      }
+    ],
+    "qt_total_count": 676,
+    "probe_with_qt_refs_held": {
+      "window": {
+        "class": "QgisApp",
+        "object_name": "QgisApp",
+        "title": "*Untitled Project — QGIS",
+        "visible": true,
+        "modal": false,
+        "geometry": [
+          0,
+          0,
+          1400,
+          950
+        ]
+      },
+      "actions": [
+        {
+          "object_name": "mActionZoomIn",
+          "text": "Zoom In",
+          "enabled": true,
+          "visible": true,
+          "checkable": true,
+          "submenu": false,
+          "checked": false,
+          "tooltip": "<b>Zoom In</b> (Ctrl+Alt++)"
+        },
+        {
+          "object_name": "mActionZoomOut",
+          "text": "Zoom Out",
+          "enabled": true,
+          "visible": true,
+          "checkable": true,
+          "submenu": false,
+          "checked": false,
+          "tooltip": "<b>Zoom Out</b> (Ctrl+Alt+-)"
+        },
+        {
+          "object_name": "mActionZoomFullExtent",
+          "text": "Zoom Full",
+          "enabled": true,
+          "visible": true,
+          "checkable": false,
+          "submenu": false,
+          "tooltip": "<b>Zoom Full</b> (Ctrl+Shift+F)"
+        },
+        {
+          "object_name": "mActionZoomToSelected",
+          "text": "Zoom to Selection",
+          "enabled": true,
+          "visible": true,
+          "checkable": false,
+          "submenu": false,
+          "tooltip": "<b>Zoom to Selection</b> (Ctrl+J)"
+        },
+        {
+          "object_name": "mActionZoomToLayers",
+          "text": "Zoom to Layer(s)",
+          "enabled": true,
+          "visible": true,
+          "checkable": false,
+          "submenu": false,
+          "tooltip": "<b>Zoom to Layer</b>"
+        },
+        {
+          "object_name": "mActionZoomActualSize",
+          "text": "Zoom to Native Resolution (100%)",
+          "enabled": false,
+          "visible": true,
+          "checkable": false,
+          "submenu": false,
+          "tooltip": "<b>Zoom to Native Resolution (100%)</b>"
+        },
+        {
+          "object_name": "mActionZoomLast",
+          "text": "Zoom Last",
+          "enabled": true,
+          "visible": true,
+          "checkable": false,
+          "submenu": false,
+          "tooltip": "<b>Zoom Last</b>"
+        },
+        {
+          "object_name": "mActionZoomNext",
+          "text": "Zoom Next",
+          "enabled": false,
+          "visible": true,
+          "checkable": false,
+          "submenu": false,
+          "tooltip": "<b>Zoom Next</b>"
+        },
+        {
+          "object_name": "actionZoomTo",
+          "text": "Zoom to",
+          "enabled": true,
+          "visible": true,
+          "checkable": false,
+          "submenu": false,
+          "tooltip": "Zoom to bookmark"
+        }
+      ],
+      "returned": 9,
+      "total_matching": 9,
+      "truncated": false
+    }
+  },
+  "buffer": {
+    "result": {
+      "algorithm_id": "native:buffer",
+      "results": {
+        "OUTPUT": "/work/results/buffer.gpkg"
+      },
+      "log": [
+        "[info] Results: {'OUTPUT': '/work/results/buffer.gpkg'}"
+      ],
+      "elapsed_s": 0.011
+    },
+    "area_m2": 312.1445152258052
+  },
+  "validity_parameters": {
+    "id": "native:checkvalidity",
+    "name": "Check validity",
+    "provider": "native",
+    "group": "Vector geometry",
+    "summary": "Performs a validity check on the geometries of a vector layer and classifies them in three groups (valid, invalid and error).",
+    "parameters": [
+      {
+        "name": "INPUT_LAYER",
+        "description": "Input layer",
+        "type": "source",
+        "optional": false,
+        "default": null
+      },
+      {
+        "name": "METHOD",
+        "description": "Method",
+        "type": "enum",
+        "optional": false,
+        "default": 2,
+        "options": [
+          "The one selected in digitizing settings",
+          "QGIS",
+          "GEOS"
+        ]
+      },
+      {
+        "name": "IGNORE_RING_SELF_INTERSECTION",
+        "description": "Ignore ring self intersections",
+        "type": "boolean",
+        "optional": false,
+        "default": false
+      },
+      {
+        "name": "VALID_OUTPUT",
+        "description": "Valid output",
+        "type": "sink",
+        "optional": true,
+        "default": null
+      },
+      {
+        "name": "INVALID_OUTPUT",
+        "description": "Invalid output",
+        "type": "sink",
+        "optional": true,
+        "default": null
+      },
+      {
+        "name": "ERROR_OUTPUT",
+        "description": "Error output",
+        "type": "sink",
+        "optional": true,
+        "default": null
+      }
+    ],
+    "outputs": [
+      {
+        "name": "VALID_OUTPUT",
+        "description": "Valid output",
+        "type": "outputVector"
+      },
+      {
+        "name": "INVALID_OUTPUT",
+        "description": "Invalid output",
+        "type": "outputVector"
+      },
+      {
+        "name": "ERROR_OUTPUT",
+        "description": "Error output",
+        "type": "outputVector"
+      },
+      {
+        "name": "VALID_COUNT",
+        "description": "Count of valid features",
+        "type": "outputNumber"
+      },
+      {
+        "name": "INVALID_COUNT",
+        "description": "Count of invalid features",
+        "type": "outputNumber"
+      },
+      {
+        "name": "ERROR_COUNT",
+        "description": "Count of errors",
+        "type": "outputNumber"
+      }
+    ]
+  },
+  "validity": {
+    "algorithm_id": "qgis:checkvalidity",
+    "results": {
+      "ERROR_COUNT": 0,
+      "ERROR_OUTPUT": "/work/results/zones-errors.gpkg",
+      "INVALID_COUNT": 0,
+      "INVALID_OUTPUT": "/work/results/zones-invalid.gpkg",
+      "VALID_COUNT": 19,
+      "VALID_OUTPUT": "/work/results/zones-valid.gpkg"
+    },
+    "log": [
+      "[info] Results: {'ERROR_COUNT': 0, 'ERROR_OUTPUT': '/work/results/zones-errors.gpkg', 'INVALID_COUNT': 0, 'INVALID_OUTPUT': '/work/results/zones-invalid.gpkg', 'VALID_COUNT': 19, 'VALID_OUTPUT': '/work/results/zones-valid.gpkg'}"
+    ],
+    "elapsed_s": 3.003
+  },
+  "success": true
+}
