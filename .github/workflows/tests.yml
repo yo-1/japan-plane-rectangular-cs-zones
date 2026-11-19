@@ -18,7 +18,8 @@ jobs:
       matrix:
         # ユーザーの実行環境（Windows・QGIS 付属の Python 3.12）と、README に書いた最低版（3.9）を確かめる。
         include:
-          - os: ubuntu-latest
+          # Ubuntu 26.04には3.9の配布がないため、この検査だけ対応LTSを固定する。
+          - os: ubuntu-24.04
             python-version: "3.9"
           - os: ubuntu-latest
             python-version: "3.12"
