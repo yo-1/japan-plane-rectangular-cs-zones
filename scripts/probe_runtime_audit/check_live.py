@@ -8,6 +8,11 @@ ROOT=Path('/work');OUT=ROOT/'results';REPORT={'calls':[],'layers':{}}
 def save():
     (OUT/'mcp-results.json').write_text(json.dumps(REPORT,ensure_ascii=False,indent=2)+'\n')
 
+def classify_inventory(inventory):
+    expected={a['object_name'] for a in inventory['qt_zoom_actions'] if a['object_name']=='mActionZoomFullExtent'}
+    observed={a['object_name'] for a in inventory['probe_before']['actions']}
+    return bool(expected) and expected <= observed
+
 async def main():
     params=StdioServerParameters(command=sys.executable,args=['-m','qgis_dev_probe_mcp.server'],env=dict(os.environ))
     async with Client(params) as client:
@@ -90,7 +95,13 @@ async def main():
         REPORT['validity']=v;save()
         assert v['results']['VALID_COUNT']==19 and v['results']['INVALID_COUNT']==0 and v['results']['ERROR_COUNT']==0,v
         remaining=await call('list_layers');assert remaining['count']==3,remaining
-        REPORT['success']=True;save()
-        print('ALL LIVE CHECKS PASSED',flush=True)
+        REPORT['display_processing_complete']=True
+        REPORT['action_enumeration_passed']=classify_inventory(REPORT['action_inventory'])
+        REPORT['overall_status']='passed' if REPORT['action_enumeration_passed'] else 'partial_failure'
+        save()
+        print('DISPLAY/PROCESSING COMPLETE; overall='+REPORT['overall_status'],flush=True)
+        if not REPORT['action_enumeration_passed']:
+            raise RuntimeError('Known probe action-enumeration failure recorded; see mcp-results.json')
 
-asyncio.run(main())
+if __name__=='__main__':
+    asyncio.run(main())
