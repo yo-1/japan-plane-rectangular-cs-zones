@@ -42,4 +42,4 @@ docker run --rm --init --network none --shm-size=1g --entrypoint /usr/bin/python
 - `view_audit.py`：保存済みの分類・ラベル設定の確認、表示範囲の切替、合成入力の作成、アクション列挙の診断を行うレシピです。
 - `run_in_container.py`：Xvfb/QGIS/クライアントの起動・終了を管理します。
 
-既知のアクション列挙の欠落は、他の試験を止める一律のアサーションにせず診断値として保存します。`success=true` はこの監査の表示・Processing試験完了を表し、probe全ツールの合格ではありません。
+既知のアクション列挙の欠落は、他の試験を止める一律のアサーションにせず診断値として保存します。表示・Processing完了と総合判定を分け、アクション列挙に欠落があれば `overall_status=partial_failure` を保存して非ゼロ終了します。既存の実応答の欠落判定にもこの分類関数を実行し、不合格を確認しました。

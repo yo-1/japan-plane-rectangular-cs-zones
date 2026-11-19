@@ -52,5 +52,8 @@
     "skipped": 0,
     "failed": 0
   },
-  "existing_results_guard_verified": true
+  "existing_results_guard_verified": true,
+  "overall_status": "partial_failure",
+  "display_processing_status": "passed",
+  "action_enumeration_status": "failed"
 }

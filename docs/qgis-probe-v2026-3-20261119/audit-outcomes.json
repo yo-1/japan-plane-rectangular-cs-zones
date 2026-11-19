@@ -1,0 +1,7 @@
+{
+  "classification_origin": "Post-run classification of the unchanged recorded MCP responses",
+  "display_processing": "passed",
+  "action_enumeration": "failed",
+  "overall_status": "partial_failure",
+  "limits": "Raw mcp-results.json success=true came from the initial harness and means only display/Processing completion; replay harness now exits nonzero for the recorded action-enumeration failure"
+}
